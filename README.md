@@ -5,7 +5,7 @@
   </p>
 </a>
 <p align="center">Hobby programmer who enjoys modding applications to do things they aren't meant to.</p>
-<p align="center">Most of my projects are under my organizations due to the need of multiple projects for the products.</p>
+<p align="center">Most of my projects are under my organizations due to the need of more than one repo.</p>
 
 <p align="center">
 <table>
