@@ -1,9 +1,11 @@
 <h2 align="center">Stats</h2>
-<a href="https://github.com/slow">
+<a href="https://github.com/localip">
   <p align="center">
     <img src="https://komarev.com/ghpvc/?username=slow" alt="Profile Views Count">
   </p>
 </a>
+<p align="center">Hobby programmer who enjoys modding applications to do things they aren't meant to.</p>
+<p align="center">Most of my projects are under my organizations due to the need of multiple projects for the products.</p>
 
 <p align="center">
 <table>
