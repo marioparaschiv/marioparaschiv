@@ -1,21 +1,23 @@
-<h2 align="center">Stats</h2>
-<a href="https://github.com/localip">
-  <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=slow" alt="Profile Views Count">
-  </p>
-</a>
-<p align="center">Hobby programmer who enjoys modding applications to do things they aren't meant to.</p>
-<p align="center">Most of my projects are under my organizations due to the need of more than one repo.</p>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&fontAlign=80&fontAlignY=40&color=gradient&customColorList=24" />
 
-<p align="center">
-<table>
-  <tr>
-    <td align="center" style="padding=0;width=50%;">
-      <img src="https://github-readme-stats.vercel.app/api/?username=localip&title_color=4F8CC9&text_color=9f9f9f&show_icons=true&include_all_commits=true&bg_color=00000000&hide_border=true&icon_color=4F8CC9&hide_title=true&count_private=true" />
-    </td>
-    <td align="center" style="padding=0;width=50%;">
-      <img src="https://grs.quantumly.dev/api/top-langs/?username=localip&title_color=4F8CC9&text_color=9f9f9f&layout=compact&show_icons=true&bg_color=00000000&hide_border=true&icon_color=00000000&count_private=true&extra=strencher-kernel/pc-compat;unbound-addons/theme-settings-example,platform-indicators,hide-dm-buttons,force-dark-mode,mute-new-guild,mark-all-read,persist-settings,picture-link;discord-modifications/begone-app-badge,begone-autopause,better-discord-plugins,copy-raw-message,dark-discord,data-saver,disable-sticker-suggestions,discord-revamp,discord-utilities,dnd-bypass,double-click-vc,force-owner-crown,hide-dm-buttons,leave-vc-on-close,mark-all-read,message-cleaner,modern-indicators,no-friend-badges,nsfw-gate-bypass,open-in-app,picture-link,quick-delete,relationships-notifier,screenshare-crack,show-hidden-channels,spotify-crack,token-login,user-lookup,vc-move-all,downloader" />
-    </td>
-  </tr>
-</table>
-</p>
+### About me
+Hobby programmer who enjoys modding applications to do things they aren't meant to. <br>
+Most of my projects are under my organizations due to the need of more than one repo.
+
+### Languages
+![](https://skillicons.dev/icons?i=nodejs,deno,typescript,javascript,cpp,c,sass,css,wasm,md,html&theme=dark)
+
+### Frameworks
+![](https://skillicons.dev/icons?i=electron,react,next,react-native&theme=dark)
+
+### Tools
+![](https://skillicons.dev/icons?i=vscode,visualstudio,powershell,bash,git,webpack,rollupjs&theme=dark)
+
+### Databases
+![](https://skillicons.dev/icons?i=redis,mongodb,sqlite,mysql&theme=dark)
+
+### Design
+![](https://skillicons.dev/icons?i=ps,pr,ae,figma,materialui,bootstrap&theme=dark)
+
+### Other
+![](https://skillicons.dev/icons?i=heroku,cloudflare&theme=dark)
