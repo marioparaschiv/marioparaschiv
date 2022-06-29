@@ -1,23 +1,37 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&fontAlign=80&fontAlignY=40&color=gradient&customColorList=24" />
 
-### About me
+<h3 align="center">About Me</h3>
+<div align="center">
 Hobby programmer who enjoys modding applications to do things they aren't meant to. <br>
 Most of my projects are under my organizations due to the need of more than one repo.
+</div>
 
-### Languages
-![](https://skillicons.dev/icons?i=nodejs,deno,typescript,javascript,cpp,c,sass,css,wasm,md,html&theme=dark)
+<h3 align="center">Languages</h3>
+<div align="center" style="margin-top: 10px">
+    <img src="https://skillicons.dev/icons?i=nodejs,deno,typescript,javascript,cpp,c,sass,css,wasm,md,html&theme=dark" />
+</div>
 
-### Frameworks
-![](https://skillicons.dev/icons?i=electron,react,next,react-native&theme=dark)
+<h3 align="center">Frameworks</h3>
+<div align="center">
+    <img src="https://skillicons.dev/icons?i=electron,react,next&theme=dark" />
+</div>
 
-### Tools
-![](https://skillicons.dev/icons?i=vscode,visualstudio,powershell,bash,git,webpack,rollupjs&theme=dark)
+<h3 align="center">Tools</h3>
+<div align="center">
+    <img src="https://skillicons.dev/icons?i=vscode,visualstudio,powershell,bash,git,webpack,rollupjs&theme=dark" />
+</div>
 
-### Databases
-![](https://skillicons.dev/icons?i=redis,mongodb,sqlite,mysql&theme=dark)
+<h3 align="center">Databases</h3>
+<div align="center">
+    <img src="https://skillicons.dev/icons?i=redis,mongodb,sqlite,mysql&theme=dark" />
+</div>
 
-### Design
-![](https://skillicons.dev/icons?i=ps,pr,ae,figma,materialui,bootstrap&theme=dark)
+<h3 align="center">Design</h3>
+<div align="center">
+    <img src="https://skillicons.dev/icons?i=ps,pr,ae,figma,materialui,bootstrap&theme=dark" />
+</div>
 
-### Other
-![](https://skillicons.dev/icons?i=heroku,cloudflare&theme=dark)
+<h3 align="center">Other</h3>
+<div align="center">
+    <img src="https://skillicons.dev/icons?i=heroku,cloudflare&theme=dark" />
+</div>
