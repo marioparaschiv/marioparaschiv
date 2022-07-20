@@ -6,7 +6,7 @@ Hobby programmer who enjoys modding applications to do things they aren't meant 
 Most of my projects are under my organizations due to the need of more than one repo.
 </div>
 
-<h3 align="center">Languages</h3>
+<h3 align="center">Languages/Runtimes</h3>
 <div align="center" style="margin-top: 10px">
     <img src="https://skillicons.dev/icons?i=nodejs,deno,typescript,javascript,cpp,c,sass,css,wasm,md,html&theme=dark" />
 </div>
