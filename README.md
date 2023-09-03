@@ -1,10 +1,28 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&fontAlign=80&fontAlignY=40&color=gradient&customColorList=24" />
+<img width='100%' src='https://capsule-render.vercel.app/api?type=waving&height=200&fontAlign=80&fontAlignY=40&color=gradient&customColorList=24' />
 
-<h3 align="center">About Me</h3>
-<div align="center">
+<h3 align='center'>About Me</h3>
+<div align='center'>
 I'm Mario, a full stack developer. I am a perfectionist at heart. <br> I love designing on the front-end and optimizing all user experiences whether that be performance, accessibility or UI. <br>
 I have strong expertise in back-end related applications such as APIs and low-level programs built for speed and performance.
 </div>
+
+<br />
+
+<p align='center'>
+<table>
+  <tr>
+    <td align='center' style='padding:0;width:50%;'>
+      <img src='https://github-readme-stats.vercel.app/api/?username=localip&title_color=4F8CC9&text_color=9f9f9f&show_icons=true&include_all_commits=true&bg_color=00000000&hide_border=true&icon_color=4F8CC9&hide_title=true&count_private=true' />
+    </td>
+    <td align='center' style='padding:0;width:50%;'>
+      <img src='https://grs.quantumly.dev/api/top-langs/?username=localip&title_color=4F8CC9&text_color=9f9f9f&layout=compact&show_icons=true&bg_color=00000000&hide_border=true&icon_color=00000000&count_private=true' />
+    </td>
+  </tr>
+</table>
+</p>
+
+<br />
+
 
 ## Skills
 #### Languages
