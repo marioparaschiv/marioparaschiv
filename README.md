@@ -36,14 +36,14 @@ I have strong expertise in back-end related applications such as APIs and low-le
 ![Objective C](https://img.shields.io/badge/-Objective%20C-000?style=for-the-badge&logo=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMjUwLjAwMDAwMHB0IiBoZWlnaHQ9IjI1MC4wMDAwMDBwdCIgdmlld0JveD0iMCAwIDI1MC4wMDAwMDAgMjUwLjAwMDAwMCIKIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiPgo8bWV0YWRhdGE+CkNyZWF0ZWQgYnkgcG90cmFjZSAxLjE2LCB3cml0dGVuIGJ5IFBldGVyIFNlbGluZ2VyIDIwMDEtMjAxOQo8L21ldGFkYXRhPgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwyNTAuMDAwMDAwKSBzY2FsZSgwLjEwMDAwMCwtMC4xMDAwMDApIgpmaWxsPSIjMDAwMDAwIiBzdHJva2U9Im5vbmUiPgo8cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTAgMTI1MCBsMCAtMTI1MCAxMjUwIDAgMTI1MCAwIDAgMTI1MCAwIDEyNTAgLTEyNTAgMCAtMTI1MCAwIDAKLTEyNTB6IG00MTAgOTg1IGwwIC00NSAtMTEwIDAgLTExMCAwIDAgLTk0MCAwIC05NDAgMTEwIDAgMTEwIDAgMCAtNDAgMCAtNDAKLTE1NSAwIC0xNTUgMCAwIDEwMjUgMCAxMDI1IDE1NSAwIDE1NSAwIDAgLTQ1eiBtMjAwMCAtOTgwIGwwIC0xMDI1IC0xNjAgMAotMTYwIDAgMCA0MCAwIDQwIDExMCAwIDExMCAwIDAgOTQwIDAgOTQwIC0xMTAgMCAtMTEwIDAgMCA0NSAwIDQ1IDE2MCAwIDE2MAowIDAgLTEwMjV6IG0tODc2IDY2NSBjOTMgLTI0IDE3OSAtNjYgMjU3IC0xMjYgNjkgLTUzIDc0IC02MCA1NyAtNzggLTcgLTcKLTUxIC01NiAtOTYgLTEwOSBsLTgzIC05NSAtNjQgNDggYy05NiA3MyAtMTU5IDk0IC0yODAgOTUgLTkwIDAgLTEwNiAtMyAtMTU3Ci0yOCAtNzQgLTM2IC0xNTkgLTEyOCAtMTg5IC0yMDQgLTIwIC00OSAtMjMgLTc2IC0yMyAtMTczIDAgLTk3IDMgLTEyNCAyMwotMTczIDMwIC03NiAxMTUgLTE2OCAxODkgLTIwNCA1MiAtMjYgNjcgLTI4IDE2NyAtMjggMTA0IDAgMTE0IDIgMTc1IDMyIDM2CjE4IDg3IDUwIDExNCA3MyAyNiAyMiA1MSA0MCA1NSA0MCAzIDAgNDkgLTQzIDEwMSAtOTYgbDk1IC05NSAtNjAgLTU0IGMtMTAwCi05MCAtMjIzIC0xNTQgLTMzNiAtMTc1IC04OSAtMTcgLTI1NyAtMTIgLTM0MyAxMCAtMzQ4IDg5IC01NjQgNDQ1IC00OTIgODEwCjUyIDI2MyAyNjAgNDgxIDUxMSA1MzUgOTYgMjEgMjg4IDE5IDM3OSAtNXoiLz4KPC9nPgo8L3N2Zz4K)
 
 #### JS Framework / Library
-![Next JS](https://img.shields.io/badge/-NextJS-000?style=for-the-badge&logo=next.js)
+![Next JS](https://img.shields.io/badge/-Next.JS-000?style=for-the-badge&logo=next.js)
 ![React](https://img.shields.io/badge/-React-000?style=for-the-badge&logo=react)
 ![Electron](https://img.shields.io/badge/-Electron-000?style=for-the-badge&logo=electron)
 ![Svelte](https://img.shields.io/badge/-svelte-000?style=for-the-badge&logo=svelte&logoColor=orange)
 
 #### CSS Framework / Library / Pre-processors
 ![SASS](https://img.shields.io/badge/-SASS-000?style=for-the-badge&logo=sass)
-![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-000?style=for-the-badge&logo=tailwind-css)
+![TailwindCSS](https://img.shields.io/badge/-Tailwind%20CSS-000?style=for-the-badge&logo=tailwind-css)
 ![PostCSS](https://img.shields.io/badge/-PostCSS-000?style=for-the-badge&logo=postcss)
 ![MUI](https://img.shields.io/badge/-MUI-000?style=for-the-badge&logo=mui)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-000?style=for-the-badge&logo=bootstrap)
@@ -62,11 +62,13 @@ I have strong expertise in back-end related applications such as APIs and low-le
 ![Redis](https://img.shields.io/badge/-Redis-000?style=for-the-badge&logo=redis)
 ![MySQL](https://img.shields.io/badge/-MySQL-000?style=for-the-badge&logo=mysql)
 
-#### Backend
-![NodeJS](https://img.shields.io/badge/-NodeJS-000?style=for-the-badge&logo=node.js)
-![ExpressJS](https://img.shields.io/badge/-NodeJS-000?style=for-the-badge&logo=express.js)
+#### Runtimes
+![NodeJS](https://img.shields.io/badge/-Node.JS-000?style=for-the-badge&logo=node.js)
 ![Deno](https://img.shields.io/badge/-Deno-000?style=for-the-badge&logo=deno)
-![Express.js](https://img.shields.io/badge/-ExpressJS-000?style=for-the-badge&logo=express)
+![Bun](https://img.shields.io/badge/-Bun-000?style=for-the-badge&logo=bun)
+
+#### Backend
+![ExpressJS](https://img.shields.io/badge/-Express.JS-000?style=for-the-badge&logo=express)
 ![Fastify](https://img.shields.io/badge/-Fastify-000?style=for-the-badge&logo=fastify)
 
 #### Web Hosting / Domain Management
@@ -78,6 +80,12 @@ I have strong expertise in back-end related applications such as APIs and low-le
 #### CI / CD
 ![GitHub Actions](https://img.shields.io/badge/-github%20actions-000?style=for-the-badge&logo=githubactions)
 ![CircleCI](https://img.shields.io/badge/-circle%20ci-000?style=for-the-badge&logo=circleci)
+
+#### Bundler / Build Tool
+![Webpack](https://img.shields.io/badge/-webpack-000?style=for-the-badge&logo=webpack)
+![SWC](https://img.shields.io/badge/-swc-000?style=for-the-badge&logo=swc)
+![Rollup](https://img.shields.io/badge/-rollup-000?style=for-the-badge&logo=rollupdotjs)
+![Vite](https://img.shields.io/badge/-vite-000?style=for-the-badge&logo=vite)
 
 #### Package Manager
 ![NPM](https://img.shields.io/badge/-NPM-000?style=for-the-badge&logo=npm)
