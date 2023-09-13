@@ -27,6 +27,7 @@ I have strong expertise in back-end related applications such as APIs and low-le
 ![TypeScript](https://img.shields.io/badge/-TypeScript-000?style=for-the-badge&logo=typescript)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-000?style=for-the-badge&logo=javascript)
 ![Kotlin](https://img.shields.io/badge/-Kotlin-000?style=for-the-badge&logo=kotlin)
+![Go](https://img.shields.io/badge/-Go-000?style=for-the-badge&logo=go)
 ![Swift](https://img.shields.io/badge/-Swift-000?style=for-the-badge&logo=swift)
 ![C++](https://img.shields.io/badge/-C++-000?style=for-the-badge&logo=cplusplus)
 ![HTML5](https://img.shields.io/badge/-HTML5-000?style=for-the-badge&logo=html5)
