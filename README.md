@@ -64,6 +64,7 @@ I have strong expertise in back-end related applications such as APIs and low-le
 
 #### Backend
 ![NodeJS](https://img.shields.io/badge/-NodeJS-000?style=for-the-badge&logo=node.js)
+![ExpressJS](https://img.shields.io/badge/-NodeJS-000?style=for-the-badge&logo=express.js)
 ![Deno](https://img.shields.io/badge/-Deno-000?style=for-the-badge&logo=deno)
 ![Express.js](https://img.shields.io/badge/-ExpressJS-000?style=for-the-badge&logo=express)
 ![Fastify](https://img.shields.io/badge/-Fastify-000?style=for-the-badge&logo=fastify)
