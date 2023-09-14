@@ -96,3 +96,6 @@ I have strong expertise in back-end related applications such as APIs and low-le
 #### Version Control
 ![Git](https://img.shields.io/badge/-Git-000?style=for-the-badge&logo=git)
 ![GitHub](https://img.shields.io/badge/-GitHub-000?style=for-the-badge&logo=github)
+
+#### Tools
+![Docker](https://img.shields.io/badge/-Docker-000?style=for-the-badge&logo=docker)
