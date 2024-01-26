@@ -62,6 +62,7 @@ I have strong expertise in back-end related applications such as APIs and low-le
 ![SQLite](https://img.shields.io/badge/-SQLITE-000?style=for-the-badge&logo=sqlite)
 ![Redis](https://img.shields.io/badge/-Redis-000?style=for-the-badge&logo=redis)
 ![MySQL](https://img.shields.io/badge/-MySQL-000?style=for-the-badge&logo=mysql)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-000?style=for-the-badge&logo=postgresql)
 
 #### Runtimes
 ![NodeJS](https://img.shields.io/badge/-Node.JS-000?style=for-the-badge&logo=node.js)
