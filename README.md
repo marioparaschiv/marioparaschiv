@@ -30,6 +30,7 @@ I have strong expertise in back-end related applications such as APIs and low-le
 ![Go](https://img.shields.io/badge/-Go-000?style=for-the-badge&logo=go)
 ![Swift](https://img.shields.io/badge/-Swift-000?style=for-the-badge&logo=swift)
 ![C++](https://img.shields.io/badge/-C++-000?style=for-the-badge&logo=cplusplus)
+![Python](https://img.shields.io/badge/-Python-000?style=for-the-badge&logo=python)
 ![HTML5](https://img.shields.io/badge/-HTML5-000?style=for-the-badge&logo=html5)
 ![CSS3](https://img.shields.io/badge/-CSS3-000?style=for-the-badge&logo=css3&logoColor=2862e9)
 ![WebAssembly](https://img.shields.io/badge/-WebAssembly-000?style=for-the-badge&logo=webassembly)
