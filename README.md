@@ -12,10 +12,10 @@ I have strong expertise in back-end related applications such as APIs and low-le
   <table>
     <tr>
       <td align='center' style='padding:0;width:50%;'>
-        <img src='https://grs.marioparaschiv.com/api?username=localip&title_color=4F8CC9&text_color=9f9f9f&show_icons=true&bg_color=00000000&hide_border=true&icon_color=4F8CC9&include_all_commits=true&hide_title=true&count_private=true' />
+        <img src='https://grs.marioparaschiv.com/api?username=marioparaschiv&title_color=4F8CC9&text_color=9f9f9f&show_icons=true&bg_color=00000000&hide_border=true&icon_color=4F8CC9&include_all_commits=true&hide_title=true&count_private=true' />
       </td>
       <td align='center' style='padding:0;width:50%;'>
-        <img src='https://grs.marioparaschiv.com/api/top-langs/?username=localip&title_color=4F8CC9&text_color=9f9f9f&layout=compact&show_icons=true&bg_color=00000000&hide_border=true&icon_color=00000000&count_private=true&include_all_commits=true' />
+        <img src='https://grs.marioparaschiv.com/api/top-langs/?username=marioparaschiv&title_color=4F8CC9&text_color=9f9f9f&layout=compact&show_icons=true&bg_color=00000000&hide_border=true&icon_color=00000000&count_private=true&include_all_commits=true' />
       </td>
     </tr>
   </table>
