@@ -3,8 +3,6 @@
 <div align='center'>
 <h3 align='center'>About Me</h3>
 <div align='center'>
-    I'm Mario, a full stack developer. 
-    <br />
     I am driven by competitiveness, aiming to develop polished, performant, and beautifully designed applications. I strive for perfection and invest heavily in optimization, whether it's in my code or personal life. Finding flaws in myself and my work drives me to perfect my craft.
 </div>
 
