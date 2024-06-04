@@ -1,15 +1,6 @@
 <img width='100%' src='https://capsule-render.vercel.app/api?type=waving&height=200&fontAlign=80&fontAlignY=40&color=gradient&customColorList=24' />
 
 <div align='center'>
-<h3 align='center'>About Me</h3>
-<div align='center'>
-    I am driven by competitiveness, aiming to develop polished, performant, and beautifully designed applications. I strive for perfection and invest heavily in optimization, whether it's in my code or personal life. Finding flaws in myself and my work drives me to perfect my craft.
-</div>
-
-<br>
-
-<div align='center'>
-  <table>
     <tr>
       <td align='center' style='padding:0;width:50%;'>
         <img src='https://grs.marioparaschiv.com/api?username=marioparaschiv&title_color=4F8CC9&text_color=9f9f9f&show_icons=true&bg_color=00000000&hide_border=true&icon_color=4F8CC9&include_all_commits=true&hide_title=true&count_private=true' />
@@ -18,7 +9,6 @@
         <img src='https://grs.marioparaschiv.com/api/top-langs/?username=marioparaschiv&title_color=4F8CC9&text_color=9f9f9f&layout=compact&show_icons=true&bg_color=00000000&hide_border=true&icon_color=00000000&count_private=true&include_all_commits=true' />
       </td>
     </tr>
-  </table>
 </div>
 </div>
 <!---
