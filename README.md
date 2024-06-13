@@ -18,14 +18,14 @@
       <td align='center'>
         <picture>
             <source
-                srcset="https://grs.marioparaschiv.com/api/top-langs/?username=marioparaschiv&title_color=ffffff&layout=donut&text_color=ffffff&show_icons=true&bg_color=00000000&hide_border=true&icon_color=ffffff&count_private=true&include_all_commits=true&hide_title=true"
+                srcset="https://grs.marioparaschiv.com/api/top-langs/?username=marioparaschiv&title_color=ffffff&layout=donut&text_color=ffffff&show_icons=true&bg_color=00000000&hide_border=true&icon_color=ffffff&count_private=true&include_all_commits=true&hide_title=true&langs_count=6"
                 media="(prefers-color-scheme: dark)"
             />
             <source
-                srcset="https://grs.marioparaschiv.com/api/top-langs/?username=marioparaschiv&title_color=000000&layout=donut&text_color=000000&show_icons=true&bg_color=00000000&hide_border=true&icon_color=00000000&count_private=true&include_all_commits=true&hide_title=true"
+                srcset="https://grs.marioparaschiv.com/api/top-langs/?username=marioparaschiv&title_color=000000&layout=donut&text_color=000000&show_icons=true&bg_color=00000000&hide_border=true&icon_color=00000000&count_private=true&include_all_commits=true&hide_title=true&langs_count=6"
                 media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
             />
-            <img src='https://grs.marioparaschiv.com/api/top-langs/?username=marioparaschiv&title_color=000000&layout=donut&text_color=000000&show_icons=true&bg_color=00000000&hide_border=true&icon_color=00000000&count_private=true&include_all_commits=true&hide_title=true' />
+            <img src='https://grs.marioparaschiv.com/api/top-langs/?username=marioparaschiv&title_color=000000&layout=donut&text_color=000000&show_icons=true&bg_color=00000000&hide_border=true&icon_color=00000000&count_private=true&include_all_commits=true&hide_title=true&langs_count=6' />
         </picture>
       </td>
     </tr>
