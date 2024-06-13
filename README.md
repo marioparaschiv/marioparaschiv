@@ -1,9 +1,10 @@
 <img width='100%' src='https://capsule-render.vercel.app/api?type=waving&height=200&fontAlign=80&fontAlignY=40&color=gradient&customColorList=24' />
 
  <div align='center'>
+  <table>  
     <tr>
-      <td align='center' style='padding:0;width:50%;'>
-        <picture align='center'>
+      <td align='center'>
+        <picture>
             <source
                 srcset="https://grs.marioparaschiv.com/api?username=marioparaschiv&title_color=ffffff&rank_icon=percentile&text_color=ffffff&show_icons=true&bg_color=00000000&hide_border=true&icon_color=4F8CC9&include_all_commits=true&hide_title=true&count_private=true&show=prs_merged,prs_merged_percentage"
                 media="(prefers-color-scheme: dark)"
@@ -15,8 +16,8 @@
             <img src='https://grs.marioparaschiv.com/api?username=marioparaschiv&title_color=4F8CC9&text_color=9f9f9f&show_icons=true&bg_color=00000000&hide_border=true&icon_color=4F8CC9&include_all_commits=true&hide_title=true&count_private=true&show=prs_merged,prs_merged_percentage' />
         </picture>
       </td>
-      <td align='center' style='border:1px solid red;padding:0;width:50%;'>
-        <picture align='center'>
+      <td align='center'>
+        <picture>
             <source
                 srcset="https://grs.marioparaschiv.com/api/top-langs/?username=marioparaschiv&title_color=ffffff&layout=donut&text_color=ffffff&show_icons=true&bg_color=00000000&hide_border=true&icon_color=ffffff&count_private=true&include_all_commits=true&hide_title=true"
                 media="(prefers-color-scheme: dark)"
@@ -29,6 +30,7 @@
         </picture>
       </td>
     </tr>
+  </table>  
 </div>
 </div>
 
