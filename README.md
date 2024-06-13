@@ -1,7 +1,6 @@
 <img width='100%' src='https://capsule-render.vercel.app/api?type=waving&height=200&fontAlign=80&fontAlignY=40&color=gradient&customColorList=24' />
 
  <div align='center'>
-  <table>  
     <tr>
       <td align='center'>
         <picture>
@@ -30,7 +29,6 @@
         </picture>
       </td>
     </tr>
-  </table>  
 </div>
 </div>
 
