@@ -5,7 +5,7 @@
       <td align='center'>
         <picture>
             <source
-                srcset="https://grs.marioparaschiv.com/api?username=marioparaschiv&title_color=4F8CC9&rank_icon=percentile&text_color=ffffff&show_icons=true&bg_color=00000000&hide_border=true&icon_color=4F8CC9&include_all_commits=true&hide_title=true&count_private=true&show=prs_merged%2Cprs_merged_percentage&text_bold=false"
+                srcset="https://grs.marioparaschiv.com/api?username=marioparaschiv&title_color=4F8CC9&rank_icon=percentile&text_color=e6edf3&show_icons=true&bg_color=00000000&hide_border=true&icon_color=4F8CC9&include_all_commits=true&hide_title=true&count_private=true&show=prs_merged%2Cprs_merged_percentage&text_bold=false"
                 media="(prefers-color-scheme: dark)"
             />
             <source
@@ -18,7 +18,7 @@
       <td align='center'>
         <picture>
             <source
-                srcset="https://grs.marioparaschiv.com/api/top-langs/?username=marioparaschiv&title_color=ffffff&layout=donut&text_color=ffffff&show_icons=true&bg_color=00000000&hide_border=true&icon_color=ffffff&count_private=true&include_all_commits=true&hide_title=true&langs_count=6&text_bold=false"
+                srcset="https://grs.marioparaschiv.com/api/top-langs/?username=marioparaschiv&title_color=ffffff&layout=donut&text_color=e6edf3&show_icons=true&bg_color=00000000&hide_border=true&icon_color=ffffff&count_private=true&include_all_commits=true&hide_title=true&langs_count=6&text_bold=false"
                 media="(prefers-color-scheme: dark)"
             />
             <source
