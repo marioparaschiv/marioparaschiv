@@ -37,4 +37,4 @@
  </tr>
 </div>
 
-<h5 align='center'>You may recognize me from some of <a href='http://marioparaschiv.com/projects/'>my projects!</a></h5>
+<h5 align='center'>You may recognise me from some of <a href='http://marioparaschiv.com/projects/'>my projects!</a></h5>
