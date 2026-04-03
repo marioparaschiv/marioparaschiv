@@ -22,16 +22,16 @@
    <picture>
     <!-- Dark Mode -->
     <source
-     srcset='https://grs.marioparaschiv.com/api/top-langs/?username=marioparaschiv&title_color=ffffff&layout=donut&text_color=e6edf3&show_icons=true&bg_color=00000000&hide_border=true&icon_color=ffffff&count_private=true&include_all_commits=true&hide_title=true&langs_count=6&text_bold=false'
+     srcset='https://grs.marioparaschiv.com/api/top-langs/?cache_seconds=30&username=marioparaschiv&title_color=ffffff&layout=donut&text_color=e6edf3&show_icons=true&bg_color=00000000&hide_border=true&icon_color=ffffff&count_private=true&include_all_commits=true&hide_title=true&langs_count=6&text_bold=false'
      media='(prefers-color-scheme: dark)'
     />
     <!-- Light Mode -->
     <source
-     srcset='https://grs.marioparaschiv.com/api/top-langs/?username=marioparaschiv&title_color=000000&layout=donut&text_color=000000&show_icons=true&bg_color=00000000&hide_border=true&icon_color=00000000&count_private=true&include_all_commits=true&hide_title=true&langs_count=6&text_bold=false'
+     srcset='https://grs.marioparaschiv.com/api/top-langs/?cache_seconds=30&username=marioparaschiv&title_color=000000&layout=donut&text_color=000000&show_icons=true&bg_color=00000000&hide_border=true&icon_color=00000000&count_private=true&include_all_commits=true&hide_title=true&langs_count=6&text_bold=false'
      media='(prefers-color-scheme: light), (prefers-color-scheme: no-preference)'
     />
     <!-- Fallback -->
-    <img src='https://grs.marioparaschiv.com/api/top-langs/?username=marioparaschiv&title_color=000000&layout=donut&text_color=1f2328&show_icons=true&bg_color=00000000&hide_border=true&icon_color=00000000&count_private=true&include_all_commits=true&hide_title=true&langs_count=6&text_bold=false' />
+    <img src='https://grs.marioparaschiv.com/api/top-langs/?cache_seconds=30&username=marioparaschiv&title_color=000000&layout=donut&text_color=1f2328&show_icons=true&bg_color=00000000&hide_border=true&icon_color=00000000&count_private=true&include_all_commits=true&hide_title=true&langs_count=6&text_bold=false' />
    </picture>
   </td>
  </tr>
