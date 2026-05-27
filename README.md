@@ -37,4 +37,4 @@
  </tr>
 </div>
 
-<p align='center'>My more in-depth projects are private. Happy to talk about them if you reach out.</p>
+<br><p align='center'>My more in-depth projects are private. Happy to talk about them if you reach out.</p>
