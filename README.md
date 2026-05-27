@@ -37,4 +37,4 @@
  </tr>
 </div>
 
-<h5 align='center'>You may recognise me from some of <a href='http://marioparaschiv.com/projects/'>my projects!</a></h5>
+<p align='center'>My more in-depth projects are private. Happy to talk about them if you reach out.</p>
