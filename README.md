@@ -37,4 +37,4 @@
  </tr>
 </div>
 
-<br><p align='center'>Most of my substantial work is commissioned and kept private. I'm happy to walk through it on request.</p>
+<br><p align='center'>Most of my substantial work is commissioned and kept private.</p>
