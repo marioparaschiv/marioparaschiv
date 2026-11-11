@@ -93,8 +93,9 @@ for (const [slug, variant] of Object.entries(VARIANTS)) {
 index.push("", "## All cards", "", ...Object.keys(CARDS).flatMap((name) => [center(picture(name)), ""]));
 await writeFile(new URL("README.md", variantsDir), index.join("\n"));
 
-// The live profile README: just the TUI card. Paths are relative to the repo root.
-const profile = [center(picture("tui").replace(/"cards\//g, '"variants/cards/')), ""].join("\n");
+// The live profile README: profile.md with the TUI card in place of its marker. Paths are relative to the repo root.
+const template = await readFile(new URL("../profile.md", import.meta.url), "utf8");
+const profile = template.replace("<!-- tui -->", center(picture("tui").replace(/"cards\//g, '"variants/cards/')));
 await writeFile(new URL("../README.md", import.meta.url), profile);
 console.log("Wrote README.md");
 console.log(`Wrote ${Object.keys(VARIANTS).length} variant pages into variants/`);
