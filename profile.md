@@ -1,10 +1,9 @@
-### hi, i'm mario
-
-london-based engineer. the details matter, i handle them.
-
-[website](https://marioparaschiv.com) · [x](https://x.com/marioparaschiv) · [email](mailto:contact@marioparaschiv.com)
-
 <!-- tui -->
+
+<br>
+
+<p align="center">i sweat the small stuff.</p>
+<p align="center"><a href="https://marioparaschiv.com">website</a> · <a href="https://x.com/marioparaschiv">x</a> · <a href="mailto:contact@marioparaschiv.com">email</a></p>
 
 ### highlights
 
