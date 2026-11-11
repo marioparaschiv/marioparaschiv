@@ -68,7 +68,7 @@ function rows({ x, y, w, items, start }) {
 }
 
 // Name, animated gauge, percentage.
-function gauges({ x, y, w, items, start, p, labelWidth = 150 }) {
+function gauges({ x, y, w, items, start, p, labelWidth = 150, starFirst = false }) {
   const barX = x + labelWidth;
   const barW = w - labelWidth - 70;
   return items
@@ -78,7 +78,7 @@ function gauges({ x, y, w, items, start, p, labelWidth = 150 }) {
       const begin = (start + 0.2 + i * 0.07).toFixed(2);
       return `<g class="fade" style="${at(start + i * 0.05)}">
 <circle cx="${x + 20}" cy="${ty - 4}" r="4" fill="${color ?? p.accent}"/>
-<text x="${x + 32}" y="${ty}">${escape(name)}</text>
+<text x="${x + 32}" y="${ty}" xml:space="preserve">${escape(name)}${starFirst && i === 0 ? ` <tspan fill="${p.yellow}">\uf005</tspan>` : ""}</text>
 <rect x="${barX}" y="${ty - 10}" width="${barW}" height="8" rx="2" fill="${p.track}"/>
 <rect x="${barX}" y="${ty - 10}" width="0" height="8" rx="2" fill="${color ?? p.accent}"><animate attributeName="width" from="0" to="${fill.toFixed(1)}" begin="${begin}s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
 <text x="${x + w - 16}" y="${ty}" text-anchor="end" class="muted">${(share * 100).toFixed(1)}%</text>
@@ -226,7 +226,7 @@ ${arrow(82, p)}
 ${pane({ x: PAD, y: top, w: COL, h: row1, title: "AGENTS", note: `since ${since(agent.firstSessionAt)}`, p, start: 1.0, children: rows({ x: PAD, y: top, w: COL, items: agentItems, start: 1.1 }) })}
 ${pane({ x: PAD + COL + GAP, y: top, w: COL, h: row1, title: "GITHUB", note: `@${user}`, p, start: 1.2, children: rows({ x: PAD + COL + GAP, y: top, w: COL, items: githubItems, start: 1.3 }) })}
 ${pane({ x: PAD, y: top + row1 + GAP, w: COL, h: row2, title: "LANGUAGES", note: "by code size", p, start: 1.5, children: gauges({ x: PAD, y: top + row1 + GAP, w: COL, items: languages, start: 1.6, p }) })}
-${pane({ x: PAD + COL + GAP, y: top + row1 + GAP, w: COL, h: row2, title: "MODELS", note: `${compact(modelTotal)} turns`, p, start: 1.7, children: gauges({ x: PAD + COL + GAP, y: top + row1 + GAP, w: COL, items: models, start: 1.8, p, labelWidth: 200 }) })}
+${pane({ x: PAD + COL + GAP, y: top + row1 + GAP, w: COL, h: row2, title: "MODELS", note: `${compact(modelTotal)} turns`, p, start: 1.7, children: gauges({ x: PAD + COL + GAP, y: top + row1 + GAP, w: COL, items: models, start: 1.8, p, labelWidth: 200, starFirst: true }) })}
 ${pane({ x: PAD, y: heatTop, w: W - PAD * 2, h: heatH, title: "ACTIVITY", note: `${grouped(github.contributions)} contributions in the past year`, p, start: 2.0, children: calendar({ x: PAD, y: heatTop, w: W - PAD * 2, weeks: github.calendar, start: 2.0, p }) })}
 <g class="fade" style="${at(2.8)}">
 ${starshipLine({ y: promptY, p, took: "2s" })}
