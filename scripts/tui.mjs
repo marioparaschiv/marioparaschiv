@@ -2,7 +2,7 @@
 
 import { readFileSync } from "node:fs";
 import { glyph } from "./icons.mjs";
-import { counter, growStyle, motionCss, timeline } from "./motion.mjs";
+import { counter, growStyle, motionCss, timeline, typeStyle } from "./motion.mjs";
 import { card, compact, escape, grouped } from "./svg.mjs";
 
 // JetBrains Mono Nerd Font (Mono), subset to ASCII plus the prompt glyphs and embedded,
@@ -55,6 +55,12 @@ function starshipLine({ y, p, took, time }) {
 const arrow = (y, p) => glyph("arrow", PAD, y, 13, p.ok);
 // The command starts two cells after the arrow, so it doesn't crowd the glyph.
 const COMMAND_X = PAD + 3 * CHAR;
+
+// The command, one terminal cell per character, each shown on its own typing step.
+const typedCommand = (command, y) =>
+  [...command]
+    .map((char, i) => (char === " " ? "" : `<text x="${(COMMAND_X + i * CHAR).toFixed(1)}" y="${y}" class="key" style="${typeStyle(i)}">${escape(char)}</text>`))
+    .join("");
 
 
 // Bordered pane with its title cut into the top border, TUI style.
@@ -233,7 +239,6 @@ export function tui({ agent, github, t3 }, theme) {
   const promptY = heatTop + heatH + 30;
   const H = promptY + 20 + 22;
 
-  const typedWidth = command.length * CHAR + 4;
   const { output, count, done } = timeline(command.length);
   const css = `${FONT_FACES}
   text { font-family: ${MONO}; font-size: 13px; }
@@ -242,7 +247,7 @@ export function tui({ agent, github, t3 }, theme) {
   .val { fill: ${p.text}; font-weight: 600; }
   .ok { fill: ${p.ok}; }
   .leader { stroke: ${p.border}; stroke-dasharray: 1 4; stroke-linecap: round; }
-  ${motionCss({ output, done, typedWidth, commandLength: command.length })}`;
+  ${motionCss({ output, done })}`;
 
   const body = `<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="10" fill="${p.bg}" stroke="${p.border}"/>
 <path d="M1 36 V10 A9 9 0 0 1 10 1 H${W - 10} A9 9 0 0 1 ${W - 1} 10 V36 Z" fill="${p.bar}"/>
@@ -251,8 +256,7 @@ export function tui({ agent, github, t3 }, theme) {
 <text x="${W / 2}" y="22" class="small muted" text-anchor="middle">dev@vps: ~/stats</text>
 ${starshipLine({ y: 62, p, time: updated })}
 ${arrow(82, p)}
-<clipPath id="typeclip"><rect id="typed" x="${COMMAND_X}" y="68" width="0" height="20"/></clipPath>
-<text x="${COMMAND_X}" y="82" clip-path="url(#typeclip)">${command}</text>
+${typedCommand(command, 82)}
 <g class="out">
 ${pane({ x: PAD, y: top, w: COL, h: row1, title: "AGENTS", note: "all time", p, children: rows({ x: PAD, y: top, w: COL, items: agentItems, start: count }) })}
 ${pane({ x: PAD + COL + GAP, y: top, w: COL, h: row1, title: "GITHUB", note: `@${user}`, p, children: rows({ x: PAD + COL + GAP, y: top, w: COL, items: githubItems, start: count }) })}

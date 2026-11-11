@@ -22,6 +22,9 @@ export const timeline = (commandLength) => {
   return { output, count: output + COUNT_DELAY, done: output + PROMPT_DELAY };
 };
 
+// Typed command: character i appears on its own step, like a terminal echoing keystrokes.
+export const typeStyle = (i) => `animation-delay: ${(TYPE_START + i * TYPE_STEP).toFixed(3)}s`;
+
 const NUMBER = /^(\+?)(\d[\d,]*(?:\.\d+)?)(.*)$/;
 
 function format(value, template) {
@@ -66,22 +69,20 @@ export function counter(value, render, start) {
 // Bar that grows from its left edge.
 export const growStyle = (start) => `animation-delay: ${start.toFixed(2)}s`;
 
-export const motionCss = ({ output, done, typedWidth, commandLength }) => `
+export const motionCss = ({ output, done }) => `
   .out { opacity: 0; animation: show 0s ${output.toFixed(2)}s forwards; }
   .done { opacity: 0; animation: show 0s ${done.toFixed(2)}s forwards; }
   .f { opacity: 0; }
   .final { opacity: 0; animation: show 0s forwards; }
   .grow { transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: grow ${COUNT_DURATION}s ${EASE_OUT} forwards; }
-  #typed { animation: type ${(commandLength * TYPE_STEP).toFixed(2)}s steps(${commandLength}, end) ${TYPE_START}s forwards; }
+  .key { opacity: 0; animation: show 0s forwards; }
   .cursor { animation: blink 1.1s steps(1) infinite; }
   @keyframes show { to { opacity: 1; } }
   @keyframes frame { from, to { opacity: 1; } }
   @keyframes grow { to { transform: scaleX(1); } }
-  @keyframes type { from { width: 0; } to { width: ${typedWidth}px; } }
   @keyframes blink { 50% { opacity: 0; } }
   @media (prefers-reduced-motion: reduce) {
-    .out, .done, .final { animation: none !important; opacity: 1 !important; }
+    .out, .done, .final, .key { animation: none !important; opacity: 1 !important; }
     .f { display: none; }
     .grow { animation: none !important; transform: none !important; }
-    #typed { animation: none !important; width: ${typedWidth}px; }
   }`;
