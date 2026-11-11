@@ -4,10 +4,10 @@
 
 export const TYPE_START = 0.3;
 export const TYPE_STEP = 0.035; // seconds per typed character
-export const OUTPUT_PAUSE = 0.25; // gap between "enter" and the output appearing
+export const OUTPUT_PAUSE = 0.05; // "enter": output follows the last typed character almost at once
 export const COUNT_DURATION = 0.8;
 export const COUNT_DELAY = 0.2; // figures hold at zero briefly after the output appears
-export const PROMPT_DELAY = 0.05; // the shell returns almost immediately, while figures are still counting
+export const PROMPT_DELAY = 0; // a fast command: the prompt returns in the same frame as the output
 const FRAMES = 24;
 
 const EASE_OUT = "cubic-bezier(0.23, 1, 0.32, 1)";
