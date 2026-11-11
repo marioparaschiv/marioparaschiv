@@ -7,11 +7,11 @@
 
 ### highlights
 
-- **[unbound](https://unbound.rip)**: open-source discord mod for iphone, ipad and android. themes, plugins, icon packs and fonts.
+- **[unbound](https://unbound.rip)**: cross-platform discord mobile modification focused on control, stability, and customisation.
 - **[enmity](https://github.com/enmity-mod)**: the first discord mod on ios. 69k+ downloads, since superseded by unbound.
 - **telecord**: every discord and telegram chat in one real-time feed you can read, search and reply from.
 - **hivemind**: real-time market intelligence platform, written in rust.
-- **[sapphire agent](https://github.com/marioparaschiv/sapphire-agent)**: move a linear epic to ready for agent and get a reviewed pull request back.
-- **[trove](https://github.com/marioparaschiv/trove)**: semantic search over your notes using local models.
-- **[possess](https://github.com/marioparaschiv/possess)**: structured monkey-patching for js and ts, with clean undo.
-- **[tailnet-connector](https://github.com/marioparaschiv/tailnet-connector)**: share a machine's local mcp servers over tailscale so agents can use them remotely.
+- **[sapphire agent](https://github.com/marioparaschiv/sapphire-agent)**: autonomous project manager and planner, from anywhere. built in effect. linear, t3 code, claude code, pi.
+- **[trove](https://github.com/marioparaschiv/trove)**: local semantic search for your notes, on-device with llama.cpp and embeddinggemma. obsidian, raycast.
+- **[possess](https://github.com/marioparaschiv/possess)**: structured monkey-patching for javascript and typescript. hook into any function or constructor with before, instead, and after patches.
+- **[tailnet-connector](https://github.com/marioparaschiv/tailnet-connector)**: connects a machine's local mcp servers to a tailnet hub so agents can use them remotely.
