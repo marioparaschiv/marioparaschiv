@@ -7,24 +7,24 @@
 </p>
 
 <p align="center">
-<picture><source srcset="cards/reach-dark.svg" media="(prefers-color-scheme: dark)"><img src="cards/reach-light.svg" alt="reach" width="49%"></picture>
-<picture><source srcset="cards/t3-dark.svg" media="(prefers-color-scheme: dark)"><img src="cards/t3-light.svg" alt="t3" width="49%"></picture>
+<picture><source srcset="cards/reach-dark.svg?v=96ff5e56" media="(prefers-color-scheme: dark)"><img src="cards/reach-light.svg?v=465e048b" alt="reach" width="49%"></picture>
+<picture><source srcset="cards/t3-dark.svg?v=7bd8f5c5" media="(prefers-color-scheme: dark)"><img src="cards/t3-light.svg?v=1f4c7cb6" alt="t3" width="49%"></picture>
 </p>
 
 <details>
 <summary><b>How my agents work</b></summary>
 
 <p align="center">
-<picture><source srcset="cards/agent-ops-dark.svg" media="(prefers-color-scheme: dark)"><img src="cards/agent-ops-light.svg" alt="agent-ops"></picture>
+<picture><source srcset="cards/agent-ops-dark.svg?v=9b4e6726" media="(prefers-color-scheme: dark)"><img src="cards/agent-ops-light.svg?v=89665728" alt="agent-ops"></picture>
 </p>
 
 <p align="center">
-<picture><source srcset="cards/heatmap-dark.svg" media="(prefers-color-scheme: dark)"><img src="cards/heatmap-light.svg" alt="heatmap"></picture>
+<picture><source srcset="cards/heatmap-dark.svg?v=5407c9d6" media="(prefers-color-scheme: dark)"><img src="cards/heatmap-light.svg?v=a082d20e" alt="heatmap"></picture>
 </p>
 
 <p align="center">
-<picture><source srcset="cards/models-dark.svg" media="(prefers-color-scheme: dark)"><img src="cards/models-light.svg" alt="models" width="49%"></picture>
-<picture><source srcset="cards/tools-dark.svg" media="(prefers-color-scheme: dark)"><img src="cards/tools-light.svg" alt="tools" width="49%"></picture>
+<picture><source srcset="cards/models-dark.svg?v=c0ff3f0e" media="(prefers-color-scheme: dark)"><img src="cards/models-light.svg?v=2761fef0" alt="models" width="49%"></picture>
+<picture><source srcset="cards/tools-dark.svg?v=d6282069" media="(prefers-color-scheme: dark)"><img src="cards/tools-light.svg?v=8fd4b603" alt="tools" width="49%"></picture>
 </p>
 
 </details>

@@ -1,6 +1,7 @@
 // Renders every card in both themes into variants/.
 // Usage: node scripts/render.mjs
 
+import { createHash } from "node:crypto";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { agentOps, heatmap, models, reach, t3, terminal, tools } from "./cards.mjs";
 import { tui } from "./tui.mjs";
@@ -16,9 +17,13 @@ const CARDS = { tui, t3, "agent-ops": agentOps, models, tools, heatmap, reach, t
 
 const outDir = new URL("../variants/cards/", import.meta.url);
 await mkdir(outDir, { recursive: true });
+// Content hash per file, appended to image URLs so browsers and GitHub's cache fetch new versions.
+const versions = {};
 for (const [name, render] of Object.entries(CARDS)) {
   for (const theme of ["dark", "light"]) {
-    await writeFile(new URL(`${name}-${theme}.svg`, outDir), render(data, theme));
+    const svg = render(data, theme);
+    versions[`${name}-${theme}`] = createHash("sha1").update(svg).digest("hex").slice(0, 8);
+    await writeFile(new URL(`${name}-${theme}.svg`, outDir), svg);
   }
 }
 console.log(`Rendered ${Object.keys(CARDS).length * 2} cards into variants/cards/`);
@@ -31,7 +36,7 @@ const GRS_STATS = `${GRS}?cache_seconds=30&username=marioparaschiv&title_color=4
 const GRS_LANGS = `${GRS}/top-langs/?cache_seconds=30&username=marioparaschiv&layout=donut&bg_color=00000000&hide_border=true&count_private=true&hide_title=true&langs_count=6&text_bold=false`;
 
 const picture = (name, width = "") =>
-  `<picture><source srcset="cards/${name}-dark.svg" media="(prefers-color-scheme: dark)"><img src="cards/${name}-light.svg" alt="${name}"${width ? ` width="${width}"` : ""}></picture>`;
+  `<picture><source srcset="cards/${name}-dark.svg?v=${versions[`${name}-dark`]}" media="(prefers-color-scheme: dark)"><img src="cards/${name}-light.svg?v=${versions[`${name}-light`]}" alt="${name}"${width ? ` width="${width}"` : ""}></picture>`;
 const grs = (url, dark, light) =>
   `<picture><source srcset="${url}&text_color=${dark}" media="(prefers-color-scheme: dark)"><img src="${url}&text_color=${light}"></picture>`;
 const center = (...items) => `<p align="center">\n${items.join("\n")}\n</p>`;
