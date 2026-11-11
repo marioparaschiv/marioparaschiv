@@ -2,6 +2,7 @@
 
 import { readFileSync } from "node:fs";
 import { glyph } from "./icons.mjs";
+import { counter, growStyle, motionCss, timeline } from "./motion.mjs";
 import { card, compact, escape, grouped } from "./svg.mjs";
 
 // JetBrains Mono Nerd Font (Mono), subset to ASCII plus the prompt glyphs and embedded,
@@ -56,13 +57,12 @@ const arrow = (y, p) => glyph("arrow", PAD, y, 13, p.ok);
 const COMMAND_X = PAD + 3 * CHAR;
 
 const since = (iso) => new Date(iso).toLocaleDateString("en-GB", { month: "short", year: "numeric" });
-const at = (s) => `animation-delay: ${s.toFixed(2)}s`;
 
 // Bordered pane with its title cut into the top border, TUI style.
-function pane({ x, y, w, h, title, note, p, start, children }) {
+function pane({ x, y, w, h, title, note, p, children }) {
   const titleWidth = title.length * (12 * 0.6 + 0.72) + 16;
   const noteWidth = note ? note.length * SMALL_CHAR + 14 : 0;
-  return `<g class="fade" style="${at(start)}">
+  return `<g>
 <rect x="${x + 0.5}" y="${y + 0.5}" width="${w - 1}" height="${h - 1}" rx="6" stroke="${p.border}"/>
 <rect x="${x + 12}" y="${y - 2}" width="${titleWidth}" height="5" fill="${p.bg}"/>
 <text x="${x + 20}" y="${y + 4}" class="pane-title">${escape(title)}</text>
@@ -76,10 +76,12 @@ function rows({ x, y, w, items, start }) {
   return items
     .map(([key, value, suffix], i) => {
       const ty = y + 28 + i * ROW;
-      return `<g class="fade" style="${at(start + i * 0.05)}">
+      const valueText = (text) =>
+        `<text x="${x + w - 16}" y="${ty}" text-anchor="end"><tspan class="val">${escape(text)}</tspan>${suffix ? `<tspan class="ok"> ${escape(suffix)}</tspan>` : ""}</text>`;
+      return `<g>
 <text x="${x + 16}" y="${ty}" class="muted">${escape(key)}</text>
 <line x1="${x + 16 + key.length * CHAR + 8}" y1="${ty - 4}" x2="${x + w - 16 - (value.length + (suffix ? suffix.length + 1 : 0)) * CHAR - 8}" y2="${ty - 4}" class="leader"/>
-<text x="${x + w - 16}" y="${ty}" text-anchor="end"><tspan class="val">${escape(value)}</tspan>${suffix ? `<tspan class="ok"> ${escape(suffix)}</tspan>` : ""}</text>
+${counter(value, valueText, start)}
 </g>`;
     })
     .join("\n");
@@ -93,8 +95,8 @@ function gauges({ x, y, w, items, start, p, labelWidth = 150, starFirst = false 
     .map(({ name, share, color }, i) => {
       const ty = y + 28 + i * ROW;
       const fill = Math.max(3, share * barW);
-      const begin = (start + 0.2 + i * 0.07).toFixed(2);
-      return `<g class="fade" style="${at(start + i * 0.05)}">
+      const percent = (text) => `<text x="${x + w - 16}" y="${ty}" text-anchor="end" class="muted">${text}</text>`;
+      return `<g>
 ${
   starFirst && i === 0
     ? glyph("star", x + 20 - 4.5, ty + 0.5, 15, color ?? p.accent)
@@ -102,8 +104,8 @@ ${
 }
 <text x="${x + 32}" y="${ty}">${escape(name)}</text>
 <rect x="${barX}" y="${ty - 10}" width="${barW}" height="8" rx="2" fill="${p.track}"/>
-<rect x="${barX}" y="${ty - 10}" width="0" height="8" rx="2" fill="${color ?? p.accent}"><animate attributeName="width" from="0" to="${fill.toFixed(1)}" begin="${begin}s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
-<text x="${x + w - 16}" y="${ty}" text-anchor="end" class="muted">${(share * 100).toFixed(1)}%</text>
+<rect x="${barX}" y="${ty - 10}" width="${fill.toFixed(1)}" height="8" rx="2" fill="${color ?? p.accent}" class="grow" style="${growStyle(start)}"/>
+${counter(`${(share * 100).toFixed(1)}%`, percent, start)}
 </g>`;
     })
     .join("\n");
@@ -114,7 +116,7 @@ const CELL = 11;
 const STEP = 14;
 const CALENDAR_H = 30 + 7 * STEP + 22;
 
-function calendar({ x, y, w, weeks, start, p }) {
+function calendar({ x, y, w, weeks, p }) {
   const left = x + 46;
   const top = y + 30;
   // Four intensity levels from quartiles of the non-zero days, like GitHub.
@@ -136,7 +138,7 @@ function calendar({ x, y, w, weeks, start, p }) {
     .flatMap((week, wi) =>
       week.map(([date, n]) => {
         const day = new Date(`${date}T00:00:00Z`).getUTCDay();
-        return swatch(left + wi * STEP, top + day * STEP, levelOf(n), `class="fade" style="${at(start + 0.15 + wi * 0.015)}"`);
+        return swatch(left + wi * STEP, top + day * STEP, levelOf(n));
       }),
     )
     .join("\n");
@@ -233,7 +235,8 @@ export function tui({ agent, github, t3 }, theme) {
   const promptY = heatTop + heatH + 30;
   const H = promptY + 20 + 22;
 
-  const typeChars = command.length;
+  const typedWidth = command.length * CHAR + 4;
+  const { output, done } = timeline(command.length);
   const css = `${FONT_FACES}
   text { font-family: ${MONO}; font-size: 13px; }
   .small { font-size: 11.5px; }
@@ -241,11 +244,7 @@ export function tui({ agent, github, t3 }, theme) {
   .val { fill: ${p.text}; font-weight: 600; }
   .ok { fill: ${p.ok}; }
   .leader { stroke: ${p.border}; stroke-dasharray: 1 4; stroke-linecap: round; }
-  #typed { animation: type 0.8s steps(${typeChars}, end) 0.2s forwards; }
-  @keyframes type { from { width: 0; } to { width: ${typeChars * CHAR + 4}px; } }
-  .cursor { animation: blink 1.1s steps(1) infinite; }
-  @keyframes blink { 50% { opacity: 0; } }
-  @media (prefers-reduced-motion: reduce) { #typed { width: ${typeChars * CHAR + 4}px; } }`;
+  ${motionCss({ output, done, typedWidth, commandLength: command.length })}`;
 
   const body = `<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="10" fill="${p.bg}" stroke="${p.border}"/>
 <path d="M1 36 V10 A9 9 0 0 1 10 1 H${W - 10} A9 9 0 0 1 ${W - 1} 10 V36 Z" fill="${p.bar}"/>
@@ -256,12 +255,14 @@ ${starshipLine({ y: 62, p, time: updated })}
 ${arrow(82, p)}
 <clipPath id="typeclip"><rect id="typed" x="${COMMAND_X}" y="68" width="0" height="20"/></clipPath>
 <text x="${COMMAND_X}" y="82" clip-path="url(#typeclip)">${command}</text>
-${pane({ x: PAD, y: top, w: COL, h: row1, title: "AGENTS", note: `since ${since(agent.firstSessionAt)}`, p, start: 1.0, children: rows({ x: PAD, y: top, w: COL, items: agentItems, start: 1.1 }) })}
-${pane({ x: PAD + COL + GAP, y: top, w: COL, h: row1, title: "GITHUB", note: `@${user}`, p, start: 1.2, children: rows({ x: PAD + COL + GAP, y: top, w: COL, items: githubItems, start: 1.3 }) })}
-${pane({ x: PAD, y: top + row1 + GAP, w: COL, h: row2, title: "LANGUAGES", note: "by code size", p, start: 1.5, children: gauges({ x: PAD, y: top + row1 + GAP, w: COL, items: languages, start: 1.6, p }) })}
-${pane({ x: PAD + COL + GAP, y: top + row1 + GAP, w: COL, h: row2, title: "MODELS", note: `${compact(modelTotal)} turns`, p, start: 1.7, children: gauges({ x: PAD + COL + GAP, y: top + row1 + GAP, w: COL, items: models, start: 1.8, p, labelWidth: 200, starFirst: true }) })}
-${pane({ x: PAD, y: heatTop, w: W - PAD * 2, h: heatH, title: "ACTIVITY", note: `${grouped(github.contributions)} contributions in the past year`, p, start: 2.0, children: calendar({ x: PAD, y: heatTop, w: W - PAD * 2, weeks: github.calendar, start: 2.0, p }) })}
-<g class="fade" style="${at(2.8)}">
+<g class="out">
+${pane({ x: PAD, y: top, w: COL, h: row1, title: "AGENTS", note: `since ${since(agent.firstSessionAt)}`, p, children: rows({ x: PAD, y: top, w: COL, items: agentItems, start: output }) })}
+${pane({ x: PAD + COL + GAP, y: top, w: COL, h: row1, title: "GITHUB", note: `@${user}`, p, children: rows({ x: PAD + COL + GAP, y: top, w: COL, items: githubItems, start: output }) })}
+${pane({ x: PAD, y: top + row1 + GAP, w: COL, h: row2, title: "LANGUAGES", note: "by code size", p, children: gauges({ x: PAD, y: top + row1 + GAP, w: COL, items: languages, start: output, p }) })}
+${pane({ x: PAD + COL + GAP, y: top + row1 + GAP, w: COL, h: row2, title: "MODELS", note: `${compact(modelTotal)} turns`, p, children: gauges({ x: PAD + COL + GAP, y: top + row1 + GAP, w: COL, items: models, start: output, p, labelWidth: 200, starFirst: true }) })}
+${pane({ x: PAD, y: heatTop, w: W - PAD * 2, h: heatH, title: "ACTIVITY", note: `${grouped(github.contributions)} contributions in the past year`, p, children: calendar({ x: PAD, y: heatTop, w: W - PAD * 2, weeks: github.calendar, p }) })}
+</g>
+<g class="done">
 ${starshipLine({ y: promptY, p, took: "2s" })}
 ${arrow(promptY + 20, p)}
 <rect class="cursor" x="${COMMAND_X}" y="${promptY + 6}" width="2" height="17" fill="${p.text}"/>

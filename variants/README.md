@@ -19,7 +19,7 @@ node scripts/render.mjs
 ## All cards
 
 <p align="center">
-<picture><source srcset="cards/tui-dark.svg?v=f3f0ec5e" media="(prefers-color-scheme: dark)"><img src="cards/tui-light.svg?v=d5fa5f70" alt="tui"></picture>
+<picture><source srcset="cards/tui-dark.svg?v=3d3636de" media="(prefers-color-scheme: dark)"><img src="cards/tui-light.svg?v=ac7e60d4" alt="tui"></picture>
 </p>
 
 <p align="center">
