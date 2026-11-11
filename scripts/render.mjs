@@ -2,12 +2,17 @@
 // Usage: node scripts/render.mjs
 
 import { mkdir, readFile, writeFile } from "node:fs/promises";
-import { agentOps, heatmap, models, reach, terminal, tools } from "./cards.mjs";
+import { agentOps, heatmap, models, reach, t3, terminal, tools } from "./cards.mjs";
+import { tui } from "./tui.mjs";
 
 const read = async (path) => JSON.parse(await readFile(new URL(`../${path}`, import.meta.url), "utf8"));
-const data = { agent: await read("data/agent-stats.json"), github: await read("data/github-stats.json") };
+const data = {
+  agent: await read("data/agent-stats.json"),
+  github: await read("data/github-stats.json"),
+  t3: await read("data/t3-stats.json"),
+};
 
-const CARDS = { "agent-ops": agentOps, models, tools, heatmap, reach, terminal };
+const CARDS = { tui, t3, "agent-ops": agentOps, models, tools, heatmap, reach, terminal };
 
 const outDir = new URL("../variants/cards/", import.meta.url);
 await mkdir(outDir, { recursive: true });
@@ -33,10 +38,15 @@ const center = (...items) => `<p align="center">\n${items.join("\n")}\n</p>`;
 const pair = (a, b) => center(picture(a, "49%"), picture(b, "49%"));
 
 const VARIANTS = {
+  "d-tui": {
+    title: "D. TUI",
+    blurb: "One terminal dashboard: agent stats, GitHub reach, languages, models and the activity heatmap.",
+    body: [center(picture("tui"))],
+  },
   "a-agent-first": {
     title: "A. Agent-first",
     blurb: "Replaces the classic GitHub cards with agent activity, model mix and a 24/7 heatmap.",
-    body: [center(picture("agent-ops")), pair("models", "tools"), center(picture("heatmap"))],
+    body: [pair("t3", "agent-ops"), pair("models", "tools"), center(picture("heatmap"))],
   },
   "b-terminal": {
     title: "B. Terminal",
@@ -48,8 +58,8 @@ const VARIANTS = {
     blurb: "Keeps your current cards, adds reach and agent activity, with the details tucked into expandable sections.",
     body: [
       center(grs(GRS_STATS, "e6edf3", "1f2328"), grs(GRS_LANGS, "e6edf3", "1f2328")),
-      pair("reach", "agent-ops"),
-      `<details>\n<summary><b>How my agents work</b></summary>\n\n${center(picture("heatmap"))}\n\n${pair("models", "tools")}\n\n</details>`,
+      pair("reach", "t3"),
+      `<details>\n<summary><b>How my agents work</b></summary>\n\n${center(picture("agent-ops"))}\n\n${center(picture("heatmap"))}\n\n${pair("models", "tools")}\n\n</details>`,
     ],
   },
 };
@@ -64,6 +74,7 @@ const index = [
   "",
   "```sh",
   "node scripts/agent-stats.mjs > data/agent-stats.json",
+  "node scripts/t3-stats.mjs > data/t3-stats.json",
   "node scripts/github-stats.mjs > data/github-stats.json",
   "node scripts/render.mjs",
   "```",

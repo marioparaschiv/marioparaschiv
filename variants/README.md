@@ -6,15 +6,25 @@ Cards are a static snapshot. Regenerate on the VPS with:
 
 ```sh
 node scripts/agent-stats.mjs > data/agent-stats.json
+node scripts/t3-stats.mjs > data/t3-stats.json
 node scripts/github-stats.mjs > data/github-stats.json
 node scripts/render.mjs
 ```
 
+- [D. TUI](d-tui.md): One terminal dashboard: agent stats, GitHub reach, languages, models and the activity heatmap.
 - [A. Agent-first](a-agent-first.md): Replaces the classic GitHub cards with agent activity, model mix and a 24/7 heatmap.
 - [B. Terminal](b-terminal.md): Minimal: one animated terminal that types out agent and reach stats, then the reach card.
 - [C. Full dashboard](c-dashboard.md): Keeps your current cards, adds reach and agent activity, with the details tucked into expandable sections.
 
 ## All cards
+
+<p align="center">
+<picture><source srcset="cards/tui-dark.svg" media="(prefers-color-scheme: dark)"><img src="cards/tui-light.svg" alt="tui"></picture>
+</p>
+
+<p align="center">
+<picture><source srcset="cards/t3-dark.svg" media="(prefers-color-scheme: dark)"><img src="cards/t3-light.svg" alt="t3"></picture>
+</p>
 
 <p align="center">
 <picture><source srcset="cards/agent-ops-dark.svg" media="(prefers-color-scheme: dark)"><img src="cards/agent-ops-light.svg" alt="agent-ops"></picture>

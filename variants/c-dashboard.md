@@ -8,11 +8,15 @@
 
 <p align="center">
 <picture><source srcset="cards/reach-dark.svg" media="(prefers-color-scheme: dark)"><img src="cards/reach-light.svg" alt="reach" width="49%"></picture>
-<picture><source srcset="cards/agent-ops-dark.svg" media="(prefers-color-scheme: dark)"><img src="cards/agent-ops-light.svg" alt="agent-ops" width="49%"></picture>
+<picture><source srcset="cards/t3-dark.svg" media="(prefers-color-scheme: dark)"><img src="cards/t3-light.svg" alt="t3" width="49%"></picture>
 </p>
 
 <details>
 <summary><b>How my agents work</b></summary>
+
+<p align="center">
+<picture><source srcset="cards/agent-ops-dark.svg" media="(prefers-color-scheme: dark)"><img src="cards/agent-ops-light.svg" alt="agent-ops"></picture>
+</p>
 
 <p align="center">
 <picture><source srcset="cards/heatmap-dark.svg" media="(prefers-color-scheme: dark)"><img src="cards/heatmap-light.svg" alt="heatmap"></picture>

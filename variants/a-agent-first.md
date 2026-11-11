@@ -2,7 +2,8 @@
 <img width='100%' src='https://capsule-render.vercel.app/api?type=waving&height=200&fontAlign=80&fontAlignY=40&color=gradient&customColorList=12' />
 
 <p align="center">
-<picture><source srcset="cards/agent-ops-dark.svg" media="(prefers-color-scheme: dark)"><img src="cards/agent-ops-light.svg" alt="agent-ops"></picture>
+<picture><source srcset="cards/t3-dark.svg" media="(prefers-color-scheme: dark)"><img src="cards/t3-light.svg" alt="t3" width="49%"></picture>
+<picture><source srcset="cards/agent-ops-dark.svg" media="(prefers-color-scheme: dark)"><img src="cards/agent-ops-light.svg" alt="agent-ops" width="49%"></picture>
 </p>
 
 <p align="center">

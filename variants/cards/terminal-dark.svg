@@ -34,7 +34,7 @@
 <clipPath id="c1"><rect id="l1" x="18" y="70" width="0" height="20"/></clipPath>
 <text x="20" y="84" font-size="12.5" clip-path="url(#c1)"  style="font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">3,154 sessions · 227k tool calls · 32.9B tokens</text>
 <clipPath id="c2"><rect id="l2" x="18" y="92" width="0" height="20"/></clipPath>
-<text x="20" y="106" font-size="12.5" clip-path="url(#c2)"  style="font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">4,952 commits · 800 PRs opened · 1,015 subagents</text>
+<text x="20" y="106" font-size="12.5" clip-path="url(#c2)"  style="font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">590 PRs merged · +1.5M lines · 42 agents at once</text>
 <clipPath id="c3"><rect id="l3" x="18" y="114" width="0" height="20"/></clipPath>
 <text x="20" y="128" font-size="12.5" clip-path="url(#c3)" class="accent" style="font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">$ gh reach</text>
 <clipPath id="c4"><rect id="l4" x="18" y="136" width="0" height="20"/></clipPath>

@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-11-11T13:40:44.452Z",
+  "firstThreadAt": "2026-10-04T03:48:09.942Z",
+  "threads": 2525,
+  "threadsByAgents": 1983,
+  "threadsFromMobile": 51,
+  "threadsInWorktrees": 1754,
+  "runs": 8408,
+  "runCompletionRate": 0.9352997145575642,
+  "runHours": 654,
+  "longestRunMinutes": 364,
+  "busiestDay": {
+    "day": "2026-10-31",
+    "runs": 498
+  },
+  "peakParallelRuns": 42,
+  "subagents": 1818,
+  "commandsRun": 136749,
+  "fileChanges": 35587,
+  "toolCalls": 89469,
+  "webSearches": 75,
+  "prsLinked": 625,
+  "prsMerged": 590,
+  "linesAdded": 1478201,
+  "linesDeleted": 235705,
+  "medianMinutesToMerge": 6
+}

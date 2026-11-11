@@ -48,10 +48,43 @@ const starsQuery = gh(
 );
 const user = starsQuery.data.user;
 
+// Pull requests and repos contributed to (same definitions as github-readme-stats).
+const profile = gh(
+  "graphql",
+  "-f",
+  `query={ user(login: "${USER}") { pullRequests { totalCount } merged: pullRequests(states: MERGED) { totalCount } repositoriesContributedTo(first: 1, contributionTypes: [COMMIT, ISSUE, PULL_REQUEST, REPOSITORY]) { totalCount } } }`,
+).data.user;
+
+// Languages by bytes across owned and org repos, forks excluded.
+const languageEdges = ghLines(
+  "graphql",
+  "--paginate",
+  "-f",
+  `query=query($endCursor: String) { user(login: "${USER}") { repositories(first: 100, after: $endCursor, isFork: false, ownerAffiliations: [OWNER, ORGANIZATION_MEMBER]) { nodes { languages(first: 10, orderBy: {field: SIZE, direction: DESC}) { edges { size node { name color } } } } pageInfo { hasNextPage endCursor } } } }`,
+  "--jq",
+  ".data.user.repositories.nodes[].languages.edges[] | [.node.name, .node.color, .size] | @tsv",
+);
+const languageBytes = new Map();
+for (const line of languageEdges) {
+  const [name, color, size] = line.split("\t");
+  const entry = languageBytes.get(name) ?? { name, color, bytes: 0 };
+  entry.bytes += Number(size);
+  languageBytes.set(name, entry);
+}
+const languageTotal = [...languageBytes.values()].reduce((sum, l) => sum + l.bytes, 0);
+const languages = [...languageBytes.values()]
+  .sort((a, b) => b.bytes - a.bytes)
+  .slice(0, 6)
+  .map((l) => ({ name: l.name, color: l.color, share: l.bytes / languageTotal }));
+
 const stats = {
   generatedAt: new Date().toISOString(),
   stars: user.repositories.nodes.reduce((sum, r) => sum + r.stargazerCount, 0),
   followers: user.followers.totalCount,
+  pullRequests: profile.pullRequests.totalCount,
+  pullRequestsMerged: profile.merged.totalCount,
+  contributedTo: profile.repositoriesContributedTo.totalCount,
+  languages,
   releaseDownloads: downloads.reduce((sum, d) => sum + d.downloads, 0),
   topDownloads: downloads.slice(0, 5),
   externalMergedPrs: externalPrs,

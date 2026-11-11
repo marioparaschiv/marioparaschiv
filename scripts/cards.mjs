@@ -7,19 +7,9 @@ const HOURS = (ms) => Math.round(ms / 3_600_000);
 const sinceLabel = (iso) => new Date(iso).toLocaleDateString("en-GB", { month: "short", year: "numeric" });
 const MONO = "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace";
 
-// Big-number grid of agent activity.
-export function agentOps({ agent }, theme) {
+// Big-number grid card with a heading, a note and an animated rule.
+function tileGrid({ title, note, tiles, theme }) {
   const t = THEMES[theme];
-  const tiles = [
-    ["Tokens processed", compact(agent.tokens.total)],
-    ["Sessions", grouped(agent.sessions)],
-    ["Tool calls", compact(agent.toolCalls)],
-    ["Agent hours", grouped(HOURS(agent.agentMs))],
-    ["Commits", grouped(agent.gitCommits)],
-    ["PRs opened", grouped(agent.prsOpened)],
-    ["Subagents", grouped(agent.subagents)],
-    ["Tokens written", compact(agent.tokens.output)],
-  ];
   const columns = 4;
   const body = tiles
     .map(([label, value], i) => {
@@ -30,13 +20,52 @@ export function agentOps({ agent }, theme) {
     .join("\n");
   return card({
     width: WIDTH,
-    height: 166,
+    height: 50 + Math.ceil(tiles.length / columns) * 58,
     theme,
-    title: "Agent activity",
-    body: `<text x="20" y="28" class="heading">AGENT ACTIVITY</text>
-<text x="${WIDTH - 20}" y="28" class="label" text-anchor="end">since ${sinceLabel(agent.firstSessionAt)} · ${agent.activeDays} days</text>
+    title,
+    body: `<text x="20" y="28" class="heading">${escape(title.toUpperCase())}</text>
+<text x="${WIDTH - 20}" y="28" class="label" text-anchor="end">${escape(note)}</text>
 <rect x="20" y="38" width="0" height="2" rx="1" fill="${t.accent}"><animate attributeName="width" from="0" to="${WIDTH - 40}" dur="0.9s" fill="freeze"/></rect>
 ${body}`,
+  });
+}
+
+// Orchestration stats from T3 Code's local database.
+export function t3({ t3: s }, theme) {
+  return tileGrid({
+    title: "T3 Code",
+    note: `since ${sinceLabel(s.firstThreadAt)} · busiest day ${s.busiestDay.runs} runs`,
+    theme,
+    tiles: [
+      ["Threads", grouped(s.threads)],
+      ["Agent runs", grouped(s.runs)],
+      ["Peak parallel runs", grouped(s.peakParallelRuns)],
+      ["Subagents", grouped(s.subagents)],
+      ["PRs merged", grouped(s.prsMerged)],
+      ["Lines merged", `+${compact(s.linesAdded)}`],
+      ["Median PR to merge", `${s.medianMinutesToMerge} min`],
+      ["Runs completed", `${(s.runCompletionRate * 100).toFixed(1)}%`],
+    ],
+  });
+}
+
+// Big-number grid of agent activity.
+export function agentOps({ agent }, theme) {
+  const tiles = [
+    ["Tokens processed", compact(agent.tokens.total)],
+    ["Sessions", grouped(agent.sessions)],
+    ["Tool calls", compact(agent.toolCalls)],
+    ["Agent hours", grouped(HOURS(agent.agentMs))],
+    ["Commits", grouped(agent.gitCommits)],
+    ["PRs opened", grouped(agent.prsOpened)],
+    ["Subagents", grouped(agent.subagents)],
+    ["Tokens written", compact(agent.tokens.output)],
+  ];
+  return tileGrid({
+    title: "Agent activity",
+    note: `since ${sinceLabel(agent.firstSessionAt)} · ${agent.activeDays} days`,
+    tiles,
+    theme,
   });
 }
 
@@ -163,12 +192,12 @@ ${body}
 }
 
 // Terminal that types out a summary, line by line.
-export function terminal({ agent, github }, theme) {
+export function terminal({ agent, github, t3: s }, theme) {
   const t = THEMES[theme];
   const lines = [
     ["$ agent stats --since " + sinceLabel(agent.firstSessionAt).toLowerCase().replace(" ", "-"), true],
     [`${grouped(agent.sessions)} sessions · ${compact(agent.toolCalls)} tool calls · ${compact(agent.tokens.total)} tokens`],
-    [`${grouped(agent.gitCommits)} commits · ${grouped(agent.prsOpened)} PRs opened · ${grouped(agent.subagents)} subagents`],
+    [`${grouped(s.prsMerged)} PRs merged · +${compact(s.linesAdded)} lines · ${s.peakParallelRuns} agents at once`],
     ["$ gh reach", true],
     [`${compact(github.releaseDownloads)} downloads · ${grouped(github.stars)} stars · ${github.externalMergedPrs} PRs merged upstream`],
   ];
