@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="200" viewBox="0 0 495 200" fill="none" role="img" aria-label="When my agents work">
-<title>When my agents work</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="200" viewBox="0 0 495 200" fill="none" role="img" aria-label="Agent activity by hour">
+<title>Agent activity by hour</title>
 <style>
   text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #1f2328; }
   .muted { fill: #59636e; }
@@ -14,8 +14,8 @@
     * { animation: none !important; opacity: 1 !important; transform: none !important; }
   }
 </style>
-<text x="20" y="28" class="heading">WHEN MY AGENTS WORK</text>
-<text x="475" y="28" class="label" text-anchor="end">agent turns by hour, London</text>
+<text x="20" y="28" class="heading">ACTIVITY</text>
+<text x="475" y="28" class="label" text-anchor="end">hour by hour, UK time</text>
 <text x="20" y="60" class="label">Mon</text><text x="20" y="78" class="label">Tue</text><text x="20" y="96" class="label">Wed</text><text x="20" y="114" class="label">Thu</text><text x="20" y="132" class="label">Fri</text><text x="20" y="150" class="label">Sat</text><text x="20" y="168" class="label">Sun</text><text x="57.5" y="186" class="label" text-anchor="middle">00</text><text x="165.5" y="186" class="label" text-anchor="middle">06</text><text x="273.5" y="186" class="label" text-anchor="middle">12</text><text x="381.5" y="186" class="label" text-anchor="middle">18</text><text x="471.5" y="186" class="label" text-anchor="middle">23</text>
 <rect x="50" y="48" width="15" height="15" rx="3" fill="#2f6fb0" fill-opacity="0.52" class="fade" style="animation-delay: 0.10s"/>
 <rect x="68" y="48" width="15" height="15" rx="3" fill="#2f6fb0" fill-opacity="0.65" class="fade" style="animation-delay: 0.13s"/>

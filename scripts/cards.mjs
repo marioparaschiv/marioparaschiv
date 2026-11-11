@@ -152,9 +152,9 @@ export function heatmap({ agent }, theme) {
     width: WIDTH,
     height: top + 7 * (size + gap) + 26,
     theme,
-    title: "When my agents work",
-    body: `<text x="20" y="28" class="heading">WHEN MY AGENTS WORK</text>
-<text x="${WIDTH - 20}" y="28" class="label" text-anchor="end">agent turns by hour, ${escape(agent.timeZone.split("/")[1])}</text>
+    title: "Agent activity by hour",
+    body: `<text x="20" y="28" class="heading">ACTIVITY</text>
+<text x="${WIDTH - 20}" y="28" class="label" text-anchor="end">hour by hour, UK time</text>
 ${dayLabels}${hourLabels}
 ${cells}`,
   });
