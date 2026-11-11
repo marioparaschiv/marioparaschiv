@@ -32,8 +32,8 @@
 <path d="M0.5 36 H859.5" stroke="#d1d9e0"/>
 <circle cx="22" cy="18" r="6" fill="#ff5f57"/><circle cx="42" cy="18" r="6" fill="#febc2e"/><circle cx="62" cy="18" r="6" fill="#28c840"/>
 <text x="430" y="22" class="small muted" text-anchor="middle">dev@vps: ~/stats</text>
-<text x="16" y="62" xml:space="preserve"><tspan fill="#1b7c83" font-weight="700">stats</tspan> on <tspan fill="#8250df" font-weight="700"> main</tspan> at <tspan fill="#9a6700" font-weight="700">11 Nov 2026, 13:23</tspan></text>
-<text x="16" y="82"><tspan fill="#1a7f37" font-weight="700">➜</tspan></text>
+<text x="16" y="62" style="fill: #1b7c83" font-weight="700">stats</text><text x="62.8" y="62">on</text><path d="M190 -300H32V-25Q32 77 78 142Q110 189 172 229L260 285Q310 317 332 365Q354 409 354 484V672H236L402 867L568 672H450V452Q450 342 420.0 284.0Q390 226 328 186L284 157Q230 121 212 87Q190 46 190 -25ZM190 375 32 274V1020H190Z" fill="#8250df" transform="translate(86.2 62) scale(0.013 -0.013)"/><text x="101.8" y="62" style="fill: #8250df" font-weight="700">main</text><text x="140.8" y="62">at</text><text x="164.2" y="62" style="fill: #9a6700" font-weight="700">11 Nov 2026, 13:23</text>
+<path d="M373 100Q350 100 333.0 117.0Q316 134 316 157Q316 177 330 193L338 202Q364 232 383.0 251.5Q402 271 408 275V279Q389 278 369.0 276.5Q349 275 332 275H65Q40 275 22.5 291.0Q5 307 5 330Q5 353 22.5 369.0Q40 385 65 385H328Q354 385 375.0 384.0Q396 383 408 381V385Q398 394 380.5 411.5Q363 429 343 450L326 469Q313 485 313 505Q313 528 330.0 544.0Q347 560 370 560Q399 560 416 535L590 330L417 123Q401 100 373 100Z" fill="#1a7f37" transform="translate(16 82) scale(0.013 -0.013)"/>
 <clipPath id="typeclip"><rect id="typed" x="39.4" y="68" width="0" height="20"/></clipPath>
 <text x="39.4" y="82" clip-path="url(#typeclip)">stats --agents --github</text>
 <g class="fade" style="animation-delay: 1.00s">
@@ -182,7 +182,7 @@
 <text x="456" y="326" class="pane-title">MODELS</text>
 <rect x="749" y="320" width="83" height="5" fill="#ffffff"/><text x="825" y="326" class="small muted" text-anchor="end">204k turns</text>
 <g class="fade" style="animation-delay: 1.80s">
-<text x="456" y="350.5" text-anchor="middle" font-size="14"><tspan fill="#D97757"></tspan></text>
+<path d="M333 630 407 480 569 456Q593 452 599 432Q605 410 589 394L471 278L499 112Q503 90 485 76Q467 64 447 74L301 152L155 74Q135 64 117.0 77.0Q99 90 103 112L131 278L13 394Q-3 410 4.0 431.0Q11 452 33 456L195 480L269 630Q279 650 301 650Q323 650 333 630Z" fill="#D97757" transform="translate(451.5 350.5) scale(0.015 -0.015)"/>
 <text x="468" y="350">opus 5.5</text>
 <rect x="636" y="340" width="138" height="8" rx="2" fill="#eaeef2"/>
 <rect x="636" y="340" width="0" height="8" rx="2" fill="#D97757"><animate attributeName="width" from="0" to="129.6" begin="2.00s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
@@ -601,8 +601,8 @@
 <text x="719" y="637" class="small muted" text-anchor="end">less</text><rect x="727" y="628" width="11" height="11" rx="2" fill="#eaeef2" /><rect x="741" y="628" width="11" height="11" rx="2" fill="#2f6fb0" fill-opacity="0.28" /><rect x="755" y="628" width="11" height="11" rx="2" fill="#2f6fb0" fill-opacity="0.5" /><rect x="769" y="628" width="11" height="11" rx="2" fill="#2f6fb0" fill-opacity="0.75" /><rect x="783" y="628" width="11" height="11" rx="2" fill="#2f6fb0" fill-opacity="1" /><text x="828" y="637" class="small muted" text-anchor="end">more</text>
 </g>
 <g class="fade" style="animation-delay: 2.80s">
-<text x="16" y="674" xml:space="preserve"><tspan fill="#1b7c83" font-weight="700">stats</tspan> on <tspan fill="#8250df" font-weight="700"> main</tspan> took <tspan fill="#9a6700" font-weight="700">2s</tspan></text>
-<text x="16" y="694"><tspan fill="#1a7f37" font-weight="700">➜</tspan></text>
+<text x="16" y="674" style="fill: #1b7c83" font-weight="700">stats</text><text x="62.8" y="674">on</text><path d="M190 -300H32V-25Q32 77 78 142Q110 189 172 229L260 285Q310 317 332 365Q354 409 354 484V672H236L402 867L568 672H450V452Q450 342 420.0 284.0Q390 226 328 186L284 157Q230 121 212 87Q190 46 190 -25ZM190 375 32 274V1020H190Z" fill="#8250df" transform="translate(86.2 674) scale(0.013 -0.013)"/><text x="101.8" y="674" style="fill: #8250df" font-weight="700">main</text><text x="140.8" y="674">took</text><text x="179.79999999999998" y="674" style="fill: #9a6700" font-weight="700">2s</text>
+<path d="M373 100Q350 100 333.0 117.0Q316 134 316 157Q316 177 330 193L338 202Q364 232 383.0 251.5Q402 271 408 275V279Q389 278 369.0 276.5Q349 275 332 275H65Q40 275 22.5 291.0Q5 307 5 330Q5 353 22.5 369.0Q40 385 65 385H328Q354 385 375.0 384.0Q396 383 408 381V385Q398 394 380.5 411.5Q363 429 343 450L326 469Q313 485 313 505Q313 528 330.0 544.0Q347 560 370 560Q399 560 416 535L590 330L417 123Q401 100 373 100Z" fill="#1a7f37" transform="translate(16 694) scale(0.013 -0.013)"/>
 <rect class="cursor" x="39.4" y="680" width="2" height="17" fill="#1f2328"/>
 </g>
 </svg>

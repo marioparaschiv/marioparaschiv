@@ -1,6 +1,7 @@
 // One terminal-style (TUI) card: agent stats, GitHub reach, languages, models and the contribution calendar.
 
 import { readFileSync } from "node:fs";
+import { glyph } from "./icons.mjs";
 import { card, compact, escape, grouped } from "./svg.mjs";
 
 // JetBrains Mono Nerd Font (Mono), subset to ASCII plus the prompt glyphs and embedded,
@@ -27,13 +28,30 @@ const CHAR = 7.8;
 const SMALL_CHAR = 11.5 * 0.6;
 
 // Line 1 of my starship prompt, same modules and styles: `stats on  main [took 2s] [at <time>]`.
+// Each segment sits on its own terminal column, so a fallback font can't push later parts out of line.
 function starshipLine({ y, p, took, time }) {
-  const bold = (color, text) => `<tspan fill="${color}" font-weight="700">${escape(text)}</tspan>`;
-  return `<text x="${PAD}" y="${y}" xml:space="preserve">${bold(p.cyan, "stats")} on ${bold(p.purple, "\ue0a0 main")}${took ? ` took ${bold(p.yellow, took)}` : ""}${time ? ` at ${bold(p.yellow, time)}` : ""}</text>`;
+  const segments = [
+    ["stats", p.cyan, true],
+    ["on", null],
+    ["branch", p.purple],
+    ["main", p.purple, true],
+    ...(took ? [["took", null], [took, p.yellow, true]] : []),
+    ...(time ? [["at", null], [time, p.yellow, true]] : []),
+  ];
+  let column = 0;
+  return segments
+    .map(([text, color, bold]) => {
+      const x = PAD + column * CHAR;
+      const isIcon = text === "branch" && !bold;
+      column += (isIcon ? 1 : text.length) + 1;
+      if (isIcon) return glyph("branch", x, y, 13, color);
+      return `<text x="${x}" y="${y}"${color ? ` style="fill: ${color}"` : ""}${bold ? ` font-weight="700"` : ""}>${escape(text)}</text>`;
+    })
+    .join("");
 }
 
 // Line 2: starship's success symbol, a bold green arrow followed by a space.
-const arrow = (y, p) => `<text x="${PAD}" y="${y}"><tspan fill="${p.ok}" font-weight="700">➜</tspan></text>`;
+const arrow = (y, p) => glyph("arrow", PAD, y, 13, p.ok);
 // The command starts two cells after the arrow, so it doesn't crowd the glyph.
 const COMMAND_X = PAD + 3 * CHAR;
 
@@ -79,7 +97,7 @@ function gauges({ x, y, w, items, start, p, labelWidth = 150, starFirst = false 
       return `<g class="fade" style="${at(start + i * 0.05)}">
 ${
   starFirst && i === 0
-    ? `<text x="${x + 20}" y="${ty + 0.5}" text-anchor="middle" font-size="14"><tspan fill="${color ?? p.accent}">\uf005</tspan></text>`
+    ? glyph("star", x + 20 - 4.5, ty + 0.5, 15, color ?? p.accent)
     : `<circle cx="${x + 20}" cy="${ty - 4}" r="4" fill="${color ?? p.accent}"/>`
 }
 <text x="${x + 32}" y="${ty}">${escape(name)}</text>
