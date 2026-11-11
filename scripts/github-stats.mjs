@@ -52,7 +52,7 @@ const user = starsQuery.data.user;
 const profile = gh(
   "graphql",
   "-f",
-  `query={ user(login: "${USER}") { pullRequests { totalCount } merged: pullRequests(states: MERGED) { totalCount } repositoriesContributedTo(first: 1, contributionTypes: [COMMIT, ISSUE, PULL_REQUEST, REPOSITORY]) { totalCount } } }`,
+  `query={ user(login: "${USER}") { pullRequests { totalCount } merged: pullRequests(states: MERGED) { totalCount } repositoriesContributedTo(first: 1, contributionTypes: [COMMIT, ISSUE, PULL_REQUEST, REPOSITORY]) { totalCount } contributionsCollection { contributionCalendar { totalContributions weeks { contributionDays { date contributionCount } } } } } }`,
 ).data.user;
 
 // Languages by bytes across owned and org repos, forks excluded.
@@ -84,6 +84,11 @@ const stats = {
   pullRequests: profile.pullRequests.totalCount,
   pullRequestsMerged: profile.merged.totalCount,
   contributedTo: profile.repositoriesContributedTo.totalCount,
+  // Past year of contributions, one [date, count] per day, grouped by week (Sunday first).
+  contributions: profile.contributionsCollection.contributionCalendar.totalContributions,
+  calendar: profile.contributionsCollection.contributionCalendar.weeks.map((week) =>
+    week.contributionDays.map((day) => [day.date, day.contributionCount]),
+  ),
   languages,
   releaseDownloads: downloads.reduce((sum, d) => sum + d.downloads, 0),
   topDownloads: downloads.slice(0, 5),
