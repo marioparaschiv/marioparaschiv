@@ -119,9 +119,9 @@ ${counter(`${(share * 100).toFixed(1)}%`, percent, start)}
 // GitHub-style contribution calendar: one small square per day, one column per week.
 const CELL = 11;
 const STEP = 14;
-const CALENDAR_H = 30 + 7 * STEP + 22;
+const CALENDAR_H = 30 + 7 * STEP + 12;
 
-function calendar({ x, y, w, weeks, p }) {
+function calendar({ x, y, weeks, p }) {
   const left = x + 46;
   const top = y + 30;
   // Four intensity levels from quartiles of the non-zero days, like GitHub.
@@ -164,11 +164,7 @@ function calendar({ x, y, w, weeks, p }) {
     .map(([d, label]) => `<text x="${x + 12}" y="${top + d * STEP + 9}" class="small muted">${label}</text>`)
     .join("");
 
-  const legendY = top + 7 * STEP + 6;
-  const legendRight = x + w - 16;
-  const swatches = [-1, 0, 1, 2, 3].map((level, i) => swatch(legendRight - 34 - (4 - i) * STEP - CELL, legendY, level)).join("");
-  const legend = `<text x="${legendRight - 34 - 4 * STEP - CELL - 8}" y="${legendY + 9}" class="small muted" text-anchor="end">less</text>${swatches}<text x="${legendRight}" y="${legendY + 9}" class="small muted" text-anchor="end">more</text>`;
-  return `${months.join("")}${dayLabels}\n${cells}\n${legend}`;
+  return `${months.join("")}${dayLabels}\n${cells}`;
 }
 
 // Brand colour per model provider; anything unrecognised uses the muted text colour.
@@ -262,7 +258,7 @@ ${pane({ x: PAD, y: top, w: COL, h: row1, title: "AGENTS", note: "all time", p, 
 ${pane({ x: PAD + COL + GAP, y: top, w: COL, h: row1, title: "GITHUB", note: `@${user}`, p, children: rows({ x: PAD + COL + GAP, y: top, w: COL, items: githubItems, start: count }) })}
 ${pane({ x: PAD, y: top + row1 + GAP, w: COL, h: row2, title: "LANGUAGES", note: "by code size", p, children: gauges({ x: PAD, y: top + row1 + GAP, w: COL, items: languages, start: count, p }) })}
 ${pane({ x: PAD + COL + GAP, y: top + row1 + GAP, w: COL, h: row2, title: "MODELS", note: `${compact(modelTotal)} turns`, p, children: gauges({ x: PAD + COL + GAP, y: top + row1 + GAP, w: COL, items: models, start: count, p, labelWidth: 200, starFirst: true }) })}
-${pane({ x: PAD, y: heatTop, w: W - PAD * 2, h: heatH, title: "ACTIVITY", note: `${grouped(github.contributions)} contributions in the past year`, p, children: calendar({ x: PAD, y: heatTop, w: W - PAD * 2, weeks: github.calendar, p }) })}
+${pane({ x: PAD, y: heatTop, w: W - PAD * 2, h: heatH, title: "ACTIVITY", note: `${grouped(github.contributions)} contributions in the past year`, p, children: calendar({ x: PAD, y: heatTop, weeks: github.calendar, p }) })}
 </g>
 <g class="done">
 ${starshipLine({ y: promptY, p })}
