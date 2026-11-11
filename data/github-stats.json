@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-11-11T13:25:11.567Z",
+  "stars": 1875,
+  "followers": 187,
+  "releaseDownloads": 73437,
+  "topDownloads": [
+    {
+      "repo": "enmity-mod/tweak",
+      "downloads": 69365
+    },
+    {
+      "repo": "enmity-mod/patcher",
+      "downloads": 2449
+    },
+    {
+      "repo": "marioparaschiv/unbound",
+      "downloads": 962
+    },
+    {
+      "repo": "kernel-addons/pc-compat",
+      "downloads": 177
+    },
+    {
+      "repo": "marioparaschiv/weave-unrestricted",
+      "downloads": 78
+    }
+  ],
+  "externalMergedPrs": 18,
+  "externalRepos": 15,
+  "externalRepoStars": 14007,
+  "topExternalRepos": [
+    {
+      "repo": "raycast/extensions",
+      "stars": 7835
+    },
+    {
+      "repo": "Danny-Dasilva/CycleTLS",
+      "stars": 1535
+    },
+    {
+      "repo": "sardanioss/httpcloak",
+      "stars": 1370
+    },
+    {
+      "repo": "aiko-chan-ai/discord.js-selfbot-v13",
+      "stars": 1232
+    },
+    {
+      "repo": "replugged-org/replugged",
+      "stars": 729
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="226" viewBox="0 0 495 226" fill="none" role="img" aria-label="Models">
+<title>Models</title>
+<style>
+  text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #e6edf3; }
+  .muted { fill: #8b949e; }
+  .accent { fill: #4F8CC9; }
+  .label { font-size: 12px; fill: #8b949e; }
+  .value { font-size: 22px; font-weight: 600; }
+  .heading { font-size: 13px; font-weight: 600; letter-spacing: 0.08em; fill: #8b949e; }
+  .fade { opacity: 0; animation: fade 0.6s ease-out forwards; }
+  @keyframes fade { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+  
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; opacity: 1 !important; transform: none !important; }
+  }
+</style>
+<text x="20" y="28" class="heading">MODELS</text>
+<text x="475" y="28" class="label" text-anchor="end">204k agent turns</text>
+<g class="fade" style="animation-delay: 0.10s">
+<text x="20" y="65" font-size="12">Claude Opus 5.5</text>
+<rect x="170" y="56" width="255" height="10" rx="5" fill="#30363d"/>
+<rect x="170" y="56" width="0" height="10" rx="5" fill="#4F8CC9"><animate attributeName="width" from="0" to="255.0" begin="0.20s" dur="0.8s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
+<text x="475" y="65" font-size="12" class="muted" text-anchor="end">93.9%</text>
+</g>
+<g class="fade" style="animation-delay: 0.18s">
+<text x="20" y="91" font-size="12">Claude Sonnet 5.5</text>
+<rect x="170" y="82" width="255" height="10" rx="5" fill="#30363d"/>
+<rect x="170" y="82" width="0" height="10" rx="5" fill="#4F8CC9"><animate attributeName="width" from="0" to="5.0" begin="0.28s" dur="0.8s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
+<text x="475" y="91" font-size="12" class="muted" text-anchor="end">1.8%</text>
+</g>
+<g class="fade" style="animation-delay: 0.26s">
+<text x="20" y="117" font-size="12">Deepseek V4.1 Flash</text>
+<rect x="170" y="108" width="255" height="10" rx="5" fill="#30363d"/>
+<rect x="170" y="108" width="0" height="10" rx="5" fill="#4F8CC9"><animate attributeName="width" from="0" to="4.4" begin="0.36s" dur="0.8s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
+<text x="475" y="117" font-size="12" class="muted" text-anchor="end">1.6%</text>
+</g>
+<g class="fade" style="animation-delay: 0.34s">
+<text x="20" y="143" font-size="12">Claude Haiku 5.5</text>
+<rect x="170" y="134" width="255" height="10" rx="5" fill="#30363d"/>
+<rect x="170" y="134" width="0" height="10" rx="5" fill="#4F8CC9"><animate attributeName="width" from="0" to="3.9" begin="0.44s" dur="0.8s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
+<text x="475" y="143" font-size="12" class="muted" text-anchor="end">1.4%</text>
+</g>
+<g class="fade" style="animation-delay: 0.42s">
+<text x="20" y="169" font-size="12">Claude Sonnet 4.6</text>
+<rect x="170" y="160" width="255" height="10" rx="5" fill="#30363d"/>
+<rect x="170" y="160" width="0" height="10" rx="5" fill="#4F8CC9"><animate attributeName="width" from="0" to="2.0" begin="0.52s" dur="0.8s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
+<text x="475" y="169" font-size="12" class="muted" text-anchor="end">0.6%</text>
+</g>
+<g class="fade" style="animation-delay: 0.50s">
+<text x="20" y="195" font-size="12">13 other models</text>
+<rect x="170" y="186" width="255" height="10" rx="5" fill="#30363d"/>
+<rect x="170" y="186" width="0" height="10" rx="5" fill="#4F8CC9"><animate attributeName="width" from="0" to="2.0" begin="0.60s" dur="0.8s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
+<text x="475" y="195" font-size="12" class="muted" text-anchor="end">0.6%</text>
+</g>
+</svg>
