@@ -1,11 +1,11 @@
 // Shared SVG helpers: themes, number formatting, card shell.
 
-export const THEMES = {
-  dark: { text: "#e6edf3", muted: "#8b949e", accent: "#4F8CC9", track: "#30363d", cell: "#4F8CC9" },
-  light: { text: "#1f2328", muted: "#59636e", accent: "#2f6fb0", track: "#d1d9e0", cell: "#2f6fb0" },
+const THEMES = {
+  dark: { text: "#e6edf3", muted: "#8b949e" },
+  light: { text: "#1f2328", muted: "#59636e" },
 };
 
-export const FONT = "'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif";
+const FONT = "'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif";
 
 export function compact(n) {
   const units = [
@@ -36,12 +36,6 @@ export function card({ width, height, theme, title, css = "", body }) {
 <style>
   text { font-family: ${FONT}; fill: ${t.text}; }
   .muted { fill: ${t.muted}; }
-  .accent { fill: ${t.accent}; }
-  .label { font-size: 12px; fill: ${t.muted}; }
-  .value { font-size: 22px; font-weight: 600; }
-  .heading { font-size: 13px; font-weight: 600; letter-spacing: 0.08em; fill: ${t.muted}; }
-  .fade { opacity: 0; animation: fade 0.6s ease-out forwards; }
-  @keyframes fade { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
   ${css}
   @media (prefers-reduced-motion: reduce) {
     * { animation: none !important; opacity: 1 !important; transform: none !important; }
@@ -51,6 +45,3 @@ ${body}
 </svg>
 `;
 }
-
-// Staggered fade-in delay for the nth element.
-export const delay = (i, step = 0.08, start = 0.1) => `animation-delay: ${(start + i * step).toFixed(2)}s`;

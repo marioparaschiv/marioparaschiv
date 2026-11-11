@@ -14,7 +14,7 @@ for name in agent t3 github; do mv "data/$name-stats.json.tmp" "data/$name-stats
 
 node scripts/render.mjs
 
-git add README.md data variants
+git add README.md data cards
 if git diff --cached --quiet; then
 	echo "No changes."
 	exit 0
