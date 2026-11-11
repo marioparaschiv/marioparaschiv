@@ -256,8 +256,8 @@ ${typedCommand(command, 82)}
 <g class="out">
 ${pane({ x: PAD, y: top, w: COL, h: row1, title: "AGENTS", note: "all time", p, children: rows({ x: PAD, y: top, w: COL, items: agentItems, start: count }) })}
 ${pane({ x: PAD + COL + GAP, y: top, w: COL, h: row1, title: "GITHUB", note: `@${user}`, p, children: rows({ x: PAD + COL + GAP, y: top, w: COL, items: githubItems, start: count }) })}
-${pane({ x: PAD, y: top + row1 + GAP, w: COL, h: row2, title: "LANGUAGES", note: "by code size", p, children: gauges({ x: PAD, y: top + row1 + GAP, w: COL, items: languages, start: count, p }) })}
-${pane({ x: PAD + COL + GAP, y: top + row1 + GAP, w: COL, h: row2, title: "MODELS", note: `${compact(modelTotal)} turns`, p, children: gauges({ x: PAD + COL + GAP, y: top + row1 + GAP, w: COL, items: models, start: count, p, labelWidth: 200, starFirst: true }) })}
+${pane({ x: PAD, y: top + row1 + GAP, w: COL, h: row2, title: "MODELS", note: `${compact(modelTotal)} turns`, p, children: gauges({ x: PAD, y: top + row1 + GAP, w: COL, items: models, start: count, p, labelWidth: 200, starFirst: true }) })}
+${pane({ x: PAD + COL + GAP, y: top + row1 + GAP, w: COL, h: row2, title: "LANGUAGES", note: "by code size", p, children: gauges({ x: PAD + COL + GAP, y: top + row1 + GAP, w: COL, items: languages, start: count, p }) })}
 ${pane({ x: PAD, y: heatTop, w: W - PAD * 2, h: heatH, title: "ACTIVITY", note: `${grouped(github.contributions)} contributions in the past year`, p, children: calendar({ x: PAD, y: heatTop, weeks: github.calendar, p }) })}
 </g>
 <g class="done">
