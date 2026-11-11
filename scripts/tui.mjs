@@ -77,8 +77,12 @@ function gauges({ x, y, w, items, start, p, labelWidth = 150, starFirst = false 
       const fill = Math.max(3, share * barW);
       const begin = (start + 0.2 + i * 0.07).toFixed(2);
       return `<g class="fade" style="${at(start + i * 0.05)}">
-<circle cx="${x + 20}" cy="${ty - 4}" r="4" fill="${color ?? p.accent}"/>
-<text x="${x + 32}" y="${ty}" xml:space="preserve">${escape(name)}${starFirst && i === 0 ? ` <tspan fill="${p.yellow}">\uf005</tspan>` : ""}</text>
+${
+  starFirst && i === 0
+    ? `<text x="${x + 20}" y="${ty + 0.5}" text-anchor="middle" font-size="14"><tspan fill="${color ?? p.accent}">\uf005</tspan></text>`
+    : `<circle cx="${x + 20}" cy="${ty - 4}" r="4" fill="${color ?? p.accent}"/>`
+}
+<text x="${x + 32}" y="${ty}">${escape(name)}</text>
 <rect x="${barX}" y="${ty - 10}" width="${barW}" height="8" rx="2" fill="${p.track}"/>
 <rect x="${barX}" y="${ty - 10}" width="0" height="8" rx="2" fill="${color ?? p.accent}"><animate attributeName="width" from="0" to="${fill.toFixed(1)}" begin="${begin}s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
 <text x="${x + w - 16}" y="${ty}" text-anchor="end" class="muted">${(share * 100).toFixed(1)}%</text>
@@ -142,6 +146,17 @@ function calendar({ x, y, w, weeks, start, p }) {
   return `${months.join("")}${dayLabels}\n${cells}\n${legend}`;
 }
 
+// Brand colour per model provider; anything unrecognised uses the muted text colour.
+const PROVIDERS = [
+  [/^claude-/, "#D97757"], // Anthropic
+  [/^(gpt|o\d|codex)/, "#10A37F"], // OpenAI
+  [/^gemini/, "#4285F4"], // Google
+  [/^deepseek/, "#4D6BFE"], // DeepSeek
+  [/^glm/, "#8B5CF6"], // Zhipu
+  [/^(grok)/, "#A1A1AA"], // xAI
+];
+const providerColor = (id) => PROVIDERS.find(([pattern]) => pattern.test(id))?.[1];
+
 const prettyModel = (id) =>
   id
     .replace(/^claude-/, "")
@@ -190,9 +205,9 @@ export function tui({ agent, github, t3 }, theme) {
   const languages = github.languages;
   const modelEntries = Object.entries(agent.modelTurns);
   const modelTotal = modelEntries.reduce((sum, [, n]) => sum + n, 0);
-  const models = modelEntries.slice(0, 5).map(([id, n]) => ({ name: prettyModel(id), share: n / modelTotal }));
+  const models = modelEntries.slice(0, 5).map(([id, n]) => ({ name: prettyModel(id), share: n / modelTotal, color: providerColor(id) ?? p.muted }));
   const otherModels = modelEntries.slice(5).reduce((sum, [, n]) => sum + n, 0);
-  models.push({ name: `${modelEntries.length - 5} others`, share: otherModels / modelTotal });
+  models.push({ name: `${modelEntries.length - 5} others`, share: otherModels / modelTotal, color: p.muted });
   const row2 = 28 + Math.max(languages.length, models.length) * ROW;
 
   const heatTop = top + row1 + GAP + row2 + GAP;

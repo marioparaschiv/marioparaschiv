@@ -135,42 +135,42 @@
 <rect x="315.2" y="320" width="96.8" height="5" fill="#0d1117"/><text x="405" y="326" class="small muted" text-anchor="end">by code size</text>
 <g class="fade" style="animation-delay: 1.60s">
 <circle cx="36" cy="346" r="4" fill="#3178c6"/>
-<text x="48" y="350" xml:space="preserve">TypeScript</text>
+<text x="48" y="350">TypeScript</text>
 <rect x="166" y="340" width="188" height="8" rx="2" fill="#21262d"/>
 <rect x="166" y="340" width="0" height="8" rx="2" fill="#3178c6"><animate attributeName="width" from="0" to="137.2" begin="1.80s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
 <text x="408" y="350" text-anchor="end" class="muted">73.0%</text>
 </g>
 <g class="fade" style="animation-delay: 1.65s">
 <circle cx="36" cy="368" r="4" fill="#dea584"/>
-<text x="48" y="372" xml:space="preserve">Rust</text>
+<text x="48" y="372">Rust</text>
 <rect x="166" y="362" width="188" height="8" rx="2" fill="#21262d"/>
 <rect x="166" y="362" width="0" height="8" rx="2" fill="#dea584"><animate attributeName="width" from="0" to="11.6" begin="1.87s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
 <text x="408" y="372" text-anchor="end" class="muted">6.2%</text>
 </g>
 <g class="fade" style="animation-delay: 1.70s">
 <circle cx="36" cy="390" r="4" fill="#f1e05a"/>
-<text x="48" y="394" xml:space="preserve">JavaScript</text>
+<text x="48" y="394">JavaScript</text>
 <rect x="166" y="384" width="188" height="8" rx="2" fill="#21262d"/>
 <rect x="166" y="384" width="0" height="8" rx="2" fill="#f1e05a"><animate attributeName="width" from="0" to="10.5" begin="1.94s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
 <text x="408" y="394" text-anchor="end" class="muted">5.6%</text>
 </g>
 <g class="fade" style="animation-delay: 1.75s">
 <circle cx="36" cy="412" r="4" fill="#f34b7d"/>
-<text x="48" y="416" xml:space="preserve">C++</text>
+<text x="48" y="416">C++</text>
 <rect x="166" y="406" width="188" height="8" rx="2" fill="#21262d"/>
 <rect x="166" y="406" width="0" height="8" rx="2" fill="#f34b7d"><animate attributeName="width" from="0" to="6.8" begin="2.01s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
 <text x="408" y="416" text-anchor="end" class="muted">3.6%</text>
 </g>
 <g class="fade" style="animation-delay: 1.80s">
 <circle cx="36" cy="434" r="4" fill="#00ADD8"/>
-<text x="48" y="438" xml:space="preserve">Go</text>
+<text x="48" y="438">Go</text>
 <rect x="166" y="428" width="188" height="8" rx="2" fill="#21262d"/>
 <rect x="166" y="428" width="0" height="8" rx="2" fill="#00ADD8"><animate attributeName="width" from="0" to="5.2" begin="2.08s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
 <text x="408" y="438" text-anchor="end" class="muted">2.8%</text>
 </g>
 <g class="fade" style="animation-delay: 1.85s">
 <circle cx="36" cy="456" r="4" fill="#A97BFF"/>
-<text x="48" y="460" xml:space="preserve">Kotlin</text>
+<text x="48" y="460">Kotlin</text>
 <rect x="166" y="450" width="188" height="8" rx="2" fill="#21262d"/>
 <rect x="166" y="450" width="0" height="8" rx="2" fill="#A97BFF"><animate attributeName="width" from="0" to="3.0" begin="2.15s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
 <text x="408" y="460" text-anchor="end" class="muted">1.4%</text>
@@ -182,45 +182,45 @@
 <text x="456" y="326" class="pane-title">MODELS</text>
 <rect x="749" y="320" width="83" height="5" fill="#0d1117"/><text x="825" y="326" class="small muted" text-anchor="end">204k turns</text>
 <g class="fade" style="animation-delay: 1.80s">
-<circle cx="456" cy="346" r="4" fill="#4F8CC9"/>
-<text x="468" y="350" xml:space="preserve">opus 5.5 <tspan fill="#d29922"></tspan></text>
+<text x="456" y="350.5" text-anchor="middle" font-size="14"><tspan fill="#D97757"></tspan></text>
+<text x="468" y="350">opus 5.5</text>
 <rect x="636" y="340" width="138" height="8" rx="2" fill="#21262d"/>
-<rect x="636" y="340" width="0" height="8" rx="2" fill="#4F8CC9"><animate attributeName="width" from="0" to="129.6" begin="2.00s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
+<rect x="636" y="340" width="0" height="8" rx="2" fill="#D97757"><animate attributeName="width" from="0" to="129.6" begin="2.00s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
 <text x="828" y="350" text-anchor="end" class="muted">93.9%</text>
 </g>
 <g class="fade" style="animation-delay: 1.85s">
-<circle cx="456" cy="368" r="4" fill="#4F8CC9"/>
-<text x="468" y="372" xml:space="preserve">sonnet 5.5</text>
+<circle cx="456" cy="368" r="4" fill="#D97757"/>
+<text x="468" y="372">sonnet 5.5</text>
 <rect x="636" y="362" width="138" height="8" rx="2" fill="#21262d"/>
-<rect x="636" y="362" width="0" height="8" rx="2" fill="#4F8CC9"><animate attributeName="width" from="0" to="3.0" begin="2.07s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
+<rect x="636" y="362" width="0" height="8" rx="2" fill="#D97757"><animate attributeName="width" from="0" to="3.0" begin="2.07s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
 <text x="828" y="372" text-anchor="end" class="muted">1.8%</text>
 </g>
 <g class="fade" style="animation-delay: 1.90s">
-<circle cx="456" cy="390" r="4" fill="#4F8CC9"/>
-<text x="468" y="394" xml:space="preserve">deepseek v4.1 flash</text>
+<circle cx="456" cy="390" r="4" fill="#4D6BFE"/>
+<text x="468" y="394">deepseek v4.1 flash</text>
 <rect x="636" y="384" width="138" height="8" rx="2" fill="#21262d"/>
-<rect x="636" y="384" width="0" height="8" rx="2" fill="#4F8CC9"><animate attributeName="width" from="0" to="3.0" begin="2.14s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
+<rect x="636" y="384" width="0" height="8" rx="2" fill="#4D6BFE"><animate attributeName="width" from="0" to="3.0" begin="2.14s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
 <text x="828" y="394" text-anchor="end" class="muted">1.6%</text>
 </g>
 <g class="fade" style="animation-delay: 1.95s">
-<circle cx="456" cy="412" r="4" fill="#4F8CC9"/>
-<text x="468" y="416" xml:space="preserve">haiku 5.5</text>
+<circle cx="456" cy="412" r="4" fill="#D97757"/>
+<text x="468" y="416">haiku 5.5</text>
 <rect x="636" y="406" width="138" height="8" rx="2" fill="#21262d"/>
-<rect x="636" y="406" width="0" height="8" rx="2" fill="#4F8CC9"><animate attributeName="width" from="0" to="3.0" begin="2.21s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
+<rect x="636" y="406" width="0" height="8" rx="2" fill="#D97757"><animate attributeName="width" from="0" to="3.0" begin="2.21s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
 <text x="828" y="416" text-anchor="end" class="muted">1.4%</text>
 </g>
 <g class="fade" style="animation-delay: 2.00s">
-<circle cx="456" cy="434" r="4" fill="#4F8CC9"/>
-<text x="468" y="438" xml:space="preserve">sonnet 4.6</text>
+<circle cx="456" cy="434" r="4" fill="#D97757"/>
+<text x="468" y="438">sonnet 4.6</text>
 <rect x="636" y="428" width="138" height="8" rx="2" fill="#21262d"/>
-<rect x="636" y="428" width="0" height="8" rx="2" fill="#4F8CC9"><animate attributeName="width" from="0" to="3.0" begin="2.28s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
+<rect x="636" y="428" width="0" height="8" rx="2" fill="#D97757"><animate attributeName="width" from="0" to="3.0" begin="2.28s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
 <text x="828" y="438" text-anchor="end" class="muted">0.6%</text>
 </g>
 <g class="fade" style="animation-delay: 2.05s">
-<circle cx="456" cy="456" r="4" fill="#4F8CC9"/>
-<text x="468" y="460" xml:space="preserve">13 others</text>
+<circle cx="456" cy="456" r="4" fill="#8b949e"/>
+<text x="468" y="460">13 others</text>
 <rect x="636" y="450" width="138" height="8" rx="2" fill="#21262d"/>
-<rect x="636" y="450" width="0" height="8" rx="2" fill="#4F8CC9"><animate attributeName="width" from="0" to="3.0" begin="2.35s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
+<rect x="636" y="450" width="0" height="8" rx="2" fill="#8b949e"><animate attributeName="width" from="0" to="3.0" begin="2.35s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
 <text x="828" y="460" text-anchor="end" class="muted">0.6%</text>
 </g>
 </g>
