@@ -1,0 +1,4 @@
+{
+  "aggressiveCompression": "false",
+  "ignoredFiles": ["cards/*"]
+}
