@@ -6,6 +6,8 @@ export const TYPE_START = 0.3;
 export const TYPE_STEP = 0.035; // seconds per typed character
 export const OUTPUT_PAUSE = 0.25; // gap between "enter" and the output appearing
 export const COUNT_DURATION = 0.8;
+export const COUNT_DELAY = 0.2; // figures hold at zero briefly after the output appears
+export const PROMPT_DELAY = 0.05; // the shell returns almost immediately, while figures are still counting
 const FRAMES = 24;
 
 const EASE_OUT = "cubic-bezier(0.23, 1, 0.32, 1)";
@@ -14,7 +16,7 @@ const easeOut = (t) => 1 - (1 - t) ** 5;
 
 export const timeline = (commandLength) => {
   const output = TYPE_START + commandLength * TYPE_STEP + OUTPUT_PAUSE;
-  return { output, done: output + COUNT_DURATION };
+  return { output, count: output + COUNT_DELAY, done: output + PROMPT_DELAY };
 };
 
 const NUMBER = /^(\+?)(\d[\d,]*(?:\.\d+)?)(.*)$/;
@@ -38,7 +40,10 @@ export function counter(value, render, start) {
   const frames = [];
   for (let k = 0; k < FRAMES; k++) {
     const text = `${sign}${format(target * easeOut(k / FRAMES), number)}${unit}`;
-    frames.push(`<g class="f" style="animation: frame ${frame.toFixed(3)}s steps(1) ${(start + k * frame).toFixed(3)}s">${render(text)}</g>`);
+    // Frame 0 also covers the hold before counting starts, so the zero is visible as soon as output appears.
+    const begin = k === 0 ? start - COUNT_DELAY : start + k * frame;
+    const duration = k === 0 ? frame + COUNT_DELAY : frame;
+    frames.push(`<g class="f" style="animation: frame ${duration.toFixed(3)}s steps(1) ${begin.toFixed(3)}s">${render(text)}</g>`);
   }
   frames.push(`<g class="final" style="animation-delay: ${(start + COUNT_DURATION).toFixed(3)}s">${render(value)}</g>`);
   return frames.join("");

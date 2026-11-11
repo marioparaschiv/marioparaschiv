@@ -236,7 +236,7 @@ export function tui({ agent, github, t3 }, theme) {
   const H = promptY + 20 + 22;
 
   const typedWidth = command.length * CHAR + 4;
-  const { output, done } = timeline(command.length);
+  const { output, count, done } = timeline(command.length);
   const css = `${FONT_FACES}
   text { font-family: ${MONO}; font-size: 13px; }
   .small { font-size: 11.5px; }
@@ -256,14 +256,14 @@ ${arrow(82, p)}
 <clipPath id="typeclip"><rect id="typed" x="${COMMAND_X}" y="68" width="0" height="20"/></clipPath>
 <text x="${COMMAND_X}" y="82" clip-path="url(#typeclip)">${command}</text>
 <g class="out">
-${pane({ x: PAD, y: top, w: COL, h: row1, title: "AGENTS", note: `since ${since(agent.firstSessionAt)}`, p, children: rows({ x: PAD, y: top, w: COL, items: agentItems, start: output }) })}
-${pane({ x: PAD + COL + GAP, y: top, w: COL, h: row1, title: "GITHUB", note: `@${user}`, p, children: rows({ x: PAD + COL + GAP, y: top, w: COL, items: githubItems, start: output }) })}
-${pane({ x: PAD, y: top + row1 + GAP, w: COL, h: row2, title: "LANGUAGES", note: "by code size", p, children: gauges({ x: PAD, y: top + row1 + GAP, w: COL, items: languages, start: output, p }) })}
-${pane({ x: PAD + COL + GAP, y: top + row1 + GAP, w: COL, h: row2, title: "MODELS", note: `${compact(modelTotal)} turns`, p, children: gauges({ x: PAD + COL + GAP, y: top + row1 + GAP, w: COL, items: models, start: output, p, labelWidth: 200, starFirst: true }) })}
+${pane({ x: PAD, y: top, w: COL, h: row1, title: "AGENTS", note: `since ${since(agent.firstSessionAt)}`, p, children: rows({ x: PAD, y: top, w: COL, items: agentItems, start: count }) })}
+${pane({ x: PAD + COL + GAP, y: top, w: COL, h: row1, title: "GITHUB", note: `@${user}`, p, children: rows({ x: PAD + COL + GAP, y: top, w: COL, items: githubItems, start: count }) })}
+${pane({ x: PAD, y: top + row1 + GAP, w: COL, h: row2, title: "LANGUAGES", note: "by code size", p, children: gauges({ x: PAD, y: top + row1 + GAP, w: COL, items: languages, start: count, p }) })}
+${pane({ x: PAD + COL + GAP, y: top + row1 + GAP, w: COL, h: row2, title: "MODELS", note: `${compact(modelTotal)} turns`, p, children: gauges({ x: PAD + COL + GAP, y: top + row1 + GAP, w: COL, items: models, start: count, p, labelWidth: 200, starFirst: true }) })}
 ${pane({ x: PAD, y: heatTop, w: W - PAD * 2, h: heatH, title: "ACTIVITY", note: `${grouped(github.contributions)} contributions in the past year`, p, children: calendar({ x: PAD, y: heatTop, w: W - PAD * 2, weeks: github.calendar, p }) })}
 </g>
 <g class="done">
-${starshipLine({ y: promptY, p, took: "2s" })}
+${starshipLine({ y: promptY, p })}
 ${arrow(promptY + 20, p)}
 <rect class="cursor" x="${COMMAND_X}" y="${promptY + 6}" width="2" height="17" fill="${p.text}"/>
 </g>`;
