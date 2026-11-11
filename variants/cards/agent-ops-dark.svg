@@ -17,12 +17,12 @@
 <text x="20" y="28" class="heading">AGENT ACTIVITY</text>
 <text x="475" y="28" class="label" text-anchor="end">since Oct 2026 · 38 days</text>
 <rect x="20" y="38" width="0" height="2" rx="1" fill="#4F8CC9"><animate attributeName="width" from="0" to="455" dur="0.9s" fill="freeze"/></rect>
-<g class="fade" style="animation-delay: 0.10s"><text x="20" y="72" class="value">32.9B</text><text x="20" y="90" class="label">Tokens processed</text></g>
-<g class="fade" style="animation-delay: 0.18s"><text x="138" y="72" class="value">3,154</text><text x="138" y="90" class="label">Sessions</text></g>
-<g class="fade" style="animation-delay: 0.26s"><text x="256" y="72" class="value">227k</text><text x="256" y="90" class="label">Tool calls</text></g>
-<g class="fade" style="animation-delay: 0.34s"><text x="374" y="72" class="value">912</text><text x="374" y="90" class="label">Agent hours</text></g>
-<g class="fade" style="animation-delay: 0.42s"><text x="20" y="130" class="value">4,952</text><text x="20" y="148" class="label">Commits</text></g>
-<g class="fade" style="animation-delay: 0.50s"><text x="138" y="130" class="value">800</text><text x="138" y="148" class="label">PRs opened</text></g>
-<g class="fade" style="animation-delay: 0.58s"><text x="256" y="130" class="value">1,015</text><text x="256" y="148" class="label">Subagents</text></g>
-<g class="fade" style="animation-delay: 0.66s"><text x="374" y="130" class="value">119M</text><text x="374" y="148" class="label">Tokens written</text></g>
+<g class="fade" style="animation-delay: 0.10s"><text x="20" y="72" class="value">33.1B</text><text x="20" y="90" class="label">Tokens processed</text></g>
+<g class="fade" style="animation-delay: 0.18s"><text x="138" y="72" class="value">3,163</text><text x="138" y="90" class="label">Sessions</text></g>
+<g class="fade" style="animation-delay: 0.26s"><text x="256" y="72" class="value">229k</text><text x="256" y="90" class="label">Tool calls</text></g>
+<g class="fade" style="animation-delay: 0.34s"><text x="374" y="72" class="value">918</text><text x="374" y="90" class="label">Agent hours</text></g>
+<g class="fade" style="animation-delay: 0.42s"><text x="20" y="130" class="value">5,004</text><text x="20" y="148" class="label">Commits</text></g>
+<g class="fade" style="animation-delay: 0.50s"><text x="138" y="130" class="value">807</text><text x="138" y="148" class="label">PRs opened</text></g>
+<g class="fade" style="animation-delay: 0.58s"><text x="256" y="130" class="value">1,022</text><text x="256" y="148" class="label">Subagents</text></g>
+<g class="fade" style="animation-delay: 0.66s"><text x="374" y="130" class="value">120M</text><text x="374" y="148" class="label">Tokens written</text></g>
 </svg>

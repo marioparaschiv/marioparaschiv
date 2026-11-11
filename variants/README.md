@@ -19,33 +19,33 @@ node scripts/render.mjs
 ## All cards
 
 <p align="center">
-<picture><source srcset="cards/tui-dark.svg?v=7d9386e7" media="(prefers-color-scheme: dark)"><img src="cards/tui-light.svg?v=7ee5291a" alt="tui"></picture>
+<picture><source srcset="cards/tui-dark.svg?v=c57bda9f" media="(prefers-color-scheme: dark)"><img src="cards/tui-light.svg?v=4d7c2720" alt="tui"></picture>
 </p>
 
 <p align="center">
-<picture><source srcset="cards/t3-dark.svg?v=7bd8f5c5" media="(prefers-color-scheme: dark)"><img src="cards/t3-light.svg?v=1f4c7cb6" alt="t3"></picture>
+<picture><source srcset="cards/t3-dark.svg?v=18c5bf1b" media="(prefers-color-scheme: dark)"><img src="cards/t3-light.svg?v=b01bcd8f" alt="t3"></picture>
 </p>
 
 <p align="center">
-<picture><source srcset="cards/agent-ops-dark.svg?v=9b4e6726" media="(prefers-color-scheme: dark)"><img src="cards/agent-ops-light.svg?v=89665728" alt="agent-ops"></picture>
+<picture><source srcset="cards/agent-ops-dark.svg?v=96465cb9" media="(prefers-color-scheme: dark)"><img src="cards/agent-ops-light.svg?v=df93ceb2" alt="agent-ops"></picture>
 </p>
 
 <p align="center">
-<picture><source srcset="cards/models-dark.svg?v=c0ff3f0e" media="(prefers-color-scheme: dark)"><img src="cards/models-light.svg?v=2761fef0" alt="models"></picture>
+<picture><source srcset="cards/models-dark.svg?v=17fe50d3" media="(prefers-color-scheme: dark)"><img src="cards/models-light.svg?v=c42e0321" alt="models"></picture>
 </p>
 
 <p align="center">
-<picture><source srcset="cards/tools-dark.svg?v=d6282069" media="(prefers-color-scheme: dark)"><img src="cards/tools-light.svg?v=8fd4b603" alt="tools"></picture>
+<picture><source srcset="cards/tools-dark.svg?v=f644966c" media="(prefers-color-scheme: dark)"><img src="cards/tools-light.svg?v=6cc0ed17" alt="tools"></picture>
 </p>
 
 <p align="center">
-<picture><source srcset="cards/heatmap-dark.svg?v=5407c9d6" media="(prefers-color-scheme: dark)"><img src="cards/heatmap-light.svg?v=a082d20e" alt="heatmap"></picture>
+<picture><source srcset="cards/heatmap-dark.svg?v=eca5004b" media="(prefers-color-scheme: dark)"><img src="cards/heatmap-light.svg?v=e82bbd2b" alt="heatmap"></picture>
 </p>
 
 <p align="center">
-<picture><source srcset="cards/reach-dark.svg?v=96ff5e56" media="(prefers-color-scheme: dark)"><img src="cards/reach-light.svg?v=465e048b" alt="reach"></picture>
+<picture><source srcset="cards/reach-dark.svg?v=b0df26db" media="(prefers-color-scheme: dark)"><img src="cards/reach-light.svg?v=5e0ba9cf" alt="reach"></picture>
 </p>
 
 <p align="center">
-<picture><source srcset="cards/terminal-dark.svg?v=b568f9ea" media="(prefers-color-scheme: dark)"><img src="cards/terminal-light.svg?v=c6f74056" alt="terminal"></picture>
+<picture><source srcset="cards/terminal-dark.svg?v=0198f35b" media="(prefers-color-scheme: dark)"><img src="cards/terminal-light.svg?v=2374ae64" alt="terminal"></picture>
 </p>

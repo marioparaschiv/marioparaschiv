@@ -16,7 +16,7 @@
 </style>
 <text x="20" y="28" class="heading">REACH</text>
 <rect x="20" y="38" width="0" height="2" rx="1" fill="#4F8CC9"><animate attributeName="width" from="0" to="455" dur="0.9s" fill="freeze"/></rect>
-<g class="fade" style="animation-delay: 0.10s"><text x="20" y="68" class="value">73.4k</text><text x="20" y="86" class="label">Downloads</text></g>
+<g class="fade" style="animation-delay: 0.10s"><text x="20" y="68" class="value">73.5k</text><text x="20" y="86" class="label">Downloads</text></g>
 <g class="fade" style="animation-delay: 0.18s"><text x="138" y="68" class="value">1,875</text><text x="138" y="86" class="label">Stars earned</text></g>
 <g class="fade" style="animation-delay: 0.26s"><text x="256" y="68" class="value">18</text><text x="256" y="86" class="label">Upstream merges</text></g>
 <g class="fade" style="animation-delay: 0.34s"><text x="374" y="68" class="value">14k</text><text x="374" y="86" class="label">Upstream repo ★</text></g>

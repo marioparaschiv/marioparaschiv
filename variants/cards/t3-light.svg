@@ -17,12 +17,12 @@
 <text x="20" y="28" class="heading">T3 CODE</text>
 <text x="475" y="28" class="label" text-anchor="end">since Oct 2026 · busiest day 498 runs</text>
 <rect x="20" y="38" width="0" height="2" rx="1" fill="#2f6fb0"><animate attributeName="width" from="0" to="455" dur="0.9s" fill="freeze"/></rect>
-<g class="fade" style="animation-delay: 0.10s"><text x="20" y="72" class="value">2,525</text><text x="20" y="90" class="label">Threads</text></g>
-<g class="fade" style="animation-delay: 0.18s"><text x="138" y="72" class="value">8,408</text><text x="138" y="90" class="label">Agent runs</text></g>
+<g class="fade" style="animation-delay: 0.10s"><text x="20" y="72" class="value">2,531</text><text x="20" y="90" class="label">Threads</text></g>
+<g class="fade" style="animation-delay: 0.18s"><text x="138" y="72" class="value">8,449</text><text x="138" y="90" class="label">Agent runs</text></g>
 <g class="fade" style="animation-delay: 0.26s"><text x="256" y="72" class="value">42</text><text x="256" y="90" class="label">Peak parallel runs</text></g>
-<g class="fade" style="animation-delay: 0.34s"><text x="374" y="72" class="value">1,818</text><text x="374" y="90" class="label">Subagents</text></g>
-<g class="fade" style="animation-delay: 0.42s"><text x="20" y="130" class="value">590</text><text x="20" y="148" class="label">PRs merged</text></g>
+<g class="fade" style="animation-delay: 0.34s"><text x="374" y="72" class="value">1,823</text><text x="374" y="90" class="label">Subagents</text></g>
+<g class="fade" style="animation-delay: 0.42s"><text x="20" y="130" class="value">593</text><text x="20" y="148" class="label">PRs merged</text></g>
 <g class="fade" style="animation-delay: 0.50s"><text x="138" y="130" class="value">+1.5M</text><text x="138" y="148" class="label">Lines merged</text></g>
 <g class="fade" style="animation-delay: 0.58s"><text x="256" y="130" class="value">6 min</text><text x="256" y="148" class="label">Median PR to merge</text></g>
-<g class="fade" style="animation-delay: 0.66s"><text x="374" y="130" class="value">93.5%</text><text x="374" y="148" class="label">Runs completed</text></g>
+<g class="fade" style="animation-delay: 0.66s"><text x="374" y="130" class="value">93.6%</text><text x="374" y="148" class="label">Runs completed</text></g>
 </svg>
