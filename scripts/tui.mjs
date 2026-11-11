@@ -56,7 +56,6 @@ const arrow = (y, p) => glyph("arrow", PAD, y, 13, p.ok);
 // The command starts two cells after the arrow, so it doesn't crowd the glyph.
 const COMMAND_X = PAD + 3 * CHAR;
 
-const since = (iso) => new Date(iso).toLocaleDateString("en-GB", { month: "short", year: "numeric" });
 
 // Bordered pane with its title cut into the top border, TUI style.
 function pane({ x, y, w, h, title, note, p, children }) {
@@ -255,7 +254,7 @@ ${arrow(82, p)}
 <clipPath id="typeclip"><rect id="typed" x="${COMMAND_X}" y="68" width="0" height="20"/></clipPath>
 <text x="${COMMAND_X}" y="82" clip-path="url(#typeclip)">${command}</text>
 <g class="out">
-${pane({ x: PAD, y: top, w: COL, h: row1, title: "AGENTS", note: `since ${since(agent.firstSessionAt)}`, p, children: rows({ x: PAD, y: top, w: COL, items: agentItems, start: count }) })}
+${pane({ x: PAD, y: top, w: COL, h: row1, title: "AGENTS", note: "all time", p, children: rows({ x: PAD, y: top, w: COL, items: agentItems, start: count }) })}
 ${pane({ x: PAD + COL + GAP, y: top, w: COL, h: row1, title: "GITHUB", note: `@${user}`, p, children: rows({ x: PAD + COL + GAP, y: top, w: COL, items: githubItems, start: count }) })}
 ${pane({ x: PAD, y: top + row1 + GAP, w: COL, h: row2, title: "LANGUAGES", note: "by code size", p, children: gauges({ x: PAD, y: top + row1 + GAP, w: COL, items: languages, start: count, p }) })}
 ${pane({ x: PAD + COL + GAP, y: top + row1 + GAP, w: COL, h: row2, title: "MODELS", note: `${compact(modelTotal)} turns`, p, children: gauges({ x: PAD + COL + GAP, y: top + row1 + GAP, w: COL, items: models, start: count, p, labelWidth: 200, starFirst: true }) })}
