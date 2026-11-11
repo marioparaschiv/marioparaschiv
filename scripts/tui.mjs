@@ -188,14 +188,13 @@ export function tui({ agent, github, t3 }, theme) {
   const p = PALETTE[theme];
   const user = "marioparaschiv";
   const command = "stats --agents --github";
-  // Starship's time module, shown as when these stats were generated.
-  const updated = new Date(agent.generatedAt).toLocaleString("en-GB", {
+  // Starship's time module, shown as the date these stats were generated. Date only: a clock time
+  // would only be right in one time zone.
+  const updated = new Date(agent.generatedAt).toLocaleDateString("en-GB", {
     timeZone: agent.timeZone,
     day: "numeric",
     month: "short",
     year: "numeric",
-    hour: "2-digit",
-    minute: "2-digit",
   });
   const top = 106;
 
