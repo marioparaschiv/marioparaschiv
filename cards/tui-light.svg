@@ -34,8 +34,6 @@
   }
 </style>
 <rect x="0.5" y="0.5" width="859" height="705" rx="10" fill="#ffffff" stroke="#d1d9e0"/>
-<path d="M1 36 V10 A9 9 0 0 1 10 1 H850 A9 9 0 0 1 859 10 V36 Z" fill="#f6f8fa"/>
-<path d="M0.5 36 H859.5" stroke="#d1d9e0"/>
 <circle cx="22" cy="18" r="6" fill="#ff5f57"/><circle cx="42" cy="18" r="6" fill="#febc2e"/><circle cx="62" cy="18" r="6" fill="#28c840"/>
 <text x="430" y="22" class="small muted" text-anchor="middle">dev@vps: ~/stats</text>
 <text x="16" y="62" style="fill: #1b7c83" font-weight="700">stats</text><text x="62.8" y="62">on</text><path d="M190 -300H32V-25Q32 77 78 142Q110 189 172 229L260 285Q310 317 332 365Q354 409 354 484V672H236L402 867L568 672H450V452Q450 342 420.0 284.0Q390 226 328 186L284 157Q230 121 212 87Q190 46 190 -25ZM190 375 32 274V1020H190Z" fill="#8250df" transform="translate(86.2 62) scale(0.013 -0.013)"/><text x="101.8" y="62" style="fill: #8250df" font-weight="700">main</text><text x="140.8" y="62">at</text><text x="164.2" y="62" style="fill: #9a6700" font-weight="700">11 Nov 2026</text>

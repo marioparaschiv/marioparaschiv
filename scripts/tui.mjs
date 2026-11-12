@@ -20,8 +20,8 @@ const ROW = 22;
 const MONO = "'JBM NF', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace";
 
 const PALETTE = {
-  dark: { bg: "#0d1117", border: "#30363d", text: "#e6edf3", muted: "#8b949e", accent: "#4F8CC9", ok: "#3fb950", track: "#21262d", bar: "#161b22", cyan: "#56d4dd", purple: "#bc8cff", yellow: "#d29922" },
-  light: { bg: "#ffffff", border: "#d1d9e0", text: "#1f2328", muted: "#59636e", accent: "#2f6fb0", ok: "#1a7f37", track: "#eaeef2", bar: "#f6f8fa", cyan: "#1b7c83", purple: "#8250df", yellow: "#9a6700" },
+  dark: { bg: "#0d1117", border: "#30363d", text: "#e6edf3", muted: "#8b949e", accent: "#4F8CC9", ok: "#3fb950", track: "#21262d", cyan: "#56d4dd", purple: "#bc8cff", yellow: "#d29922" },
+  light: { bg: "#ffffff", border: "#d1d9e0", text: "#1f2328", muted: "#59636e", accent: "#2f6fb0", ok: "#1a7f37", track: "#eaeef2", cyan: "#1b7c83", purple: "#8250df", yellow: "#9a6700" },
 };
 
 // Every glyph in the embedded font is 600/1000 em wide; 13px text gives a 7.8px terminal cell.
@@ -246,8 +246,6 @@ export function tui({ agent, github, t3 }, theme) {
   ${motionCss({ output, done })}`;
 
   const body = `<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="10" fill="${p.bg}" stroke="${p.border}"/>
-<path d="M1 36 V10 A9 9 0 0 1 10 1 H${W - 10} A9 9 0 0 1 ${W - 1} 10 V36 Z" fill="${p.bar}"/>
-<path d="M0.5 36 H${W - 0.5}" stroke="${p.border}"/>
 <circle cx="22" cy="18" r="6" fill="#ff5f57"/><circle cx="42" cy="18" r="6" fill="#febc2e"/><circle cx="62" cy="18" r="6" fill="#28c840"/>
 <text x="${W / 2}" y="22" class="small muted" text-anchor="middle">dev@vps: ~/stats</text>
 ${starshipLine({ y: 62, p, time: updated })}
