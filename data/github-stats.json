@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-11T23:04:27.482Z",
+  "generatedAt": "2026-11-12T05:06:57.102Z",
   "stars": 1875,
   "followers": 187,
   "pullRequests": 1347,
   "pullRequestsMerged": 1261,
   "contributedTo": 33,
-  "contributions": 7473,
+  "contributions": 7476,
   "calendar": [
     [
       [
@@ -1586,7 +1586,7 @@
       ],
       [
         "2026-11-12",
-        0
+        3
       ]
     ]
   ],
@@ -1594,39 +1594,39 @@
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "share": 0.7270024184813707
+      "share": 0.7252285876363642
     },
     {
       "name": "Rust",
       "color": "#dea584",
-      "share": 0.06452057726729053
+      "share": 0.0643600308680732
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "share": 0.05565600750692919
+      "share": 0.05551413621050352
     },
     {
       "name": "C++",
       "color": "#f34b7d",
-      "share": 0.03721477210686966
+      "share": 0.039195204015895733
     },
     {
       "name": "Go",
       "color": "#00ADD8",
-      "share": 0.02727759715370793
+      "share": 0.02736586930443298
     },
     {
       "name": "Kotlin",
       "color": "#A97BFF",
-      "share": 0.014436550938630421
+      "share": 0.014424079833392377
     }
   ],
-  "releaseDownloads": 73590,
+  "releaseDownloads": 73674,
   "topDownloads": [
     {
       "repo": "enmity-mod/tweak",
-      "downloads": 69391
+      "downloads": 69402
     },
     {
       "repo": "enmity-mod/patcher",
@@ -1634,7 +1634,7 @@
     },
     {
       "repo": "marioparaschiv/unbound",
-      "downloads": 1086
+      "downloads": 1157
     },
     {
       "repo": "kernel-addons/pc-compat",
@@ -1651,7 +1651,7 @@
   "topExternalRepos": [
     {
       "repo": "raycast/extensions",
-      "stars": 7836
+      "stars": 7837
     },
     {
       "repo": "Danny-Dasilva/CycleTLS",
@@ -1663,7 +1663,7 @@
     },
     {
       "repo": "aiko-chan-ai/discord.js-selfbot-v13",
-      "stars": 1232
+      "stars": 1231
     },
     {
       "repo": "replugged-org/replugged",
