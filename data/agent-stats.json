@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-11-13T17:03:07.013Z",
+  "generatedAt": "2026-11-13T23:04:21.462Z",
   "timeZone": "Europe/London",
-  "sessions": 3438,
+  "sessions": 3465,
   "sessionsBySource": {
-    "pi": 2296,
+    "pi": 2323,
     "claude-code": 1142
   },
   "firstSessionAt": "2026-10-04T03:43:18.711Z",
   "activeDays": 40,
-  "agentTurns": 226631,
-  "toolCalls": 251911,
+  "agentTurns": 229905,
+  "toolCalls": 255527,
   "tools": {
-    "bash": 165559,
-    "read": 27892,
-    "edit": 24039,
-    "write": 12767,
-    "codemode": 7105,
-    "mcp__t3-code__preview_evaluate": 2781,
+    "bash": 167737,
+    "read": 28362,
+    "edit": 24556,
+    "write": 12936,
+    "codemode": 7138,
+    "mcp__t3-code__preview_evaluate": 2891,
     "mcp__linear__save_issue": 1033,
-    "tool_search": 922,
-    "mcp__t3-code__preview_snapshot": 882,
+    "tool_search": 932,
+    "mcp__t3-code__preview_snapshot": 915,
     "mcp__linear__get_issue": 802,
     "agent": 675,
     "toolsearch": 626
   },
   "tokens": {
-    "input": 12268660,
-    "output": 134383038,
-    "cacheRead": 35041560484,
-    "cacheWrite": 484931160,
-    "total": 35673143342
+    "input": 12275714,
+    "output": 136180136,
+    "cacheRead": 35515970883,
+    "cacheWrite": 490923507,
+    "total": 36155350240
   },
   "modelTurns": {
-    "claude-opus-5-5": 209997,
+    "claude-opus-5-5": 213271,
     "claude-haiku-5-5": 7038,
     "claude-sonnet-5-5": 3880,
     "deepseek-v4.1-flash": 3273,
@@ -174,13 +174,13 @@
       1998,
       1586,
       2313,
-      712,
-      1597,
-      1775,
-      1485,
-      424,
-      984,
-      923
+      1602,
+      1909,
+      1861,
+      1982,
+      1033,
+      1819,
+      968
     ],
     [
       3801,
@@ -235,10 +235,10 @@
       762
     ]
   ],
-  "gitCommits": 5289,
-  "gitPushes": 2618,
-  "prsOpened": 874,
-  "subagents": 1054,
+  "gitCommits": 5332,
+  "gitPushes": 2665,
+  "prsOpened": 894,
+  "subagents": 1057,
   "longestSessionMs": 16160951,
-  "agentMs": 3588452621
+  "agentMs": 3644599942
 }
