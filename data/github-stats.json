@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-13T05:03:23.369Z",
+  "generatedAt": "2026-11-13T11:03:12.193Z",
   "stars": 1873,
   "followers": 187,
   "pullRequests": 1371,
   "pullRequestsMerged": 1285,
   "contributedTo": 33,
-  "contributions": 7528,
+  "contributions": 7529,
   "calendar": [
     [
       [
@@ -1590,7 +1590,7 @@
       ],
       [
         "2026-11-13",
-        2
+        3
       ]
     ]
   ],
@@ -1598,39 +1598,39 @@
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "share": 0.7235288736417863
+      "share": 0.7235325970658841
     },
     {
       "name": "Rust",
       "color": "#dea584",
-      "share": 0.06582438183768821
+      "share": 0.06575968128891638
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "share": 0.055121264309821394
+      "share": 0.05506879530794638
     },
     {
       "name": "C++",
       "color": "#f34b7d",
-      "share": 0.0402987806224565
+      "share": 0.04025916987111609
     },
     {
       "name": "Go",
       "color": "#00ADD8",
-      "share": 0.027405094371652127
+      "share": 0.02764447345862134
     },
     {
       "name": "Kotlin",
       "color": "#A97BFF",
-      "share": 0.014038624829403415
+      "share": 0.014024825888872472
     }
   ],
-  "releaseDownloads": 73673,
+  "releaseDownloads": 73703,
   "topDownloads": [
     {
       "repo": "enmity-mod/tweak",
-      "downloads": 69496
+      "downloads": 69514
     },
     {
       "repo": "enmity-mod/patcher",
@@ -1638,7 +1638,7 @@
     },
     {
       "repo": "marioparaschiv/unbound",
-      "downloads": 1055
+      "downloads": 1067
     },
     {
       "repo": "kernel-addons/pc-compat",
@@ -1651,7 +1651,7 @@
   ],
   "externalMergedPrs": 19,
   "externalRepos": 15,
-  "externalRepoStars": 14018,
+  "externalRepoStars": 14019,
   "topExternalRepos": [
     {
       "repo": "raycast/extensions",
@@ -1659,7 +1659,7 @@
     },
     {
       "repo": "Danny-Dasilva/CycleTLS",
-      "stars": 1536
+      "stars": 1537
     },
     {
       "repo": "sardanioss/httpcloak",
