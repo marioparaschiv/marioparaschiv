@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-12T23:06:50.808Z",
+  "generatedAt": "2026-11-13T05:03:23.369Z",
   "stars": 1873,
   "followers": 187,
-  "pullRequests": 1370,
-  "pullRequestsMerged": 1284,
+  "pullRequests": 1371,
+  "pullRequestsMerged": 1285,
   "contributedTo": 33,
-  "contributions": 7525,
+  "contributions": 7528,
   "calendar": [
     [
       [
@@ -1586,11 +1586,11 @@
       ],
       [
         "2026-11-12",
-        52
+        53
       ],
       [
         "2026-11-13",
-        0
+        2
       ]
     ]
   ],
@@ -1598,39 +1598,39 @@
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "share": 0.7260150567125073
+      "share": 0.7235288736417863
     },
     {
       "name": "Rust",
       "color": "#dea584",
-      "share": 0.06391450877639768
+      "share": 0.06582438183768821
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "share": 0.05470132965712596
+      "share": 0.055121264309821394
     },
     {
       "name": "C++",
       "color": "#f34b7d",
-      "share": 0.04053153066745735
+      "share": 0.0402987806224565
     },
     {
       "name": "Go",
       "color": "#00ADD8",
-      "share": 0.027399896423724944
+      "share": 0.027405094371652127
     },
     {
       "name": "Kotlin",
       "color": "#A97BFF",
-      "share": 0.014155163575978251
+      "share": 0.014038624829403415
     }
   ],
-  "releaseDownloads": 73580,
+  "releaseDownloads": 73673,
   "topDownloads": [
     {
       "repo": "enmity-mod/tweak",
-      "downloads": 69466
+      "downloads": 69496
     },
     {
       "repo": "enmity-mod/patcher",
@@ -1638,7 +1638,7 @@
     },
     {
       "repo": "marioparaschiv/unbound",
-      "downloads": 994
+      "downloads": 1055
     },
     {
       "repo": "kernel-addons/pc-compat",
@@ -1651,15 +1651,15 @@
   ],
   "externalMergedPrs": 19,
   "externalRepos": 15,
-  "externalRepoStars": 14015,
+  "externalRepoStars": 14018,
   "topExternalRepos": [
     {
       "repo": "raycast/extensions",
-      "stars": 7837
+      "stars": 7838
     },
     {
       "repo": "Danny-Dasilva/CycleTLS",
-      "stars": 1535
+      "stars": 1536
     },
     {
       "repo": "sardanioss/httpcloak",
