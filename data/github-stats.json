@@ -1,42 +1,12 @@
 {
-  "generatedAt": "2026-11-14T17:06:08.766Z",
+  "generatedAt": "2026-11-14T23:06:17.811Z",
   "stars": 1873,
   "followers": 187,
-  "pullRequests": 1434,
-  "pullRequestsMerged": 1346,
-  "contributedTo": 33,
-  "contributions": 7658,
+  "pullRequests": 1444,
+  "pullRequestsMerged": 1358,
+  "contributedTo": 35,
+  "contributions": 7684,
   "calendar": [
-    [
-      [
-        "2025-11-09",
-        3
-      ],
-      [
-        "2025-11-10",
-        28
-      ],
-      [
-        "2025-11-11",
-        16
-      ],
-      [
-        "2025-11-12",
-        7
-      ],
-      [
-        "2025-11-13",
-        7
-      ],
-      [
-        "2025-11-14",
-        0
-      ],
-      [
-        "2025-11-15",
-        4
-      ]
-    ],
     [
       [
         "2025-11-16",
@@ -1594,7 +1564,13 @@
       ],
       [
         "2026-11-14",
-        79
+        105
+      ]
+    ],
+    [
+      [
+        "2026-11-15",
+        0
       ]
     ]
   ],
@@ -1602,39 +1578,39 @@
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "share": 0.7229545645141496
+      "share": 0.7208321709158093
     },
     {
       "name": "Rust",
       "color": "#dea584",
-      "share": 0.06746874059317619
+      "share": 0.0685936156959629
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "share": 0.053669291683935576
+      "share": 0.05328205810074931
     },
     {
       "name": "C++",
       "color": "#f34b7d",
-      "share": 0.04163080733639038
+      "share": 0.04251994235174362
     },
     {
       "name": "Go",
       "color": "#00ADD8",
-      "share": 0.027498820285180255
+      "share": 0.027986516480644836
     },
     {
       "name": "Kotlin",
       "color": "#A97BFF",
-      "share": 0.0140333203182537
+      "share": 0.014359471637592262
     }
   ],
-  "releaseDownloads": 73808,
+  "releaseDownloads": 73876,
   "topDownloads": [
     {
       "repo": "enmity-mod/tweak",
-      "downloads": 69659
+      "downloads": 69698
     },
     {
       "repo": "enmity-mod/patcher",
@@ -1642,7 +1618,7 @@
     },
     {
       "repo": "marioparaschiv/unbound",
-      "downloads": 1024
+      "downloads": 1052
     },
     {
       "repo": "kernel-addons/pc-compat",
@@ -1663,11 +1639,11 @@
     },
     {
       "repo": "Danny-Dasilva/CycleTLS",
-      "stars": 1537
+      "stars": 1536
     },
     {
       "repo": "sardanioss/httpcloak",
-      "stars": 1374
+      "stars": 1375
     },
     {
       "repo": "aiko-chan-ai/discord.js-selfbot-v13",

@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-11-14T17:04:21.422Z",
+  "generatedAt": "2026-11-14T23:04:50.415Z",
   "timeZone": "Europe/London",
-  "sessions": 3516,
+  "sessions": 3534,
   "sessionsBySource": {
-    "pi": 2374,
+    "pi": 2392,
     "claude-code": 1142
   },
   "firstSessionAt": "2026-10-04T03:43:18.711Z",
   "activeDays": 41,
-  "agentTurns": 234548,
-  "toolCalls": 260627,
+  "agentTurns": 237131,
+  "toolCalls": 263477,
   "tools": {
-    "bash": 170884,
-    "read": 29041,
-    "edit": 25111,
-    "write": 13128,
-    "codemode": 7287,
-    "mcp__t3-code__preview_evaluate": 3064,
+    "bash": 172505,
+    "read": 29381,
+    "edit": 25415,
+    "write": 13235,
+    "codemode": 7326,
+    "mcp__t3-code__preview_evaluate": 3266,
     "mcp__linear__save_issue": 1033,
-    "tool_search": 960,
-    "mcp__t3-code__preview_snapshot": 938,
+    "mcp__t3-code__preview_snapshot": 994,
+    "tool_search": 982,
     "mcp__linear__get_issue": 802,
-    "agent": 675,
-    "mcp__t3-code__preview_act": 667
+    "mcp__t3-code__preview_act": 735,
+    "agent": 675
   },
   "tokens": {
-    "input": 12285526,
-    "output": 138593458,
-    "cacheRead": 36095124740,
-    "cacheWrite": 498112101,
-    "total": 36744115825
+    "input": 12290966,
+    "output": 139855529,
+    "cacheRead": 36463073867,
+    "cacheWrite": 501831402,
+    "total": 37117051764
   },
   "modelTurns": {
-    "claude-opus-5-5": 217914,
+    "claude-opus-5-5": 220497,
     "claude-haiku-5-5": 7038,
     "claude-sonnet-5-5": 3880,
     "deepseek-v4.1-flash": 3273,
@@ -200,13 +200,13 @@
       1777,
       819,
       727,
-      286,
-      620,
-      951,
-      520,
-      395,
-      99,
-      1124
+      471,
+      1114,
+      1065,
+      601,
+      1323,
+      822,
+      1182
     ],
     [
       838,
@@ -235,10 +235,10 @@
       762
     ]
   ],
-  "gitCommits": 5452,
-  "gitPushes": 2751,
-  "prsOpened": 936,
+  "gitCommits": 5477,
+  "gitPushes": 2781,
+  "prsOpened": 946,
   "subagents": 1061,
   "longestSessionMs": 16160951,
-  "agentMs": 3726770795
+  "agentMs": 3770576830
 }
