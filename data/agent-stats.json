@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-11-15T23:03:06.789Z",
+  "generatedAt": "2026-11-16T05:03:58.523Z",
   "timeZone": "Europe/London",
-  "sessions": 3665,
+  "sessions": 3701,
   "sessionsBySource": {
-    "pi": 2522,
+    "pi": 2558,
     "claude-code": 1143
   },
   "firstSessionAt": "2026-10-04T03:43:18.711Z",
-  "activeDays": 42,
-  "agentTurns": 246901,
-  "toolCalls": 274311,
+  "activeDays": 43,
+  "agentTurns": 250928,
+  "toolCalls": 278826,
   "tools": {
-    "bash": 179337,
-    "read": 30559,
-    "edit": 26781,
-    "write": 13765,
-    "codemode": 7864,
-    "mcp__t3-code__preview_evaluate": 3406,
-    "mcp__t3-code__preview_snapshot": 1056,
+    "bash": 181889,
+    "read": 31020,
+    "edit": 27298,
+    "write": 14029,
+    "codemode": 8126,
+    "mcp__t3-code__preview_evaluate": 3612,
+    "mcp__t3-code__preview_snapshot": 1121,
     "mcp__linear__save_issue": 1033,
-    "tool_search": 1004,
+    "tool_search": 1026,
+    "mcp__t3-code__preview_act": 855,
     "mcp__linear__get_issue": 802,
-    "mcp__t3-code__preview_act": 795,
     "agent": 675
   },
   "tokens": {
-    "input": 12311382,
-    "output": 144866532,
-    "cacheRead": 37580613804,
-    "cacheWrite": 518271585,
-    "total": 38256063303
+    "input": 12319780,
+    "output": 147112118,
+    "cacheRead": 38137064805,
+    "cacheWrite": 525537970,
+    "total": 38822034673
   },
   "modelTurns": {
-    "claude-opus-5-5": 229991,
+    "claude-opus-5-5": 233855,
     "claude-haiku-5-5": 7038,
-    "claude-sonnet-5-5": 4155,
+    "claude-sonnet-5-5": 4318,
     "deepseek-v4.1-flash": 3273,
     "claude-sonnet-4-6": 1240,
     "deepseek-v4.1-flash-free": 533,
@@ -53,9 +53,9 @@
   },
   "heatmap": [
     [
-      818,
-      1599,
-      2272,
+      2752,
+      2767,
+      2409,
       2759,
       1329,
       1873,
@@ -232,13 +232,13 @@
       1718,
       732,
       1894,
-      769
+      1557
     ]
   ],
-  "gitCommits": 5655,
-  "gitPushes": 2941,
-  "prsOpened": 1032,
-  "subagents": 1092,
+  "gitCommits": 5675,
+  "gitPushes": 2975,
+  "prsOpened": 1041,
+  "subagents": 1099,
   "longestSessionMs": 16160951,
-  "agentMs": 3915040728
+  "agentMs": 3988353065
 }
