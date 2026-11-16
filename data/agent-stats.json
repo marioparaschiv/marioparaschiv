@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-16T05:03:58.523Z",
+  "generatedAt": "2026-11-16T11:04:53.523Z",
   "timeZone": "Europe/London",
-  "sessions": 3701,
+  "sessions": 3703,
   "sessionsBySource": {
-    "pi": 2558,
+    "pi": 2560,
     "claude-code": 1143
   },
   "firstSessionAt": "2026-10-04T03:43:18.711Z",
   "activeDays": 43,
-  "agentTurns": 250928,
-  "toolCalls": 278826,
+  "agentTurns": 250967,
+  "toolCalls": 278865,
   "tools": {
-    "bash": 181889,
-    "read": 31020,
+    "bash": 181922,
+    "read": 31024,
     "edit": 27298,
-    "write": 14029,
+    "write": 14031,
     "codemode": 8126,
     "mcp__t3-code__preview_evaluate": 3612,
     "mcp__t3-code__preview_snapshot": 1121,
@@ -25,14 +25,14 @@
     "agent": 675
   },
   "tokens": {
-    "input": 12319780,
-    "output": 147112118,
-    "cacheRead": 38137064805,
-    "cacheWrite": 525537970,
-    "total": 38822034673
+    "input": 12319862,
+    "output": 147127705,
+    "cacheRead": 38138418652,
+    "cacheWrite": 525626893,
+    "total": 38823493112
   },
   "modelTurns": {
-    "claude-opus-5-5": 233855,
+    "claude-opus-5-5": 233894,
     "claude-haiku-5-5": 7038,
     "claude-sonnet-5-5": 4318,
     "deepseek-v4.1-flash": 3273,
@@ -61,9 +61,9 @@
       1873,
       1207,
       1152,
-      946,
+      955,
       1639,
-      3808,
+      3838,
       1322,
       690,
       628,
@@ -240,5 +240,5 @@
   "prsOpened": 1041,
   "subagents": 1099,
   "longestSessionMs": 16160951,
-  "agentMs": 3988353065
+  "agentMs": 3988865523
 }

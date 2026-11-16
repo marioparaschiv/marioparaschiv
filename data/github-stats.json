@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-16T05:05:30.430Z",
+  "generatedAt": "2026-11-16T11:06:32.696Z",
   "stars": 1876,
   "followers": 187,
   "pullRequests": 1540,
   "pullRequestsMerged": 1454,
   "contributedTo": 35,
-  "contributions": 7836,
+  "contributions": 7837,
   "calendar": [
     [
       [
@@ -1574,7 +1574,7 @@
       ],
       [
         "2026-11-16",
-        17
+        18
       ]
     ]
   ],
@@ -1582,39 +1582,39 @@
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "share": 0.7317185279646274
+      "share": 0.7324411876568845
     },
     {
       "name": "Rust",
       "color": "#dea584",
-      "share": 0.0659684599913437
+      "share": 0.06575273347031999
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "share": 0.05094936807121386
+      "share": 0.050812006177115114
     },
     {
       "name": "C++",
       "color": "#f34b7d",
-      "share": 0.04089597090554454
+      "share": 0.04080463833984077
     },
     {
       "name": "Go",
       "color": "#00ADD8",
-      "share": 0.027101241852318558
+      "share": 0.027095623574630284
     },
     {
       "name": "Kotlin",
       "color": "#A97BFF",
-      "share": 0.01390915974761189
+      "share": 0.013863674759132407
     }
   ],
-  "releaseDownloads": 74197,
+  "releaseDownloads": 74231,
   "topDownloads": [
     {
       "repo": "enmity-mod/tweak",
-      "downloads": 69855
+      "downloads": 69866
     },
     {
       "repo": "enmity-mod/patcher",
@@ -1622,7 +1622,7 @@
     },
     {
       "repo": "marioparaschiv/unbound",
-      "downloads": 1214
+      "downloads": 1236
     },
     {
       "repo": "kernel-addons/pc-compat",
@@ -1635,11 +1635,11 @@
   ],
   "externalMergedPrs": 19,
   "externalRepos": 15,
-  "externalRepoStars": 14033,
+  "externalRepoStars": 14034,
   "topExternalRepos": [
     {
       "repo": "raycast/extensions",
-      "stars": 7841
+      "stars": 7842
     },
     {
       "repo": "Danny-Dasilva/CycleTLS",
