@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-16T17:02:45.375Z",
+  "generatedAt": "2026-11-16T23:05:53.551Z",
   "stars": 1876,
   "followers": 187,
-  "pullRequests": 1572,
-  "pullRequestsMerged": 1484,
+  "pullRequests": 1621,
+  "pullRequestsMerged": 1535,
   "contributedTo": 35,
-  "contributions": 7902,
+  "contributions": 8013,
   "calendar": [
     [
       [
@@ -1574,7 +1574,11 @@
       ],
       [
         "2026-11-16",
-        83
+        194
+      ],
+      [
+        "2026-11-17",
+        0
       ]
     ]
   ],
@@ -1582,39 +1586,39 @@
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "share": 0.7354793004265128
+      "share": 0.7379401708820169
     },
     {
       "name": "Rust",
       "color": "#dea584",
-      "share": 0.06488995497012934
+      "share": 0.06424916395253848
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "share": 0.05016052218947569
+      "share": 0.04966518493625246
     },
     {
       "name": "C++",
       "color": "#f34b7d",
-      "share": 0.04056434693574539
+      "share": 0.04019085689601555
     },
     {
       "name": "Go",
       "color": "#00ADD8",
-      "share": 0.026739163289447115
+      "share": 0.026475112934324196
     },
     {
       "name": "Kotlin",
       "color": "#A97BFF",
-      "share": 0.01370480964034448
+      "share": 0.013607027633800546
     }
   ],
-  "releaseDownloads": 74283,
+  "releaseDownloads": 74315,
   "topDownloads": [
     {
       "repo": "enmity-mod/tweak",
-      "downloads": 69883
+      "downloads": 69924
     },
     {
       "repo": "enmity-mod/patcher",
@@ -1622,7 +1626,7 @@
     },
     {
       "repo": "marioparaschiv/unbound",
-      "downloads": 1271
+      "downloads": 1262
     },
     {
       "repo": "kernel-addons/pc-compat",
@@ -1635,7 +1639,7 @@
   ],
   "externalMergedPrs": 19,
   "externalRepos": 15,
-  "externalRepoStars": 14036,
+  "externalRepoStars": 14039,
   "topExternalRepos": [
     {
       "repo": "raycast/extensions",
@@ -1655,7 +1659,7 @@
     },
     {
       "repo": "replugged-org/replugged",
-      "stars": 730
+      "stars": 731
     }
   ]
 }
