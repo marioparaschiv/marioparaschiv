@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T11:00:32.702Z",
+  "generatedAt": "2026-11-17T17:02:11.576Z",
   "timeZone": "Europe/London",
   "sessions": 3862,
   "sessionsBySource": {
@@ -8,12 +8,12 @@
   },
   "firstSessionAt": "2026-10-04T03:43:18.711Z",
   "activeDays": 44,
-  "agentTurns": 266463,
-  "toolCalls": 296020,
+  "agentTurns": 266489,
+  "toolCalls": 296045,
   "tools": {
-    "bash": 193066,
+    "bash": 193089,
     "read": 32870,
-    "edit": 29155,
+    "edit": 29157,
     "write": 14784,
     "codemode": 9017,
     "mcp__t3-code__preview_evaluate": 3765,
@@ -25,11 +25,11 @@
     "mcp__t3-code__preview_open": 707
   },
   "tokens": {
-    "input": 14086092,
-    "output": 155059676,
-    "cacheRead": 40008241303,
+    "input": 14105185,
+    "output": 155064074,
+    "cacheRead": 40012722775,
     "cacheWrite": 549516127,
-    "total": 40726903198
+    "total": 40731408161
   },
   "modelTurns": {
     "claude-opus-5-5": 248687,
@@ -40,8 +40,8 @@
     "deepseek-v4.1-flash-free": 533,
     "claude-fable-5": 285,
     "glm-5.3-flash-free": 216,
+    "glm-5.3-flash": 200,
     "claude-opus-4-8": 174,
-    "glm-5.3-flash": 174,
     "claude-haiku-4-5": 100,
     "longcat-2.5-preview-free": 8,
     "nemotron-3-ultra-free": 4,
@@ -91,7 +91,7 @@
       1557,
       4757,
       2071,
-      1766,
+      1792,
       2060,
       1747,
       1529,
@@ -241,5 +241,5 @@
   "prsOpened": 1196,
   "subagents": 1169,
   "longestSessionMs": 16160951,
-  "agentMs": 4277001653
+  "agentMs": 4277878307
 }
