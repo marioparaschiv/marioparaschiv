@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-16T23:05:53.551Z",
-  "stars": 1876,
+  "generatedAt": "2026-11-17T05:03:18.975Z",
+  "stars": 1880,
   "followers": 187,
-  "pullRequests": 1621,
-  "pullRequestsMerged": 1535,
+  "pullRequests": 1642,
+  "pullRequestsMerged": 1555,
   "contributedTo": 35,
-  "contributions": 8013,
+  "contributions": 8070,
   "calendar": [
     [
       [
@@ -1574,11 +1574,11 @@
       ],
       [
         "2026-11-16",
-        194
+        200
       ],
       [
         "2026-11-17",
-        0
+        51
       ]
     ]
   ],
@@ -1586,39 +1586,39 @@
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "share": 0.7379401708820169
+      "share": 0.7366969936580919
     },
     {
       "name": "Rust",
       "color": "#dea584",
-      "share": 0.06424916395253848
+      "share": 0.06663036570997735
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "share": 0.04966518493625246
+      "share": 0.04936385061782793
     },
     {
       "name": "C++",
       "color": "#f34b7d",
-      "share": 0.04019085689601555
+      "share": 0.03994700630962987
     },
     {
       "name": "Go",
       "color": "#00ADD8",
-      "share": 0.026475112934324196
+      "share": 0.026314480086152645
     },
     {
       "name": "Kotlin",
       "color": "#A97BFF",
-      "share": 0.013607027633800546
+      "share": 0.013524469511786544
     }
   ],
-  "releaseDownloads": 74315,
+  "releaseDownloads": 74297,
   "topDownloads": [
     {
       "repo": "enmity-mod/tweak",
-      "downloads": 69924
+      "downloads": 69941
     },
     {
       "repo": "enmity-mod/patcher",
@@ -1626,7 +1626,7 @@
     },
     {
       "repo": "marioparaschiv/unbound",
-      "downloads": 1262
+      "downloads": 1227
     },
     {
       "repo": "kernel-addons/pc-compat",
@@ -1639,7 +1639,7 @@
   ],
   "externalMergedPrs": 19,
   "externalRepos": 15,
-  "externalRepoStars": 14039,
+  "externalRepoStars": 14040,
   "topExternalRepos": [
     {
       "repo": "raycast/extensions",
@@ -1651,7 +1651,7 @@
     },
     {
       "repo": "sardanioss/httpcloak",
-      "stars": 1378
+      "stars": 1379
     },
     {
       "repo": "aiko-chan-ai/discord.js-selfbot-v13",
