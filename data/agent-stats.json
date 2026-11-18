@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-18T05:00:33.649Z",
+  "generatedAt": "2026-11-18T11:00:06.812Z",
   "timeZone": "Europe/London",
-  "sessions": 3865,
+  "sessions": 3866,
   "sessionsBySource": {
-    "pi": 2722,
+    "pi": 2723,
     "claude-code": 1143
   },
   "firstSessionAt": "2026-10-04T03:43:18.711Z",
   "activeDays": 45,
-  "agentTurns": 267197,
+  "agentTurns": 267198,
   "toolCalls": 296753,
   "tools": {
     "bash": 193662,
@@ -32,7 +32,7 @@
     "total": 40835448669
   },
   "modelTurns": {
-    "claude-opus-5-5": 248688,
+    "claude-opus-5-5": 248689,
     "claude-haiku-5-5": 7038,
     "claude-sonnet-5-5": 4518,
     "deepseek-v4.1-flash": 4106,
@@ -114,7 +114,7 @@
       1237,
       654,
       564,
-      1092,
+      1093,
       977,
       1193,
       2199,
@@ -241,5 +241,5 @@
   "prsOpened": 1196,
   "subagents": 1169,
   "longestSessionMs": 16160951,
-  "agentMs": 4291912309
+  "agentMs": 4291913456
 }
