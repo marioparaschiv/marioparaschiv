@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-18T11:01:48.674Z",
+  "generatedAt": "2026-11-18T17:02:55.458Z",
   "stars": 1883,
   "followers": 187,
   "pullRequests": 1682,
   "pullRequestsMerged": 1573,
   "contributedTo": 35,
-  "contributions": 8217,
+  "contributions": 8218,
   "calendar": [
     [
       [
@@ -1582,7 +1582,7 @@
       ],
       [
         "2026-11-18",
-        19
+        20
       ]
     ]
   ],
@@ -1618,11 +1618,11 @@
       "share": 0.013543024201206622
     }
   ],
-  "releaseDownloads": 74598,
+  "releaseDownloads": 74720,
   "topDownloads": [
     {
       "repo": "enmity-mod/tweak",
-      "downloads": 70026
+      "downloads": 70043
     },
     {
       "repo": "enmity-mod/patcher",
@@ -1630,7 +1630,7 @@
     },
     {
       "repo": "marioparaschiv/unbound",
-      "downloads": 1443
+      "downloads": 1548
     },
     {
       "repo": "kernel-addons/pc-compat",
@@ -1643,7 +1643,7 @@
   ],
   "externalMergedPrs": 19,
   "externalRepos": 15,
-  "externalRepoStars": 14044,
+  "externalRepoStars": 14046,
   "topExternalRepos": [
     {
       "repo": "raycast/extensions",
@@ -1655,7 +1655,7 @@
     },
     {
       "repo": "sardanioss/httpcloak",
-      "stars": 1383
+      "stars": 1384
     },
     {
       "repo": "aiko-chan-ai/discord.js-selfbot-v13",
