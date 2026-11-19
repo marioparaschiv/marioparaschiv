@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-19T05:04:50.794Z",
-  "stars": 1883,
+  "generatedAt": "2026-11-19T11:01:58.905Z",
+  "stars": 1884,
   "followers": 187,
-  "pullRequests": 1706,
-  "pullRequestsMerged": 1597,
+  "pullRequests": 1715,
+  "pullRequestsMerged": 1606,
   "contributedTo": 35,
-  "contributions": 8268,
+  "contributions": 8287,
   "calendar": [
     [
       [
@@ -1586,7 +1586,7 @@
       ],
       [
         "2026-11-19",
-        23
+        42
       ]
     ]
   ],
@@ -1594,39 +1594,39 @@
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "share": 0.7372479360215338
+      "share": 0.7382684077116194
     },
     {
       "name": "Rust",
       "color": "#dea584",
-      "share": 0.06944986130239494
+      "share": 0.06906876075324059
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "share": 0.04808006206534101
+      "share": 0.047827983674827504
     },
     {
       "name": "C++",
       "color": "#f34b7d",
-      "share": 0.039899751603573126
+      "share": 0.03996991257586568
     },
     {
       "name": "Go",
       "color": "#00ADD8",
-      "share": 0.025658615995331594
+      "share": 0.025517816395980563
     },
     {
       "name": "Kotlin",
       "color": "#A97BFF",
-      "share": 0.01350010149574135
+      "share": 0.01345389646965332
     }
   ],
-  "releaseDownloads": 74622,
+  "releaseDownloads": 74757,
   "topDownloads": [
     {
       "repo": "enmity-mod/tweak",
-      "downloads": 70077
+      "downloads": 70092
     },
     {
       "repo": "enmity-mod/patcher",
@@ -1634,7 +1634,7 @@
     },
     {
       "repo": "marioparaschiv/unbound",
-      "downloads": 1416
+      "downloads": 1536
     },
     {
       "repo": "kernel-addons/pc-compat",
@@ -1647,11 +1647,11 @@
   ],
   "externalMergedPrs": 19,
   "externalRepos": 15,
-  "externalRepoStars": 14051,
+  "externalRepoStars": 14052,
   "topExternalRepos": [
     {
       "repo": "raycast/extensions",
-      "stars": 7844
+      "stars": 7845
     },
     {
       "repo": "Danny-Dasilva/CycleTLS",
