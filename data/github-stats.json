@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-20T05:05:58.561Z",
+  "generatedAt": "2026-11-20T11:06:28.682Z",
   "stars": 1887,
   "followers": 187,
-  "pullRequests": 1728,
-  "pullRequestsMerged": 1619,
+  "pullRequests": 1731,
+  "pullRequestsMerged": 1622,
   "contributedTo": 35,
-  "contributions": 8316,
+  "contributions": 8325,
   "calendar": [
     [
       [
@@ -1590,7 +1590,7 @@
       ],
       [
         "2026-11-20",
-        19
+        28
       ]
     ]
   ],
@@ -1598,39 +1598,39 @@
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "share": 0.7382625703272233
+      "share": 0.7366994865101703
     },
     {
       "name": "Rust",
       "color": "#dea584",
-      "share": 0.06941691096628455
+      "share": 0.07139777193662014
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "share": 0.047639668781149655
+      "share": 0.04753618130440732
     },
     {
       "name": "C++",
       "color": "#f34b7d",
-      "share": 0.04014810760728519
+      "share": 0.04006089402124318
     },
     {
       "name": "Go",
       "color": "#00ADD8",
-      "share": 0.025437817713045853
+      "share": 0.025382559235472304
     },
     {
       "name": "Kotlin",
       "color": "#A97BFF",
-      "share": 0.013398991275341896
+      "share": 0.013369884696025661
     }
   ],
-  "releaseDownloads": 75079,
+  "releaseDownloads": 75138,
   "topDownloads": [
     {
       "repo": "enmity-mod/tweak",
-      "downloads": 70144
+      "downloads": 70172
     },
     {
       "repo": "enmity-mod/patcher",
@@ -1638,7 +1638,7 @@
     },
     {
       "repo": "marioparaschiv/unbound",
-      "downloads": 1800
+      "downloads": 1831
     },
     {
       "repo": "kernel-addons/pc-compat",
@@ -1651,11 +1651,11 @@
   ],
   "externalMergedPrs": 19,
   "externalRepos": 15,
-  "externalRepoStars": 14053,
+  "externalRepoStars": 14054,
   "topExternalRepos": [
     {
       "repo": "raycast/extensions",
-      "stars": 7848
+      "stars": 7849
     },
     {
       "repo": "Danny-Dasilva/CycleTLS",
