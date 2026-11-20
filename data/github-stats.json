@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-19T23:05:06.217Z",
-  "stars": 1886,
+  "generatedAt": "2026-11-20T05:05:58.561Z",
+  "stars": 1887,
   "followers": 187,
-  "pullRequests": 1719,
-  "pullRequestsMerged": 1610,
+  "pullRequests": 1728,
+  "pullRequestsMerged": 1619,
   "contributedTo": 35,
-  "contributions": 8297,
+  "contributions": 8316,
   "calendar": [
     [
       [
@@ -1590,7 +1590,7 @@
       ],
       [
         "2026-11-20",
-        0
+        19
       ]
     ]
   ],
@@ -1598,39 +1598,39 @@
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "share": 0.7386997263290642
+      "share": 0.7382625703272233
     },
     {
       "name": "Rust",
       "color": "#dea584",
-      "share": 0.06883722390914183
+      "share": 0.06941691096628455
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "share": 0.04767497511409465
+      "share": 0.047639668781149655
     },
     {
       "name": "C++",
       "color": "#f34b7d",
-      "share": 0.04017786185391537
+      "share": 0.04014810760728519
     },
     {
       "name": "Go",
       "color": "#00ADD8",
-      "share": 0.025456669986467333
+      "share": 0.025437817713045853
     },
     {
       "name": "Kotlin",
       "color": "#A97BFF",
-      "share": 0.013408921429333259
+      "share": 0.013398991275341896
     }
   ],
-  "releaseDownloads": 75020,
+  "releaseDownloads": 75079,
   "topDownloads": [
     {
       "repo": "enmity-mod/tweak",
-      "downloads": 70128
+      "downloads": 70144
     },
     {
       "repo": "enmity-mod/patcher",
@@ -1638,7 +1638,7 @@
     },
     {
       "repo": "marioparaschiv/unbound",
-      "downloads": 1758
+      "downloads": 1800
     },
     {
       "repo": "kernel-addons/pc-compat",
