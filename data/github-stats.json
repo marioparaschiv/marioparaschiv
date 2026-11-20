@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-20T17:04:40.588Z",
-  "stars": 1888,
-  "followers": 187,
-  "pullRequests": 1731,
-  "pullRequestsMerged": 1622,
+  "generatedAt": "2026-11-20T23:05:31.897Z",
+  "stars": 1890,
+  "followers": 186,
+  "pullRequests": 1744,
+  "pullRequestsMerged": 1635,
   "contributedTo": 35,
-  "contributions": 8326,
+  "contributions": 8355,
   "calendar": [
     [
       [
@@ -1590,7 +1590,11 @@
       ],
       [
         "2026-11-20",
-        29
+        58
+      ],
+      [
+        "2026-11-21",
+        0
       ]
     ]
   ],
@@ -1598,39 +1602,39 @@
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "share": 0.736419636205393
+      "share": 0.7081820055293504
     },
     {
       "name": "Rust",
       "color": "#dea584",
-      "share": 0.07132367855768526
+      "share": 0.10720459786991916
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "share": 0.04748976826687328
+      "share": 0.045562094814015214
     },
     {
       "name": "C++",
       "color": "#f34b7d",
-      "share": 0.0403034199692495
+      "share": 0.03869714517263647
     },
     {
       "name": "Go",
       "color": "#00ADD8",
-      "share": 0.02535621836335881
+      "share": 0.024314172888152855
     },
     {
       "name": "Kotlin",
       "color": "#A97BFF",
-      "share": 0.013356010034306838
+      "share": 0.01284561017415887
     }
   ],
-  "releaseDownloads": 75189,
+  "releaseDownloads": 75283,
   "topDownloads": [
     {
       "repo": "enmity-mod/tweak",
-      "downloads": 70187
+      "downloads": 70201
     },
     {
       "repo": "enmity-mod/patcher",
@@ -1638,11 +1642,11 @@
     },
     {
       "repo": "marioparaschiv/unbound",
-      "downloads": 1866
+      "downloads": 1942
     },
     {
       "repo": "kernel-addons/pc-compat",
-      "downloads": 177
+      "downloads": 178
     },
     {
       "repo": "marioparaschiv/weave-unrestricted",
@@ -1651,7 +1655,7 @@
   ],
   "externalMergedPrs": 19,
   "externalRepos": 15,
-  "externalRepoStars": 14053,
+  "externalRepoStars": 14054,
   "topExternalRepos": [
     {
       "repo": "raycast/extensions",

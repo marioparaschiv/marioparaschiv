@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-11-20T17:02:59.560Z",
+  "generatedAt": "2026-11-20T23:03:56.562Z",
   "timeZone": "Europe/London",
-  "sessions": 3946,
+  "sessions": 3960,
   "sessionsBySource": {
-    "pi": 2802,
+    "pi": 2816,
     "claude-code": 1144
   },
   "firstSessionAt": "2026-10-04T03:43:18.711Z",
   "activeDays": 47,
-  "agentTurns": 274584,
-  "toolCalls": 304796,
+  "agentTurns": 275760,
+  "toolCalls": 306056,
   "tools": {
-    "bash": 198215,
-    "read": 33821,
-    "edit": 30309,
-    "write": 15271,
-    "codemode": 9555,
-    "mcp__t3-code__preview_evaluate": 3892,
-    "mcp__t3-code__preview_snapshot": 1298,
-    "tool_search": 1152,
+    "bash": 198985,
+    "read": 33968,
+    "edit": 30454,
+    "write": 15337,
+    "codemode": 9570,
+    "mcp__t3-code__preview_evaluate": 3932,
+    "mcp__t3-code__preview_snapshot": 1313,
+    "tool_search": 1166,
     "mcp__linear__save_issue": 1033,
-    "mcp__t3-code__preview_act": 989,
+    "mcp__t3-code__preview_act": 998,
     "mcp__linear__get_issue": 802,
-    "mcp__t3-code__preview_open": 732
+    "mcp__t3-code__preview_open": 742
   },
   "tokens": {
-    "input": 16348985,
-    "output": 160145299,
-    "cacheRead": 41048454793,
-    "cacheWrite": 562120141,
-    "total": 41787069218
+    "input": 16351589,
+    "output": 160871577,
+    "cacheRead": 41199297499,
+    "cacheWrite": 563988471,
+    "total": 41940509136
   },
   "modelTurns": {
-    "claude-opus-5-5": 256032,
+    "claude-opus-5-5": 257208,
     "claude-haiku-5-5": 7038,
     "claude-sonnet-5-5": 4518,
     "deepseek-v4.1-flash": 4149,
@@ -176,11 +176,11 @@
       1586,
       2313,
       1602,
-      1909,
-      1861,
-      1982,
-      1033,
-      1819,
+      2297,
+      2212,
+      2106,
+      1305,
+      1860,
       1438
     ],
     [
@@ -236,10 +236,10 @@
       1557
     ]
   ],
-  "gitCommits": 6073,
-  "gitPushes": 3356,
-  "prsOpened": 1244,
+  "gitCommits": 6105,
+  "gitPushes": 3388,
+  "prsOpened": 1261,
   "subagents": 1169,
   "longestSessionMs": 16160951,
-  "agentMs": 4405148059
+  "agentMs": 4424033767
 }
