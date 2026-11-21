@@ -1,42 +1,12 @@
 {
-  "generatedAt": "2026-11-21T17:05:03.700Z",
+  "generatedAt": "2026-11-21T23:03:06.285Z",
   "stars": 1892,
   "followers": 186,
-  "pullRequests": 1744,
-  "pullRequestsMerged": 1635,
+  "pullRequests": 1746,
+  "pullRequestsMerged": 1637,
   "contributedTo": 35,
-  "contributions": 8431,
+  "contributions": 8450,
   "calendar": [
-    [
-      [
-        "2025-11-16",
-        0
-      ],
-      [
-        "2025-11-17",
-        5
-      ],
-      [
-        "2025-11-18",
-        2
-      ],
-      [
-        "2025-11-19",
-        0
-      ],
-      [
-        "2025-11-20",
-        0
-      ],
-      [
-        "2025-11-21",
-        0
-      ],
-      [
-        "2025-11-22",
-        1
-      ]
-    ],
     [
       [
         "2025-11-23",
@@ -1594,7 +1564,13 @@
       ],
       [
         "2026-11-21",
-        76
+        95
+      ]
+    ],
+    [
+      [
+        "2026-11-22",
+        0
       ]
     ]
   ],
@@ -1602,39 +1578,39 @@
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "share": 0.7086366690575535
+      "share": 0.7086617524153873
     },
     {
       "name": "Rust",
       "color": "#dea584",
-      "share": 0.1067465057169091
+      "share": 0.10670577702631548
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "share": 0.04529288442960871
+      "share": 0.045275603115680574
     },
     {
       "name": "C++",
       "color": "#f34b7d",
-      "share": 0.039147060233569196
+      "share": 0.03918460601272377
     },
     {
       "name": "Go",
       "color": "#00ADD8",
-      "share": 0.024275625752036976
+      "share": 0.02429389757221565
     },
     {
       "name": "Kotlin",
       "color": "#A97BFF",
-      "share": 0.012835482175611477
+      "share": 0.012830584850133333
     }
   ],
-  "releaseDownloads": 75548,
+  "releaseDownloads": 75055,
   "topDownloads": [
     {
       "repo": "enmity-mod/tweak",
-      "downloads": 70257
+      "downloads": 70272
     },
     {
       "repo": "enmity-mod/patcher",
@@ -1642,7 +1618,7 @@
     },
     {
       "repo": "marioparaschiv/unbound",
-      "downloads": 2142
+      "downloads": 1634
     },
     {
       "repo": "kernel-addons/pc-compat",
