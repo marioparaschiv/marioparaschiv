@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-11-21T23:01:33.681Z",
+  "generatedAt": "2026-11-22T05:03:09.619Z",
   "timeZone": "Europe/London",
-  "sessions": 3981,
+  "sessions": 4006,
   "sessionsBySource": {
-    "pi": 2837,
+    "pi": 2862,
     "claude-code": 1144
   },
   "firstSessionAt": "2026-10-04T03:43:18.711Z",
-  "activeDays": 48,
-  "agentTurns": 276999,
-  "toolCalls": 307430,
+  "activeDays": 49,
+  "agentTurns": 279361,
+  "toolCalls": 309884,
   "tools": {
-    "bash": 199539,
-    "read": 34081,
-    "edit": 30654,
-    "write": 15478,
-    "codemode": 9621,
+    "bash": 201336,
+    "read": 34299,
+    "edit": 30884,
+    "write": 15610,
+    "codemode": 9635,
     "mcp__t3-code__preview_evaluate": 3987,
     "mcp__t3-code__preview_snapshot": 1390,
-    "tool_search": 1181,
+    "tool_search": 1195,
     "mcp__t3-code__preview_act": 1035,
     "mcp__linear__save_issue": 1033,
     "mcp__linear__get_issue": 802,
     "mcp__t3-code__preview_open": 777
   },
   "tokens": {
-    "input": 16354445,
-    "output": 161721273,
-    "cacheRead": 41352756190,
-    "cacheWrite": 566161539,
-    "total": 42096993447
+    "input": 16359569,
+    "output": 163133959,
+    "cacheRead": 41631506145,
+    "cacheWrite": 569902102,
+    "total": 42380901775
   },
   "modelTurns": {
-    "claude-opus-5-5": 258420,
+    "claude-opus-5-5": 260782,
     "claude-haiku-5-5": 7038,
     "claude-sonnet-5-5": 4545,
     "deepseek-v4.1-flash": 4149,
@@ -210,12 +210,12 @@
       1896
     ],
     [
-      1273,
-      1346,
-      438,
-      541,
-      395,
-      599,
+      1561,
+      2405,
+      778,
+      779,
+      822,
+      609,
       703,
       1662,
       1177,
@@ -236,10 +236,10 @@
       1557
     ]
   ],
-  "gitCommits": 6138,
-  "gitPushes": 3418,
-  "prsOpened": 1261,
-  "subagents": 1170,
+  "gitCommits": 6170,
+  "gitPushes": 3443,
+  "prsOpened": 1267,
+  "subagents": 1171,
   "longestSessionMs": 16160951,
-  "agentMs": 4447846718
+  "agentMs": 4481432278
 }
