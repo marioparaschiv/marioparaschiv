@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-11-23T11:02:35.654Z",
+  "generatedAt": "2026-11-23T17:04:55.771Z",
   "timeZone": "Europe/London",
-  "sessions": 4050,
+  "sessions": 4051,
   "sessionsBySource": {
-    "pi": 2906,
+    "pi": 2907,
     "claude-code": 1144
   },
   "firstSessionAt": "2026-10-04T03:43:18.711Z",
   "activeDays": 50,
-  "agentTurns": 282552,
-  "toolCalls": 313465,
+  "agentTurns": 282642,
+  "toolCalls": 313554,
   "tools": {
-    "bash": 203698,
-    "read": 34821,
-    "edit": 31178,
-    "write": 15910,
-    "codemode": 9674,
+    "bash": 203761,
+    "read": 34828,
+    "edit": 31186,
+    "write": 15915,
+    "codemode": 9678,
     "mcp__t3-code__preview_evaluate": 3987,
     "mcp__t3-code__preview_snapshot": 1390,
-    "tool_search": 1216,
+    "tool_search": 1217,
     "mcp__t3-code__preview_act": 1035,
     "mcp__linear__save_issue": 1033,
     "mcp__linear__get_issue": 802,
     "mcp__t3-code__preview_open": 777
   },
   "tokens": {
-    "input": 16366395,
-    "output": 164801790,
-    "cacheRead": 41996192936,
-    "cacheWrite": 575305829,
-    "total": 42752666950
+    "input": 16366597,
+    "output": 164860964,
+    "cacheRead": 42002709947,
+    "cacheWrite": 575557554,
+    "total": 42759495062
   },
   "modelTurns": {
-    "claude-opus-5-5": 263973,
+    "claude-opus-5-5": 264063,
     "claude-haiku-5-5": 7038,
     "claude-sonnet-5-5": 4545,
     "deepseek-v4.1-flash": 4149,
@@ -69,8 +69,8 @@
       690,
       1222,
       1176,
-      1475,
-      1202,
+      1553,
+      1214,
       1372,
       2074,
       1413,
@@ -241,5 +241,5 @@
   "prsOpened": 1280,
   "subagents": 1171,
   "longestSessionMs": 16160951,
-  "agentMs": 4531679843
+  "agentMs": 4533587333
 }
