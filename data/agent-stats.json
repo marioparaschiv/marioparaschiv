@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-11-24T11:01:28.567Z",
+  "generatedAt": "2026-11-24T17:02:37.683Z",
   "timeZone": "Europe/London",
-  "sessions": 4088,
+  "sessions": 4096,
   "sessionsBySource": {
-    "pi": 2944,
+    "pi": 2952,
     "claude-code": 1144
   },
   "firstSessionAt": "2026-10-04T03:43:18.711Z",
   "activeDays": 51,
-  "agentTurns": 284986,
-  "toolCalls": 316038,
+  "agentTurns": 285652,
+  "toolCalls": 316751,
   "tools": {
-    "bash": 205417,
-    "read": 35310,
-    "edit": 31360,
-    "write": 16013,
-    "codemode": 9718,
-    "mcp__t3-code__preview_evaluate": 3987,
-    "mcp__t3-code__preview_snapshot": 1390,
-    "tool_search": 1224,
+    "bash": 205907,
+    "read": 35391,
+    "edit": 31424,
+    "write": 16023,
+    "codemode": 9748,
+    "mcp__t3-code__preview_evaluate": 3995,
+    "mcp__t3-code__preview_snapshot": 1394,
+    "tool_search": 1230,
     "mcp__t3-code__preview_act": 1035,
     "mcp__linear__save_issue": 1033,
     "mcp__linear__get_issue": 802,
-    "mcp__t3-code__preview_open": 777
+    "mcp__t3-code__preview_open": 780
   },
   "tokens": {
-    "input": 16371561,
-    "output": 165954984,
-    "cacheRead": 42295499369,
-    "cacheWrite": 581138684,
-    "total": 43058964598
+    "input": 16372979,
+    "output": 166219711,
+    "cacheRead": 42370333563,
+    "cacheWrite": 581974723,
+    "total": 43134900976
   },
   "modelTurns": {
-    "claude-opus-5-5": 266407,
+    "claude-opus-5-5": 267073,
     "claude-haiku-5-5": 7038,
     "claude-sonnet-5-5": 4545,
     "deepseek-v4.1-flash": 4149,
@@ -91,10 +91,10 @@
       1802,
       4862,
       2071,
-      1792,
-      2060,
-      1747,
-      1529,
+      1977,
+      2123,
+      2064,
+      1630,
       966,
       1625,
       2705,
@@ -236,10 +236,10 @@
       1569
     ]
   ],
-  "gitCommits": 6209,
-  "gitPushes": 3486,
-  "prsOpened": 1282,
+  "gitCommits": 6219,
+  "gitPushes": 3500,
+  "prsOpened": 1289,
   "subagents": 1174,
   "longestSessionMs": 16160951,
-  "agentMs": 4565319569
+  "agentMs": 4577259166
 }
