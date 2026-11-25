@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-25T17:02:29.931Z",
-  "stars": 1900,
+  "generatedAt": "2026-11-25T23:05:11.165Z",
+  "stars": 1904,
   "followers": 186,
   "pullRequests": 1790,
   "pullRequestsMerged": 1681,
   "contributedTo": 35,
-  "contributions": 8597,
+  "contributions": 8601,
   "calendar": [
     [
       [
@@ -1582,7 +1582,11 @@
       ],
       [
         "2026-11-25",
-        33
+        37
+      ],
+      [
+        "2026-11-26",
+        0
       ]
     ]
   ],
@@ -1618,15 +1622,15 @@
       "share": 0.012747846345227628
     }
   ],
-  "releaseDownloads": 76573,
+  "releaseDownloads": 76373,
   "topDownloads": [
     {
       "repo": "enmity-mod/tweak",
-      "downloads": 70505
+      "downloads": 70529
     },
     {
       "repo": "marioparaschiv/unbound",
-      "downloads": 2909
+      "downloads": 2682
     },
     {
       "repo": "enmity-mod/patcher",
@@ -1643,7 +1647,7 @@
   ],
   "externalMergedPrs": 19,
   "externalRepos": 15,
-  "externalRepoStars": 14072,
+  "externalRepoStars": 14073,
   "topExternalRepos": [
     {
       "repo": "raycast/extensions",
@@ -1663,7 +1667,7 @@
     },
     {
       "repo": "replugged-org/replugged",
-      "stars": 730
+      "stars": 731
     }
   ]
 }
