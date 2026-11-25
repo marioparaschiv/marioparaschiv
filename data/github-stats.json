@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-25T11:03:15.416Z",
-  "stars": 1899,
+  "generatedAt": "2026-11-25T17:02:29.931Z",
+  "stars": 1900,
   "followers": 186,
   "pullRequests": 1790,
   "pullRequestsMerged": 1681,
   "contributedTo": 35,
-  "contributions": 8596,
+  "contributions": 8597,
   "calendar": [
     [
       [
@@ -1582,7 +1582,7 @@
       ],
       [
         "2026-11-25",
-        32
+        33
       ]
     ]
   ],
@@ -1618,15 +1618,15 @@
       "share": 0.012747846345227628
     }
   ],
-  "releaseDownloads": 76512,
+  "releaseDownloads": 76573,
   "topDownloads": [
     {
       "repo": "enmity-mod/tweak",
-      "downloads": 70488
+      "downloads": 70505
     },
     {
       "repo": "marioparaschiv/unbound",
-      "downloads": 2865
+      "downloads": 2909
     },
     {
       "repo": "enmity-mod/patcher",
@@ -1643,11 +1643,11 @@
   ],
   "externalMergedPrs": 19,
   "externalRepos": 15,
-  "externalRepoStars": 14071,
+  "externalRepoStars": 14072,
   "topExternalRepos": [
     {
       "repo": "raycast/extensions",
-      "stars": 7852
+      "stars": 7853
     },
     {
       "repo": "Danny-Dasilva/CycleTLS",
