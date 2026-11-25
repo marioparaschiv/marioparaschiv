@@ -1,42 +1,43 @@
 {
-  "generatedAt": "2026-11-24T23:04:21.614Z",
+  "generatedAt": "2026-11-25T05:01:06.646Z",
   "timeZone": "Europe/London",
-  "sessions": 4096,
+  "sessions": 4151,
   "sessionsBySource": {
-    "pi": 2952,
+    "pi": 3007,
     "claude-code": 1144
   },
   "firstSessionAt": "2026-10-04T03:43:18.711Z",
-  "activeDays": 51,
-  "agentTurns": 285652,
-  "toolCalls": 316751,
+  "activeDays": 52,
+  "agentTurns": 288322,
+  "toolCalls": 319642,
   "tools": {
-    "bash": 205907,
-    "read": 35391,
-    "edit": 31424,
-    "write": 16023,
-    "codemode": 9748,
+    "bash": 207823,
+    "read": 35954,
+    "edit": 31569,
+    "write": 16103,
+    "codemode": 9860,
     "mcp__t3-code__preview_evaluate": 3995,
-    "mcp__t3-code__preview_snapshot": 1394,
-    "tool_search": 1230,
+    "mcp__t3-code__preview_snapshot": 1395,
+    "tool_search": 1246,
     "mcp__t3-code__preview_act": 1035,
     "mcp__linear__save_issue": 1033,
     "mcp__linear__get_issue": 802,
-    "mcp__t3-code__preview_open": 780
+    "mcp__t3-code__preview_open": 781
   },
   "tokens": {
-    "input": 16372979,
-    "output": 166219711,
-    "cacheRead": 42370333563,
-    "cacheWrite": 581974723,
-    "total": 43134900976
+    "input": 16378307,
+    "output": 167503593,
+    "cacheRead": 42642642231,
+    "cacheWrite": 587355071,
+    "total": 43413879202
   },
   "modelTurns": {
-    "claude-opus-5-5": 267073,
+    "claude-opus-5-5": 269183,
     "claude-haiku-5-5": 7038,
     "claude-sonnet-5-5": 4545,
     "deepseek-v4.1-flash": 4149,
     "claude-sonnet-4-6": 1240,
+    "claude-fable-5-2": 560,
     "deepseek-v4.1-flash-free": 533,
     "claude-fable-5": 285,
     "glm-5.3-flash-free": 216,
@@ -106,9 +107,9 @@
       787
     ],
     [
-      940,
-      2059,
-      2465,
+      1101,
+      3094,
+      3939,
       3295,
       2089,
       1237,
@@ -236,10 +237,10 @@
       1569
     ]
   ],
-  "gitCommits": 6219,
-  "gitPushes": 3500,
-  "prsOpened": 1289,
-  "subagents": 1174,
+  "gitCommits": 6240,
+  "gitPushes": 3519,
+  "prsOpened": 1295,
+  "subagents": 1200,
   "longestSessionMs": 16160951,
-  "agentMs": 4577259166
+  "agentMs": 4622474356
 }
