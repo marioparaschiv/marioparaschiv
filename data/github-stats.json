@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-26T11:04:47.769Z",
-  "stars": 1908,
+  "generatedAt": "2026-11-26T17:02:00.037Z",
+  "stars": 1916,
   "followers": 186,
-  "pullRequests": 1793,
-  "pullRequestsMerged": 1684,
-  "contributedTo": 36,
-  "contributions": 8614,
+  "pullRequests": 1805,
+  "pullRequestsMerged": 1696,
+  "contributedTo": 38,
+  "contributions": 8657,
   "calendar": [
     [
       [
@@ -1586,7 +1586,7 @@
       ],
       [
         "2026-11-26",
-        13
+        56
       ]
     ]
   ],
@@ -1594,43 +1594,43 @@
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "share": 0.6772597833242323
+      "share": 0.6771828713001453
     },
     {
       "name": "Rust",
       "color": "#dea584",
-      "share": 0.12950907696168537
+      "share": 0.1298917887901566
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "share": 0.04341032606760514
+      "share": 0.043389515583881925
     },
     {
       "name": "C++",
       "color": "#f34b7d",
-      "share": 0.037411108272082966
+      "share": 0.03737014024885155
     },
     {
       "name": "Go",
       "color": "#00ADD8",
-      "share": 0.023172722199766363
+      "share": 0.023154125399785425
     },
     {
       "name": "Kotlin",
       "color": "#A97BFF",
-      "share": 0.014886695715906523
+      "share": 0.014763437854626834
     }
   ],
-  "releaseDownloads": 76474,
+  "releaseDownloads": 76724,
   "topDownloads": [
     {
       "repo": "enmity-mod/tweak",
-      "downloads": 70565
+      "downloads": 70575
     },
     {
       "repo": "marioparaschiv/unbound",
-      "downloads": 2745
+      "downloads": 2985
     },
     {
       "repo": "enmity-mod/patcher",
@@ -1645,9 +1645,9 @@
       "downloads": 80
     }
   ],
-  "externalMergedPrs": 21,
+  "externalMergedPrs": 22,
   "externalRepos": 16,
-  "externalRepoStars": 14079,
+  "externalRepoStars": 14084,
   "topExternalRepos": [
     {
       "repo": "raycast/extensions",
