@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-27T17:03:52.433Z",
-  "stars": 1922,
+  "generatedAt": "2026-11-27T23:05:31.620Z",
+  "stars": 1923,
   "followers": 186,
   "pullRequests": 1813,
-  "pullRequestsMerged": 1703,
+  "pullRequestsMerged": 1704,
   "contributedTo": 38,
-  "contributions": 8694,
+  "contributions": 8699,
   "calendar": [
     [
       [
@@ -1590,7 +1590,11 @@
       ],
       [
         "2026-11-27",
-        17
+        22
+      ],
+      [
+        "2026-11-28",
+        0
       ]
     ]
   ],
@@ -1598,43 +1602,43 @@
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "share": 0.675864582005002
+      "share": 0.674832242606162
     },
     {
       "name": "Rust",
       "color": "#dea584",
-      "share": 0.13181799194311383
+      "share": 0.13215239187119088
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "share": 0.04302777973887901
+      "share": 0.04296205759060889
     },
     {
       "name": "C++",
       "color": "#f34b7d",
-      "share": 0.03706911894340355
+      "share": 0.03701249826378156
     },
     {
       "name": "Go",
       "color": "#00ADD8",
-      "share": 0.022961090815183924
+      "share": 0.022926019235284683
     },
     {
       "name": "Kotlin",
       "color": "#A97BFF",
-      "share": 0.014763682972671641
+      "share": 0.014833866976475414
     }
   ],
-  "releaseDownloads": 77504,
+  "releaseDownloads": 77666,
   "topDownloads": [
     {
       "repo": "enmity-mod/tweak",
-      "downloads": 70639
+      "downloads": 70656
     },
     {
       "repo": "marioparaschiv/unbound",
-      "downloads": 3697
+      "downloads": 3842
     },
     {
       "repo": "enmity-mod/patcher",
@@ -1649,13 +1653,17 @@
       "downloads": 80
     }
   ],
-  "externalMergedPrs": 22,
-  "externalRepos": 16,
-  "externalRepoStars": 14090,
+  "externalMergedPrs": 23,
+  "externalRepos": 17,
+  "externalRepoStars": 16788,
   "topExternalRepos": [
     {
       "repo": "raycast/extensions",
-      "stars": 7856
+      "stars": 7857
+    },
+    {
+      "repo": "Discord-Client-Encyclopedia-Management/Discord3rdparties",
+      "stars": 2694
     },
     {
       "repo": "Danny-Dasilva/CycleTLS",
@@ -1663,15 +1671,11 @@
     },
     {
       "repo": "sardanioss/httpcloak",
-      "stars": 1396
+      "stars": 1397
     },
     {
       "repo": "aiko-chan-ai/discord.js-selfbot-v13",
       "stars": 1230
-    },
-    {
-      "repo": "replugged-org/replugged",
-      "stars": 732
     }
   ]
 }
