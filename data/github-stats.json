@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-27T05:03:15.845Z",
-  "stars": 1920,
+  "generatedAt": "2026-11-27T11:04:00.692Z",
+  "stars": 1921,
   "followers": 186,
-  "pullRequests": 1811,
-  "pullRequestsMerged": 1702,
-  "contributedTo": 37,
-  "contributions": 8682,
+  "pullRequests": 1813,
+  "pullRequestsMerged": 1703,
+  "contributedTo": 38,
+  "contributions": 8690,
   "calendar": [
     [
       [
@@ -1590,7 +1590,7 @@
       ],
       [
         "2026-11-27",
-        5
+        13
       ]
     ]
   ],
@@ -1598,43 +1598,43 @@
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "share": 0.6762940074613379
+      "share": 0.6774711120253697
     },
     {
       "name": "Rust",
       "color": "#dea584",
-      "share": 0.1312137299327494
+      "share": 0.13076360522806388
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "share": 0.0433117861347427
+      "share": 0.04313005676552126
     },
     {
       "name": "C++",
       "color": "#f34b7d",
-      "share": 0.03731379498601715
+      "share": 0.037157232234137756
     },
     {
       "name": "Go",
       "color": "#00ADD8",
-      "share": 0.02311264631460996
+      "share": 0.023015669324958105
     },
     {
       "name": "Kotlin",
       "color": "#A97BFF",
-      "share": 0.01468294841434596
+      "share": 0.01462134109699015
     }
   ],
-  "releaseDownloads": 77263,
+  "releaseDownloads": 77375,
   "topDownloads": [
     {
       "repo": "enmity-mod/tweak",
-      "downloads": 70607
+      "downloads": 70625
     },
     {
       "repo": "marioparaschiv/unbound",
-      "downloads": 3489
+      "downloads": 3583
     },
     {
       "repo": "enmity-mod/patcher",
@@ -1651,11 +1651,11 @@
   ],
   "externalMergedPrs": 22,
   "externalRepos": 16,
-  "externalRepoStars": 14086,
+  "externalRepoStars": 14088,
   "topExternalRepos": [
     {
       "repo": "raycast/extensions",
-      "stars": 7853
+      "stars": 7855
     },
     {
       "repo": "Danny-Dasilva/CycleTLS",
