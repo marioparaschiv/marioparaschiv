@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-28T05:00:33.566Z",
+  "generatedAt": "2026-11-28T11:04:26.631Z",
   "timeZone": "Europe/London",
-  "sessions": 4252,
+  "sessions": 4253,
   "sessionsBySource": {
-    "pi": 3108,
+    "pi": 3109,
     "claude-code": 1144
   },
   "firstSessionAt": "2026-10-04T03:43:18.711Z",
-  "activeDays": 54,
-  "agentTurns": 296674,
+  "activeDays": 55,
+  "agentTurns": 296679,
   "toolCalls": 328561,
   "tools": {
     "bash": 213506,
@@ -25,14 +25,14 @@
     "mcp__t3-code__preview_open": 782
   },
   "tokens": {
-    "input": 16396169,
-    "output": 171807801,
-    "cacheRead": 43624488624,
-    "cacheWrite": 601419427,
-    "total": 44414112021
+    "input": 16396187,
+    "output": 171813000,
+    "cacheRead": 43624551418,
+    "cacheWrite": 601437845,
+    "total": 44414198450
   },
   "modelTurns": {
-    "claude-opus-5-5": 277448,
+    "claude-opus-5-5": 277453,
     "claude-haiku-5-5": 7038,
     "claude-sonnet-5-5": 4625,
     "deepseek-v4.1-flash": 4149,
@@ -194,7 +194,7 @@
       1537,
       756,
       1647,
-      2062,
+      2067,
       1713,
       1149,
       2058,
@@ -242,5 +242,5 @@
   "prsOpened": 1321,
   "subagents": 1224,
   "longestSessionMs": 16160951,
-  "agentMs": 4813733019
+  "agentMs": 4814171982
 }

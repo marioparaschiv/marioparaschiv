@@ -1,5 +1,5 @@
 <p align="center">
-<picture><source srcset="cards/tui-dark.svg?v=927c6bb9" media="(prefers-color-scheme: dark)"><img src="cards/tui-light.svg?v=3ac88c74" alt="tui"></picture>
+<picture><source srcset="cards/tui-dark.svg?v=2f8e9bd1" media="(prefers-color-scheme: dark)"><img src="cards/tui-light.svg?v=98f72f48" alt="tui"></picture>
 </p>
 
 <br>
