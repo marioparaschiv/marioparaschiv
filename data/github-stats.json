@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-27T23:05:31.620Z",
-  "stars": 1923,
+  "generatedAt": "2026-11-28T05:02:08.849Z",
+  "stars": 1925,
   "followers": 186,
   "pullRequests": 1813,
   "pullRequestsMerged": 1704,
   "contributedTo": 38,
-  "contributions": 8699,
+  "contributions": 8704,
   "calendar": [
     [
       [
@@ -1594,7 +1594,7 @@
       ],
       [
         "2026-11-28",
-        0
+        5
       ]
     ]
   ],
@@ -1602,47 +1602,47 @@
     {
       "name": "TypeScript",
       "color": "#3178c6",
-      "share": 0.674832242606162
+      "share": 0.6747264462993713
     },
     {
       "name": "Rust",
       "color": "#dea584",
-      "share": 0.13215239187119088
+      "share": 0.13224814108237753
     },
     {
       "name": "JavaScript",
       "color": "#f1e05a",
-      "share": 0.04296205759060889
+      "share": 0.04295532224701051
     },
     {
       "name": "C++",
       "color": "#f34b7d",
-      "share": 0.03701249826378156
+      "share": 0.037006695657779386
     },
     {
       "name": "Go",
       "color": "#00ADD8",
-      "share": 0.022926019235284683
+      "share": 0.02292242502621853
     },
     {
       "name": "Kotlin",
       "color": "#A97BFF",
-      "share": 0.014833866976475414
+      "share": 0.014839602794640215
     }
   ],
-  "releaseDownloads": 77666,
+  "releaseDownloads": 77774,
   "topDownloads": [
     {
       "repo": "enmity-mod/tweak",
-      "downloads": 70656
+      "downloads": 70668
     },
     {
       "repo": "marioparaschiv/unbound",
-      "downloads": 3842
+      "downloads": 3937
     },
     {
       "repo": "enmity-mod/patcher",
-      "downloads": 2467
+      "downloads": 2468
     },
     {
       "repo": "kernel-addons/pc-compat",
@@ -1655,7 +1655,7 @@
   ],
   "externalMergedPrs": 23,
   "externalRepos": 17,
-  "externalRepoStars": 16788,
+  "externalRepoStars": 16790,
   "topExternalRepos": [
     {
       "repo": "raycast/extensions",
@@ -1663,7 +1663,7 @@
     },
     {
       "repo": "Discord-Client-Encyclopedia-Management/Discord3rdparties",
-      "stars": 2694
+      "stars": 2695
     },
     {
       "repo": "Danny-Dasilva/CycleTLS",
